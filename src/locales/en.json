@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -53,696 +53,485 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Evomon Gameplay",
+    "description": "Catch, train, and evolve 200+ Evomons across an open Roblox world. Hunt Shiny and Sparkle variants, battle turn by turn, hatch eggs, clear dungeons, and ride legendary creatures."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Evomon",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to catch, train, evolve, and battle your Evomon team",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
         "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Evomon Codes",
+        "description": "Active codes, redeem steps, and reward types"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Official Evomon Links",
+        "description": "Roblox game page, dev group, and launch trailer"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "BookOpen",
+        "title": "Evomon Beginner Guide",
+        "description": "First-session route and starter picks"
       },
       {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Users",
+        "title": "Evomon Starter and Team",
+        "description": "Compare starters and build an early team"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Evomon Tier List",
+        "description": "Rank Evomons by role and PvE, dungeon, PvP value"
+      },
+      {
+        "icon": "Eye",
+        "title": "Evomon Catching Guide",
+        "description": "Catching, eggs, evolution, Shiny and Sparkle"
+      },
+      {
+        "icon": "Star",
+        "title": "Evomon Leveling Guide",
+        "description": "Leveling, evolution, and EXP Fruit priority"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Evomon Hard Content",
+        "description": "Dungeons, bosses, PvP, and legendary mounts"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
+    "evomonCodes": {
+      "eyebrow": "Free Rewards",
+      "title": "Evomon Codes and Redeem Guide",
+      "subtitle": "Use active Evomon codes to claim launch rewards such as Coins, Medium EXP Fruits, and milestone gifts.",
+      "intro": "Evomon codes are limited-time reward strings released around launch, like goals, and community events. Copy each code exactly, finish the opening tutorial when required, and redeem from the cogwheel Settings menu before the code expires.",
+      "codes": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "code": "2K-LIKES",
+          "status": "Active",
+          "reward": "Official 2K likes milestone gift",
+          "rewardType": "Milestone",
+          "bestUse": "Redeem after opening the Settings menu, then use the reward to support early progression."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "code": "FORDC1200",
+          "status": "Active",
+          "reward": "1,000 Coins",
+          "rewardType": "Currency",
+          "bestUse": "Use Coins for early purchases and basic progression support."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "code": "EvomonVip",
+          "status": "Active",
+          "reward": "5 Medium EXP Fruits",
+          "rewardType": "EXP Item",
+          "bestUse": "Feed EXP Fruits to an Evomon you plan to keep in your first battle team."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "code": "LIKE1GIFT",
+          "status": "Active",
+          "reward": "1,000 Coins and 2 Medium EXP Fruits",
+          "rewardType": "Currency and EXP",
+          "bestUse": "Redeem early because it gives both leveling help and spendable currency."
         }
       ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
+      "redeemSteps": [
+        "Launch Evomon from the official Roblox experience page.",
+        "Finish the opening tutorial if the Settings menu is not available yet.",
+        "Click the cogwheel Settings button near the top of the screen.",
+        "Paste one active code into the code input box.",
+        "Press OK to claim the reward."
       ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
+      "troubleshooting": {
+        "title": "Why an Evomon Code May Not Work",
+        "checks": [
+          "The code was typed with the wrong capitalization.",
+          "An extra space was pasted before or after the code.",
+          "The code was already claimed on the same Roblox account.",
+          "The code expired after a limited-time launch or milestone window.",
+          "The server is old and needs a fresh rejoin before new codes register."
+        ]
+      }
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "evomonOfficialLinks": {
+      "eyebrow": "Official Links",
+      "title": "Evomon Official Roblox Link and Game Info",
+      "subtitle": "Play Evomon from the official Roblox page by Evomon Devs and use the linked official media channels for trailers, updates, and community notices.",
+      "intro": "Evomon is a Roblox monster-catching adventure built around catching, training, battling, exploring, egg hatching, rare Shiny and Sparkle forms, multiplayer play, and dungeon progression. Always start from the official Roblox experience instead of mirror pages.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "icon": "Gamepad2",
+          "label": "Official Roblox Experience",
+          "value": "Evomon[Release]",
+          "description": "The main Roblox play page for Evomon, published by Evomon Devs.",
+          "href": "https://www.roblox.com/games/134381727982611/Evomon"
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "icon": "Users",
+          "label": "Developer Group",
+          "value": "Evomon Devs",
+          "description": "The Roblox community group connected to the official Evomon experience.",
+          "href": "https://www.roblox.com/communities/665060893/Evomon-Devs"
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "icon": "Youtube",
+          "label": "Official Video Channel",
+          "value": "[Roblox] NoExt Games",
+          "description": "The official YouTube channel linked for Evomon launch and preview videos.",
+          "href": "https://www.youtube.com/channel/UCbjCRjUn_qkSEEtxpVguLYQ"
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "icon": "Play",
+          "label": "Launch Trailer",
+          "value": "Roblox Evomon Official Launch Trailer",
+          "description": "The trailer introduces Evomon as a Roblox monster-catching adventure with catching, training, evolving, battling, and 200+ Evomons.",
+          "href": "https://www.youtube.com/watch?v=uMMJ6h-PhcE"
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "icon": "Compass",
+          "label": "Core Gameplay",
+          "value": "Catch, Battle, Explore",
+          "description": "Players catch wild Evomons, train a team, use battle strategy, explore hidden treasures, and progress through an open-world adventure."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "icon": "Tags",
+          "label": "Game Tags",
+          "value": "Open World, Pet Collection, Egg Hatching, Multiplayer, RPG, Adventure, PVE, Strategy, Turn-based",
+          "description": "These tags match the official Roblox game description and help new players understand the game style before joining."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "icon": "Egg",
+          "label": "Collection Features",
+          "value": "200+ Evomons, Shiny forms, Sparkle forms, eggs, legendary rides",
+          "description": "Evomon focuses on collecting, rare variant hunting, egg hatching, and riding legendary Evomons across the world."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "icon": "UsersRound",
+          "label": "Multiplayer Features",
+          "value": "Friends and dungeons",
+          "description": "Players can team up with friends and take on dungeons as part of the wider PVE loop."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "evomonBeginnerGuide": {
+      "eyebrow": "Starter Roadmap",
+      "title": "Evomon Beginner Guide",
+      "subtitle": "Follow a clean first-session route: join the official game, finish the tutorial, pick a starter, catch early Evomons, redeem codes, and build a useful first team.",
+      "intro": "Evomon starts like a classic creature-collecting Roblox adventure: choose a starter, learn the battle and catching loop, then expand your team through wild encounters, rewards, eggs, rare variants, and exploration.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Start from the Official Roblox Page",
+          "description": "Open Evomon[Release] by Evomon Devs and join from the official Roblox experience page.",
+          "tip": "Bookmark the official page so you do not land on copycat games or unrelated Evomon pages."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Finish the Opening Tutorial",
+          "description": "Complete the first tutorial flow so the core menus, battle basics, catching flow, and code redemption area become easier to access.",
+          "tip": "Do not rush past menu explanations; the Settings menu is also where codes are redeemed."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Choose a Starter",
+          "description": "Begin with one of the three starter choices: Leafbun, Blazpup, or Bubble.",
+          "tip": "Pick based on the first role you want in your party, then catch other types early to cover weaknesses."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Enter the Early Exploration Loop",
+          "description": "Move into the opening areas, battle wild Evomons, catch new team members, and explore for treasures.",
+          "tip": "A wider early team is more useful than pouring every reward into only one creature."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Redeem Launch Codes",
+          "description": "Open the cogwheel Settings menu, paste active codes, and claim Coins, EXP Fruits, or milestone rewards.",
+          "tip": "Use EXP Fruits on Evomons you are actually using in battles instead of scattering them across random catches."
+        },
+        {
+          "title": "Build Element Coverage",
+          "description": "Add teammates that cover different battle situations instead of stacking several Evomons that do the same job.",
+          "tip": "A simple early team should include your starter, at least one different-element attacker, and a backup catch you can level safely."
+        },
+        {
+          "title": "Train Before Chasing Rares",
+          "description": "Level your practical battle team before spending too much time chasing Shiny and Sparkle variants.",
+          "tip": "Rare forms are valuable collection goals, but early progress still depends on winning battles and unlocking more areas."
+        },
+        {
+          "title": "Try Multiplayer and Dungeons",
+          "description": "Once your team has enough levels and coverage, team up with friends and begin using the dungeon side of the game loop.",
+          "tip": "Dungeons are easier when your party covers different roles instead of overlapping picks."
+        }
+      ]
+    },
+    "evomonBestStarter": {
+      "eyebrow": "Team Building",
+      "title": "Evomon Best Starter and Early Team Guide",
+      "subtitle": "Compare Leafbun, Blazpup, and Bubble by early role, coverage value, and first-team planning.",
+      "intro": "Evomon gives players three starter choices and then quickly pushes them into catching, training, battling, and team expansion. Use the starter as your first coverage slot, then catch different Evomons to balance the party.",
+      "starters": [
+        {
+          "name": "Leafbun",
+          "type": "Grass Starter",
+          "role": "Balanced first-team slot",
+          "progressionValue": "Useful as a stable first-team member while you learn catching, training, and basic battle pacing.",
+          "teamPlan": "Pair Leafbun with Fire and Water coverage so the party does not depend on one matchup pattern.",
+          "bestFor": "Players who want a balanced first route and simple early team planning.",
+          "avoid": "Do not keep only Grass-style coverage in the party just because the starter feels comfortable."
+        },
+        {
+          "name": "Blazpup",
+          "type": "Fire Starter",
+          "role": "Aggressive attacker slot",
+          "progressionValue": "Fits players who want a faster early battle rhythm and a clear attacking role in the early team.",
+          "teamPlan": "Add Water or Grass coverage early, then keep a backup catch leveled so difficult matchups do not stall progress.",
+          "bestFor": "Players who prefer faster early fights and attacker-focused progression.",
+          "avoid": "Do not spend every EXP Fruit on Blazpup before catching teammates with different coverage."
+        },
+        {
+          "name": "Bubble",
+          "type": "Water Starter",
+          "role": "Flexible early anchor",
+          "progressionValue": "Works well as a flexible early-party anchor while you explore, catch, and test different team members.",
+          "teamPlan": "Pair Bubble with Grass and Fire coverage so your early team can handle more wild encounters and dungeon situations.",
+          "bestFor": "Players who want a steady starter choice with easy first-team flexibility.",
+          "avoid": "Do not treat a safe starter as a full team; Evomon rewards broader collection and coverage."
+        },
+        {
+          "name": "Early Team Formula",
+          "type": "Team Plan",
+          "role": "Starter plus coverage core",
+          "progressionValue": "A practical first team should include your starter, two different-element catches, and one backup or utility pick.",
+          "teamPlan": "Use Coins and EXP Fruits to support the Evomons you actually battle with, while saving better catching items for rare or stronger encounters.",
+          "bestFor": "New players who want steady progress through catching, training, exploration, and early PVE.",
+          "avoid": "Do not chase Shiny or Sparkle forms before your battle team can reliably clear early fights."
+        }
+      ]
+    },
+    "evomonTierList": {
+      "eyebrow": "Team Building",
+      "title": "Evomon Tier List and Team Building Guide",
+      "subtitle": "Build around battle role, matchup coverage, evolution value, PvE strength, dungeon utility, and PvP pressure.",
+      "intro": "Evomon is a Roblox monster-catching adventure focused on catching, training, evolving, and turn-based battles with a roster of 200+ Evomons. This tier grid ranks practical team roles so players can adapt to their own roster, levels, skills, and rare-form goals.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Core Team Picks",
+          "cards": [
+            {
+              "name": "Evolved Core Carry",
+              "role": "Primary damage and battle tempo",
+              "bestFor": ["PvE progression", "map bosses", "early PvP testing"],
+              "use": "Invest regular EXP and EXP Fruits here first, then build the rest of the team around the carry's weak matchups."
+            },
+            {
+              "name": "Dungeon-Ready Anchor",
+              "role": "Reliable partner for longer co-op fights",
+              "bestFor": ["co-op dungeons", "boss routes", "repeat farming"],
+              "use": "Keep at least one trained Evomon that can stay useful when battles last longer than a quick wild encounter."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Strong Support Picks",
+          "cards": [
+            {
+              "name": "Coverage Specialist",
+              "role": "Matchup coverage",
+              "bestFor": ["new islands", "mixed enemy groups", "boss preparation"],
+              "use": "Add coverage before chasing duplicate favorites, because a balanced team clears more content than repeated versions of the same role."
+            },
+            {
+              "name": "PvP Pressure Pick",
+              "role": "Skill-based pressure",
+              "bestFor": ["turn-based PvP", "skill testing", "counterplay practice"],
+              "use": "Use this slot to test how your skills perform against real opponents instead of judging only by wild encounters."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Progression Projects",
+          "cards": [
+            {
+              "name": "Fresh Evolution Project",
+              "role": "Future roster upgrade",
+              "bestFor": ["egg hatching", "dex growth", "mid-game team upgrades"],
+              "use": "Keep it in the upgrade queue, but do not drain every reward into it before it proves a clear job on the team."
+            },
+            {
+              "name": "Rare Variant Collector",
+              "role": "Shiny and Sparkle collection target",
+              "bestFor": ["collection goals", "showcase teams", "long-term hunting"],
+              "use": "Train rare variants after your main battle team can already handle normal progression."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Bench and Collection Picks",
+          "cards": [
+            {
+              "name": "Duplicate Catch",
+              "role": "Dex and collection backup",
+              "bestFor": ["collection completion", "future evolution testing", "resource saving"],
+              "use": "Store or rotate later; do not replace a trained core pick just because a new catch looks exciting."
+            },
+            {
+              "name": "Underleveled Specialty Pick",
+              "role": "Niche matchup option",
+              "bestFor": ["specific counters", "later training", "team experiments"],
+              "use": "Save it for targeted testing once your main team has stable levels and coverage."
+            }
+          ]
+        }
+      ]
+    },
+    "evomonCatchingGuide": {
+      "eyebrow": "Catching",
+      "title": "Evomon Shiny, Sparkle, Eggs, and Catching Guide",
+      "subtitle": "Use catching, egg hatching, evolution, and rare-form hunting to grow a stronger collection without wasting early progress.",
+      "intro": "Evomon's collection loop centers on catching wild Evomons, training them, evolving them, hatching eggs, and chasing rare Shiny and Sparkle forms across a 200+ Evomon roster.",
+      "items": [
+        {
+          "title": "Catching Comes Before Perfecting",
+          "summary": "Catch enough Evomons to build a functional team before spending heavily on rare-form hunting.",
+          "content": "Start by catching Evomons that add new battle roles or matchup coverage. A wider roster gives you more options for PvE fights, dungeons, bosses, and PvP testing.",
+          "action": "Keep a main battle team and a separate collection bench so every new catch does not interrupt your strongest lineup."
+        },
+        {
+          "title": "Eggs Feed Long-Term Collection Growth",
+          "summary": "Egg hatching is part of the official Evomon loop and connects naturally with evolution progress.",
+          "content": "Treat eggs as new roster sources: hatch them, check whether the result fills a missing role, then decide whether it deserves training. Evolution matters most when the Evomon improves your team instead of just adding another unused form.",
+          "action": "Hatch first, compare roles second, invest third."
+        },
+        {
+          "title": "Shiny and Sparkle Forms Are Collection Goals",
+          "summary": "Shiny and Sparkle Evomons are the rare-form chase for collectors and showcase teams.",
+          "content": "Rare forms are worth chasing, but early players should build a working team first. After the main team can handle normal progression, hunt rare variants with a clear route and enough resources.",
+          "action": "Prioritize rare variants that can also become useful in your trained team."
+        },
+        {
+          "title": "Prioritize New Roles Over Duplicates",
+          "summary": "A new matchup role usually helps more than another copy of a role you already trained.",
+          "content": "When choosing what to catch next, look for Evomons that expand your battle options. A collection that covers more situations performs better in PvE, dungeons, and PvP than a pile of repeated roles.",
+          "action": "Use duplicates for collection completion and future testing, not immediate core investment."
+        },
+        {
+          "title": "Turn Rare Hunting Into a Routine",
+          "summary": "Shiny, Sparkle, egg, and evolution goals work best when they are handled in repeatable sessions.",
+          "content": "Rotate between catching new Evomons, hatching eggs, training useful finds, and checking whether rare variants are worth moving into your active team. This keeps collection progress steady without freezing battle progression.",
+          "action": "Run collection sessions after your main team can clear normal battles comfortably."
+        }
+      ]
+    },
+    "evomonLevelingGuide": {
+      "eyebrow": "Progression",
+      "title": "Evomon Leveling, Evolution, and EXP Fruit Guide",
+      "subtitle": "Level your strongest Evomons first, evolve with a team purpose, and use EXP Fruits where they create the biggest progression gain.",
+      "intro": "Evomon progression is built around catching, training, evolving, and battling. EXP Fruits support faster leveling, but the strongest route is to feed progress into a core team instead of scattering upgrades across every new catch.",
+      "steps": [
+        {
+          "title": "Finish the Basic Catch-and-Battle Loop",
+          "action": "Start by learning how wild encounters, catching, training, and turn-based battles work.",
+          "why": "A player who understands the normal loop can judge which Evomons deserve investment instead of upgrading blindly.",
+          "avoid": "Do not spend progression rewards before you know which Evomons actually help you win fights."
+        },
+        {
+          "title": "Choose One Core Carry",
+          "action": "Pick one battle-ready Evomon as your main damage source for PvE progression and boss preparation.",
+          "why": "A focused carry clears fights faster and gives the rest of the team a stable point to build around.",
+          "avoid": "Do not level every new catch evenly in the early game; that creates a wide roster with no reliable winner."
+        },
+        {
+          "title": "Use EXP Fruits on Core Team Members",
+          "action": "Spend Medium EXP Fruits on your carry and the coverage Evomons that solve its weak matchups.",
+          "why": "EXP Fruits give faster leveling value when used on Evomons that stay in your active team.",
+          "avoid": "Do not use EXP Fruits on duplicates or untested rare-form catches before your main team is stable."
+        },
+        {
+          "title": "Farm Battles With a Purpose",
+          "action": "Use repeated battles to raise levels, test skills, and confirm which Evomons are ready for bosses, dungeons, and PvP.",
+          "why": "Training is more valuable when each fight tests a specific role: carry damage, coverage, survival, or skill timing.",
+          "avoid": "Do not grind random fights without checking whether your team is actually improving."
+        },
+        {
+          "title": "Evolve for Team Value",
+          "action": "Move evolution priority toward Evomons that gain a clearer job after training and fit your active lineup.",
+          "why": "Evolution value is strongest when it improves progression, dungeon readiness, or PvP pressure.",
+          "avoid": "Do not evolve only for novelty while ignoring team coverage and battle performance."
+        },
+        {
+          "title": "Test the Team in Harder Content",
+          "action": "Use map bosses, co-op dungeon runs, and PvP battles to check whether your leveled team is ready for the next step.",
+          "why": "Harder content exposes weak coverage, underleveled picks, and skills that only looked good in simple fights.",
+          "avoid": "Do not judge a full team only from easy wild encounters."
+        }
+      ]
+    },
+    "evomonHardContent": {
+      "eyebrow": "Hard Content",
+      "title": "Evomon Dungeons, Boss Fights, PvP, and Mounts Guide",
+      "subtitle": "Move from casual catching into map bosses, co-op dungeons, PvP battles, powerful skills, and legendary mounts.",
+      "intro": "Evomon starts with exploration and catching, then expands into harder content built around strategy, skills, multiplayer dungeons, boss fights, PvP, and rideable legendary Evomons. Use this ladder to decide when your team is ready to push into harder goals.",
+      "items": [
+        {
+          "category": "Open World",
+          "when": "Immediately after entering the game world.",
+          "title": "Exploration Foundation",
+          "objective": "Catch wild Evomons, learn the map flow, and build a roster before pushing harder fights.",
+          "tips": ["Catch for new roles", "train a main carry", "keep collection and battle teams separate"],
+          "payoff": "A wider roster gives you more choices for bosses, dungeons, and PvP."
+        },
+        {
+          "category": "Boss Content",
+          "when": "After your main team can clear normal battles consistently.",
+          "title": "Map Boss Fights",
+          "objective": "Use bosses as team checks for levels, skills, matchup coverage, and survival.",
+          "tips": ["bring your strongest trained carry", "add coverage before retrying", "review skill timing after losses"],
+          "payoff": "Bosses reveal whether your team is ready for harder PvE."
+        },
+        {
+          "category": "Multiplayer PvE",
+          "when": "After you have at least one reliable dungeon-ready Evomon.",
+          "title": "Co-op Dungeons",
+          "objective": "Team up with friends and clear longer fights that reward coordination and consistent battle roles.",
+          "tips": ["avoid bringing only underleveled collection picks", "cover different team jobs", "save fragile experiments for easier content"],
+          "payoff": "Dungeons turn individual collection progress into team-based progression."
+        },
+        {
+          "category": "Competitive Testing",
+          "when": "After your team has a carry, coverage, and at least one skill-focused pressure pick.",
+          "title": "PvP Battles",
+          "objective": "Test turn-based strategy against real opponents instead of only scripted encounters.",
+          "tips": ["build around skill pressure", "patch obvious matchup gaps", "keep training after each loss"],
+          "payoff": "PvP shows which Evomons perform under pressure and which only looked strong in easy fights."
+        },
+        {
+          "category": "Battle Strategy",
+          "when": "As soon as your Evomons gain meaningful battle options.",
+          "title": "Powerful Skills",
+          "objective": "Use skills to control battle tempo, punish bad matchups, and improve boss or PvP performance.",
+          "tips": ["match skills to each Evomon's role", "do not judge by visuals alone", "test skills in repeat fights"],
+          "payoff": "A well-trained skill plan makes the same roster perform better without needing constant replacements."
+        },
+        {
+          "category": "Mounts",
+          "when": "After basic exploration is comfortable and you are ready to chase prestige goals.",
+          "title": "Legendary Mounts",
+          "objective": "Ride legendary Evomons across the world and turn collection progress into visible account progress.",
+          "tips": ["treat mounts as long-term goals", "keep progressing combat while chasing them", "use exploration routes to support collection goals"],
+          "payoff": "Mounts improve the feel of exploration and give high-value collection targets."
+        },
+        {
+          "category": "Progression Route",
+          "when": "After casual catching no longer blocks your main team.",
+          "title": "Endgame Progression Ladder",
+          "objective": "Cycle between collection, leveling, evolution, bosses, dungeons, PvP, and mount goals.",
+          "tips": ["upgrade the main team first", "hunt rare forms in planned sessions", "use hard content to expose team gaps"],
+          "payoff": "A clear ladder keeps progression moving and turns collection, combat, dungeons, PvP, and mounts into one connected route."
         }
       ]
     }
@@ -750,31 +539,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Evomon",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Evomon?",
+        "answer": "Evomon is a Roblox open-world monster-catching adventure where players collect 200+ Evomons, hunt Shiny and Sparkle variants, train teams, battle turn by turn, hatch eggs, ride legendary creatures, and clear dungeons with friends."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I play Evomon?",
+        "answer": "Play Evomon from the official Roblox experience page published by Evomon Devs. Always start from the official page instead of mirror sites."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I redeem Evomon codes?",
+        "answer": "Open the cogwheel Settings menu in Evomon, paste an active code into the code input box, and press OK to claim your reward. Finish the opening tutorial first if the Settings menu is not available."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Which Evomon starter should I pick?",
+        "answer": "Evomon offers three starters: Leafbun (Grass), Blazpup (Fire), and Bubble (Water). Pick based on the first role you want, then catch other types early to cover weaknesses."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What are Shiny and Sparkle Evomons?",
+        "answer": "Shiny and Sparkle Evomons are rare variants and long-term collection goals. Hunt them after your main battle team can handle normal progression."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Does Evomon support multiplayer?",
+        "answer": "Yes. Evomon includes multiplayer features like teaming up with friends and taking on co-op dungeons as part of the wider PVE loop."
       }
     ]
   },
@@ -802,124 +591,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Evomon Guides",
+      "description": "Complete Evomon guides from beginner basics to advanced catching, training, and team-building strategies.",
+      "metaTitle": "Evomon Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Evomon guides covering beginner tips, codes, starter picks, catching, evolution, dungeons, and expert tactics for mastering the Roblox monster-catching adventure.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Evomon gameplay mechanics, catching, training, evolution, and team-building strategies from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand catching, training, evolution, and turn-based battles",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven routes to build a strong early Evomon team",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for dungeons, bosses, and PvP"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "evomons": {
+      "title": "Evomon Dex",
+      "description": "Browse the Evomon dex with evolution chains, rarity, Shiny and Sparkle variants, and catching details.",
+      "metaTitle": "Evomon Dex - Evolution, Rarity & Shiny Variants",
+      "metaDescription": "Explore the Evomon dex with evolution chains, rarity tiers, Shiny and Sparkle variants, and catching locations for all 200+ Evomons.",
+      "categoryLabel": "EVOMON DEX",
+      "whatIs": "What is the Dex?",
+      "whatIsDescription": "A full Evomon roster reference covering evolution stages, rarity, variants, and how to catch each Evomon across the open world.",
+      "why": "Why use the dex?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Plan Catches",
+        "step1Description": "Find where to catch the Evomons your team needs",
+        "step2Title": "Track Evolution",
+        "step2Description": "See evolution chains and what each form needs",
+        "step3Title": "Hunt Variants",
+        "step3Description": "Target Shiny and Sparkle forms with a clear route"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Evomons"
+    },
+    "tier-list": {
+      "title": "Evomon Tier List",
+      "description": "Rank Evomons by role, coverage, evolution value, PvE, dungeon, and PvP performance.",
+      "metaTitle": "Evomon Tier List - Best Evomons Ranked",
+      "metaDescription": "Evomon tier list ranking the best Evomons by role, matchup coverage, evolution value, and PvE, dungeon, and PvP performance.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the Tier List?",
+      "whatIsDescription": "A ranked tier grid that helps you pick which Evomons to train first based on battle role, coverage, and content type.",
+      "why": "Why use the tier list?",
+      "whySteps": {
+        "step1Title": "Pick Worthwhile Picks",
+        "step1Description": "Focus resources on Evomons that carry progression",
+        "step2Title": "Build Coverage",
+        "step2Description": "Round out matchups instead of stacking one role",
+        "step3Title": "Plan Upgrades",
+        "step3Description": "Queue evolution and EXP Fruit investment by priority"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tiers"
+    },
+    "codes": {
+      "title": "Evomon Codes",
+      "description": "Active Evomon codes, reward types, redeem steps, and why a code may not work.",
+      "metaTitle": "Evomon Codes - Active Codes & Redeem Guide",
+      "metaDescription": "Latest active Evomon codes with reward types, exact redeem steps, and troubleshooting for codes that fail.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Limited-time reward strings released around launch, like goals, and community events that grant Coins, EXP Fruits, and milestone gifts.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Claim Free Rewards",
+        "step1Description": "Get Coins, EXP Fruits, and milestone gifts",
+        "step2Title": "Redeem Fast",
+        "step2Description": "Codes expire after limited-time windows",
+        "step3Title": "Avoid Errors",
+        "step3Description": "Type codes exactly and check server freshness"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "map": {
+      "title": "Evomon Map and Regions",
+      "description": "Explore Evomon regions, routes, rare spawn locations, treasure spots, and dungeon entrances.",
+      "metaTitle": "Evomon Map - Regions, Routes & Rare Spawns",
+      "metaDescription": "Evomon map guide covering regions, exploration routes, rare spawn locations, treasures, and dungeon entrances.",
+      "categoryLabel": "MAP & REGIONS",
+      "whatIs": "What is the Map?",
+      "whatIsDescription": "A region and route reference for finding wild Evomons, rare spawns, treasures, and dungeon entrances across the open world.",
+      "why": "Why use the map?",
+      "whySteps": {
+        "step1Title": "Find Spawns",
+        "step1Description": "Locate where target Evomons appear",
+        "step2Title": "Plan Routes",
+        "step2Description": "Move through regions in a useful order",
+        "step3Title": "Reach Dungeons",
+        "step3Description": "Find dungeon and boss entrances"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Regions"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
+      "title": "Evomon Items",
+      "description": "Evomon items guide covering EXP Fruits, Coins, Eggs, catching items, and consumables.",
+      "metaTitle": "Evomon Items - EXP Fruits, Coins, Eggs & Gear",
+      "metaDescription": "Complete Evomon item guide covering EXP Fruits, Coins, Eggs, catching items, and consumables with how to get and best use each one.",
+      "categoryLabel": "ITEMS",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
+      "whatIsDescription": "Guides for EXP Fruits, Coins, Eggs, catching items, and consumables, including where to get them and the best situations to use each.",
       "why": "Why check item guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Spend Smart",
+        "step1Description": "Use EXP Fruits on Evomons you actually battle with",
+        "step2Title": "Save Resources",
+        "step2Description": "Reserve better items for rare or stronger catches",
+        "step3Title": "Hatch Eggs",
+        "step3Description": "Turn eggs into useful roster upgrades"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
     }
   }
 }
