@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Evomon Wiki - Codes, Evomons & Type Chart",
+      "description": "Find Evomon codes, Evomon tier lists, type chart, dex entries, Shiny tips, starter picks, map routes, dungeons, items, and Roblox beginner guides.",
+      "keywords": "Evomon, Roblox, codes, tier list, type chart, dex, Shiny, dungeons, beginner guide",
+      "ogTitle": "Evomon Wiki - Codes, Evomons & Type Chart",
+      "ogDescription": "Find Evomon codes, Evomon tier lists, type chart, dex entries, Shiny tips, starter picks, map routes, dungeons, items, and Roblox beginner guides.",
+      "twitterTitle": "Evomon Wiki - Codes, Evomons & Type Chart",
+      "twitterDescription": "Find Evomon codes, Evomon tier lists, type chart, dex entries, Shiny tips, starter picks, map routes, dungeons, items, and Roblox beginner guides."
     }
   },
   "nav": {
@@ -34,27 +34,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Open-World Monster-Catching RPG",
+    "title": "Evomon Wiki",
+    "description": "Evomon is a Roblox open-world monster-catching adventure where players collect 200+ Evomons, hunt Shiny and Sparkle variants, train teams, battle turn by turn, ride legendary creatures, and clear dungeons with friends.",
+    "keywords": "Evomon, Roblox, codes, Evomons, tier list, type chart, Shiny, Sparkle, dungeons, beginner guide",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2,449",
+        "label": "Active Players"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "57.6K+",
+        "label": "Total Visits"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "200+",
+        "label": "Evomons Available"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "12",
+        "label": "Server Size"
       }
     }
   },
@@ -785,26 +786,25 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Dive Into Evomon?",
+    "description": "Join the Evomon community for codes, tier lists, type charts, and dungeon guides. Catch, train, and evolve your dream team of Evomons!",
+    "joinCommunity": "Join Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Evomon Wiki",
+    "description": "Your complete resource hub for Evomon codes, Evomon dex, tier lists, type charts, maps, dungeons, and beginner guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGroup": "Roblox Group",
+    "youtube": "YouTube",
+    "robloxGame": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Evomon Wiki. Not affiliated with the developers of Evomon.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
