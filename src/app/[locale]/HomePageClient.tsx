@@ -52,6 +52,7 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useMessages } from "next-intl";
+import Link from "next/link";
 import { VideoFeature } from "@/components/home/VideoFeature";
 import { LatestGuidesAccordion } from "@/components/home/LatestGuidesAccordion";
 import { NativeBannerAd, AdBanner } from "@/components/ads";
@@ -84,22 +85,53 @@ function Eyebrow({ children }: { children: React.ReactNode }) {
   );
 }
 
+// Conditionally render the heading as a link to its best-matching article
+function LinkedTitle({
+  linkData,
+  locale,
+  children,
+}: {
+  linkData: { url: string; title: string } | null | undefined;
+  locale: string;
+  children: React.ReactNode;
+}) {
+  if (linkData) {
+    const href = locale === "en" ? linkData.url : `/${locale}${linkData.url}`;
+    return (
+      <Link
+        href={href}
+        className="hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors"
+        title={linkData.title}
+      >
+        {children}
+      </Link>
+    );
+  }
+  return <>{children}</>;
+}
+
 // Module section heading
 function SectionHead({
   eyebrow,
   title,
   intro,
+  linkData,
+  locale,
 }: {
   eyebrow?: string;
   title: string;
   intro?: string;
+  linkData?: { url: string; title: string } | null | undefined;
+  locale: string;
 }) {
   return (
     <div className="text-center mb-8 md:mb-12 scroll-reveal">
       {eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
-      <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4 leading-tight">
-        {title}
-      </h2>
+      <LinkedTitle linkData={linkData} locale={locale}>
+        <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4 leading-tight">
+          {title}
+        </h2>
+      </LinkedTitle>
       {intro && (
         <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
           {intro}
@@ -120,7 +152,6 @@ export default function HomePageClient({
   moduleLinkMap,
   locale,
 }: HomePageClientProps) {
-  void moduleLinkMap;
   const t = useMessages() as any;
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://evomonwiki.wiki";
@@ -463,6 +494,8 @@ export default function HomePageClient({
             eyebrow={m.evomonCodes.eyebrow}
             title={m.evomonCodes.title}
             intro={m.evomonCodes.intro}
+            linkData={moduleLinkMap["evomonCodes"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
             {/* Code cards */}
@@ -569,6 +602,8 @@ export default function HomePageClient({
             eyebrow={m.evomonOfficialLinks.eyebrow}
             title={m.evomonOfficialLinks.title}
             intro={m.evomonOfficialLinks.intro}
+            linkData={moduleLinkMap["evomonOfficialLinks"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {m.evomonOfficialLinks.items.map((item: any, i: number) => {
@@ -626,6 +661,8 @@ export default function HomePageClient({
             eyebrow={m.evomonBeginnerGuide.eyebrow}
             title={m.evomonBeginnerGuide.title}
             intro={m.evomonBeginnerGuide.intro}
+            linkData={moduleLinkMap["evomonBeginnerGuide"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {m.evomonBeginnerGuide.steps.map((step: any, i: number) => (
@@ -663,6 +700,8 @@ export default function HomePageClient({
             eyebrow={m.evomonBestStarter.eyebrow}
             title={m.evomonBestStarter.title}
             intro={m.evomonBestStarter.intro}
+            linkData={moduleLinkMap["evomonBestStarter"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {m.evomonBestStarter.starters.map((s: any, i: number) => {
@@ -732,6 +771,8 @@ export default function HomePageClient({
             eyebrow={m.evomonTierList.eyebrow}
             title={m.evomonTierList.title}
             intro={m.evomonTierList.intro}
+            linkData={moduleLinkMap["evomonTierList"]}
+            locale={locale}
           />
           <div className="space-y-4 md:space-y-5">
             {m.evomonTierList.tiers.map((tierGroup: any, gi: number) => (
@@ -809,6 +850,8 @@ export default function HomePageClient({
             eyebrow={m.evomonCatchingGuide.eyebrow}
             title={m.evomonCatchingGuide.title}
             intro={m.evomonCatchingGuide.intro}
+            linkData={moduleLinkMap["evomonCatchingGuide"]}
+            locale={locale}
           />
           <div className="max-w-3xl mx-auto space-y-3">
             {m.evomonCatchingGuide.items.map((item: any, i: number) => {
@@ -859,6 +902,8 @@ export default function HomePageClient({
             eyebrow={m.evomonLevelingGuide.eyebrow}
             title={m.evomonLevelingGuide.title}
             intro={m.evomonLevelingGuide.intro}
+            linkData={moduleLinkMap["evomonLevelingGuide"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {m.evomonLevelingGuide.steps.map((step: any, i: number) => {
@@ -906,6 +951,8 @@ export default function HomePageClient({
             eyebrow={m.evomonHardContent.eyebrow}
             title={m.evomonHardContent.title}
             intro={m.evomonHardContent.intro}
+            linkData={moduleLinkMap["evomonHardContent"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {m.evomonHardContent.items.map((item: any, i: number) => {
