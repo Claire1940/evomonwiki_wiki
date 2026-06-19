@@ -1,0 +1,221 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gem, ScrollText } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Evomon Boss Guide: Strategies for Dungeons & Map Bosses",
+  description: "Conquer Evomon's toughest bosses and dungeon challenges with this comprehensive guide to team building, skill usage, and battle strategies. Learn to optimize your Evomon lineup for maximum impact in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Evomon+Boss+Guide",
+  date: "2026-06-19",
+  author: "evomon Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Evomon Boss Guide**: Understand boss mechanics and prepare your team for success.
+- **Team Composition**: Focus on elemental coverage and a strong core carry.
+- **Skill Timing**: Master skill usage to control battle tempo and maximize damage.
+- **Dungeon Preparedness**: Ensure your Evomons are leveled and have proper roles for co-op challenges.
+- **Progression Ladder**: Use boss fights to gauge team readiness for harder content.
+</Callout>
+
+<Section icon={Swords} title="Understanding Evomon Boss Mechanics">
+Defeating bosses in Evomon, whether in dungeons or on the map, requires more than just high-level Evomons. It demands strategic team composition, precise skill timing, and a clear understanding of each boss's unique mechanics. This section lays the groundwork for preparing your team to face these formidable challenges.
+
+**Video Highlights:**
+- Focus on building a balanced team for dungeons.
+- Prioritize Evomons with reliable battle roles.
+- Understand the importance of elemental advantages in boss fights.
+
+<YouTubeEmbed videoId="xUbI9VxbDk8" title="Evomon Dungeons, Boss Fights, PvP, and Mounts Guide" />
+
+Boss fights act as crucial checkpoints in your progression. They expose weaknesses in your team's coverage, highlight underleveled Evomons, and test your overall battle strategy. Approaching them with a methodical plan will significantly increase your success rate.
+
+<Callout type="tip">
+Always scout the boss's elemental type and primary attack patterns before engaging. This allows you to adjust your team for optimal elemental advantage and defensive positioning.
+</Callout>
+
+### Common Boss Traits
+
+| Trait           | Description                                                | Strategic Implication                                            |
+| :-------------- | :--------------------------------------------------------- | :--------------------------------------------------------------- |
+| **High HP**     | Bosses have significantly larger health pools.             | Focus on sustained damage and efficient skill rotation.          |
+| **Strong Attacks** | Deals heavy damage to single targets or multiple Evomons. | Requires robust defensive Evomons or healing support.            |
+| **Elemental Affinity** | Often has a dominant elemental type.                     | Exploit weaknesses with countering elements.                      |
+| **Special Abilities** | Unique buffs, debuffs, or area-of-effect attacks.        | Requires specific counter-skills or status cleanse.              |
+| **Minion Summons** | Summons additional Evomons during the fight.             | Prioritize taking down minions to reduce incoming damage.        |
+
+</Section>
+
+<Section icon={Shield} title="Building Your Boss-Ready Team">
+A well-constructed team is the cornerstone of any successful boss encounter. Your lineup should feature a balance of damage dealers, defensive units, and support Evomons, all synergizing to cover various battle scenarios.
+
+<CardGrid cols={3}>
+  <Card title="Core Carry">
+    - **Main Damage Dealer**
+    - High current level
+    - Useful skill pressure
+    - Focus EXP Fruits here first
+  </Card>
+  <Card title="Elemental Coverage">
+    - **Counter Weaknesses**
+    - Covers carry's bad matchups
+    - Adds different battle angles
+    - Essential for diverse boss types
+  </Card>
+  <Card title="Dungeon Anchor">
+    - **Reliable for longer fights**
+    - Survives repeated battles
+    - Keeps value after evolution
+    - Important for co-op dungeons
+  </Card>
+</CardGrid>
+
+When assembling your team, consider the roles each Evomon plays. Simply having strong individual Evomons isn't enough; their combined utility and elemental coverage will determine your success.
+
+<Callout type="warning" title="Avoid Stacking Elements">
+Do not stack multiple Evomons of the same elemental type unless you have a specific, high-level strategy. Bosses will exploit single-element teams, leading to quick defeats.
+</Callout>
+
+### Recommended Team Composition
+
+| Role               | Primary Function                     | Key Attributes                                   | Example Evomon (Hypothetical) |
+| :----------------- | :----------------------------------- | :----------------------------------------------- | :---------------------------- |
+| **Main Attacker**  | High burst or sustained damage.      | High Attack/Special Attack, strong offensive skills. | Ignisaur (Fire)               |
+| **Tank/Defender**  | Absorbs damage, protects allies.     | High HP/Defense/Special Defense, defensive skills. | Terrastone (Earth)            |
+| **Support/Utility** | Heals, buffs, debuffs, status effects. | Healing skills, stat manipulation, crowd control. | Aqualux (Water)               |
+| **Elemental Counter** | Exploits boss's elemental weakness.  | Strong skills of opposing element.               | Zephyrwing (Wind)             |
+
+</Section>
+
+<Section icon={Target} title="Strategic Skill Usage in Boss Fights">
+Skills are your most potent tools in Evomon battles. Knowing when and how to use them can turn the tide of a difficult boss encounter. Effective skill timing involves understanding cooldowns, anticipating boss moves, and prioritizing targets.
+
+<Steps>
+  <Step num="1" title="Analyze Boss Patterns">
+    Observe the boss's attack animations and skill indicators. Many bosses have predictable sequences or telegraph powerful moves. Learning these patterns allows you to prepare your defensive or offensive responses.
+  </Step>
+  <Step num="2" title="Prioritize Target Focus">
+    If the boss summons minions, decide whether to eliminate them first or focus all damage on the boss. Generally, clear dangerous minions that apply debuffs or deal high damage before returning to the main boss.
+  </Step>
+  <Step num="3" title="Time Your Buffs/Debuffs">
+    Apply offensive buffs to your main attacker and defensive buffs to your tank just before the boss unleashes a powerful attack. Similarly, use debuffs on the boss to reduce its damage or defense at critical moments.
+  </Step>
+  <Step num="4" title="Execute High-Damage Skills">
+    Unleash your most powerful offensive skills when the boss is debuffed, its shield is down, or your Evomon has an elemental advantage. Avoid wasting high-cooldown skills on low-impact turns.
+  </Step>
+  <Step num="5" title="Manage Healing and Status Cleansing">
+    Use healing skills proactively to keep your team healthy, especially after heavy boss attacks. Have Evomons ready to cleanse debilitating status effects like Poison, Burn, or Sleep, as these can cripple your team.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Some boss battles in Evomon might require specific Evomon abilities or type combinations to effectively counter their unique mechanics. Experiment with different team setups if a standard approach isn't working.
+</Callout>
+
+### Skill Effectiveness Against Bosses
+
+| Skill Type         | Best Use Against Bosses                                 | When to Use                                      |
+| :----------------- | :------------------------------------------------------ | :----------------------------------------------- |
+| **Single-Target Nuke** | High burst damage to quickly reduce boss HP.            | When boss is vulnerable or debuffed.             |
+| **AoE Attack**     | Clearing summoned minions or hitting multiple targets.  | When boss summons multiple adds.                 |
+| **Defensive Buffs** | Increasing team's survivability against heavy attacks.  | Before boss's ultimate or strong AoE abilities.  |
+| **Healing**        | Restoring HP to damaged Evomons.                        | After taking significant damage, before next attack. |
+| **Debuffs (ATK/DEF)** | Weakening boss's offensive or defensive capabilities.   | Early in the fight or before a damage phase.     |
+| **Status Cleanse** | Removing harmful status effects from your team.         | Immediately after a key Evomon is afflicted.    |
+
+</Section>
+
+<Section icon={Gem} title="Dungeon Boss Strategies and Co-op Play">
+Dungeon bosses often present a different challenge due to the co-op nature of these encounters. Coordination with teammates and understanding individual roles are paramount for success.
+
+<Checklist
+  id="dungeon-readiness"
+  title="Dungeon Boss Preparation Checklist:"
+  items={[
+    "Ensure your main Evomon is max level for its current evolution stage.",
+    "Have at least one Evomon that can provide elemental coverage.",
+    "Communicate roles with your teammates (e.g., who tanks, who deals damage).",
+    "Bring a support Evomon with healing or cleansing abilities.",
+    "Familiarize yourself with the dungeon layout and boss abilities."
+  ]}
+/>
+
+In co-op dungeons, the collective strength and strategy of the group are tested. Avoid bringing underleveled collection picks, as these can become a liability. Instead, focus on reliable, battle-ready Evomons that contribute meaningfully to the team.
+
+<Callout type="success">
+Successful dungeon runs often hinge on clear communication. Use the in-game chat or voice comms to coordinate skill usage, target focus, and retreat signals with your fellow Evomon trainers.
+</Callout>
+
+### Co-op Dungeon Roles
+
+| Role          | Responsibility                                           | Key Evomon Attributes                            |
+| :------------ | :------------------------------------------------------- | :----------------------------------------------- |
+| **Tank**      | Draws boss aggro, absorbs damage.                        | High HP, Defense, Taunt abilities.               |
+| **Damage Dealer** | Focuses on maximizing boss damage.                       | High Attack/Special Attack, elemental advantage. |
+| **Healer**    | Keeps team's HP topped up, removes debuffs.              | Healing skills, status cleanse, good survivability. |
+| **Utility/Support** | Provides buffs, debuffs, crowd control.                  | Stat manipulation, shield skills, energy generation. |
+
+</Section>
+
+<Section icon={ScrollText} title="Progression and Continuous Improvement">
+Every boss fight, win or lose, offers valuable lessons. Use these encounters as opportunities to refine your team, skills, and overall strategy. The goal is to continuously improve your Evomon roster and your tactical prowess.
+
+<CardGrid cols={2}>
+  <Card title="Analyze Losses">
+    - **Identify weaknesses** in team composition.
+    - Review **skill timing** and target priority.
+    - Check for **elemental gaps** in your lineup.
+  </Card>
+  <Card title="Refine Your Team">
+    - **Level up** underperforming Evomons.
+    - **Evolve** Evomons for stat boosts and new skills.
+    - **Acquire new Evomons** to fill coverage gaps.
+  </Card>
+</CardGrid>
+
+The progression ladder in Evomon is cyclical: you collect, train, battle, face harder content, and then repeat the process with a stronger team. Don't be afraid to revisit earlier areas or challenges to farm resources or test new strategies.
+
+<Callout type="tip">
+After clearing a tough boss, consider re-running it a few times to solidify your strategy and farm any potential drops. This helps build consistency and resource reserves for future challenges.
+</Callout>
+
+### Evomon Progression Path
+
+| Stage          | Focus                                          | Key Activities                                   |
+| :------------- | :--------------------------------------------- | :----------------------------------------------- |
+| **Early Game** | Exploration, basic catching, tutorial completion. | Catch diverse Evomons, level starter.            |
+| **Mid Game**   | Team building, first map bosses, early dungeons. | Optimize team, elemental coverage, skill timing. |
+| **Late Game**  | Advanced dungeons, PvP, legendary mount hunts.  | Maximize Evomon potential, specialized teams.    |
+
+</Section>
+
+<Section icon={Sparkles} title="Evomon Boss Guide: Frequently Asked Questions">
+<FAQ items={[
+  {
+    question: "What is the most important factor for defeating an Evomon boss?",
+    answer: "The most important factor is a balanced team with strong elemental coverage against the boss's type, combined with effective skill timing. Simply having high-level Evomons isn't enough; strategic play is crucial."
+  },
+  {
+    question: "How do I know which Evomons to use against a specific boss?",
+    answer: "Before engaging, try to identify the boss's elemental type. Then, assemble a team that includes Evomons with skills of the opposing element. For example, use Water-type Evomons against a Fire boss."
+  },
+  {
+    question: "Should I focus on healing or damage during a boss fight?",
+    answer: "It depends on the boss. For bosses with high burst damage, prioritize defensive buffs and timely healing. For bosses with lower damage but high HP, focus more on sustained damage output while maintaining moderate health."
+  },
+  {
+    question: "What should I do if my team keeps losing to an Evomon boss?",
+    answer: "Analyze your losses. Check if your Evomons are sufficiently leveled, if your elemental coverage is adequate, and if your skill timing is optimal. Consider evolving your core Evomons or acquiring new ones to fill gaps in your team."
+  },
+  {
+    question: "Are co-op dungeons harder than map bosses?",
+    answer: "Co-op dungeons introduce an additional layer of complexity through multiplayer coordination. While individual boss mechanics might be similar, the need to synergize with teammates and cover diverse roles can make them more challenging than solo map bosses."
+  }
+]} />
+</Section>

@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Evomon Tower Guide: Conquering Dungeons & Bosses in 2026",
+  description: "Master Evomon's towers and dungeons with this comprehensive guide, covering team builds, boss strategies, and progression tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/9333ea/fff?text=Evomon+Tower+Guide",
+  date: "2026-06-19",
+  author: "evomon Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Evomon Tower Guide**: Focus on **team composition** and **elemental coverage**.
+- **Boss Strategy**: Exploit **weaknesses** and manage **skill cooldowns**.
+- **Progression**: Prioritize **leveling core Evomons** for dungeon runs.
+- **Co-op Dungeons**: Coordinate roles with teammates for **optimal success**.
+- **Rewards**: Towers offer valuable **EXP Fruits** and **rare items**.
+</Callout>
+
+<Section icon={Swords} title="Understanding Evomon Towers & Dungeons">
+Evomon's towers and dungeons are challenging multiplayer PvE content designed to test your team's strength and strategic prowess. These instances offer substantial rewards, including EXP Fruits, Coins, and rare items, making them crucial for late-game progression. To succeed, players must understand the mechanics, build balanced teams, and adapt their strategies to different boss encounters.
+
+<Callout type="tip" title="Dungeon Prep Checklist">
+Before entering any tower or dungeon, ensure your team is adequately prepared. This includes checking Evomon levels, equipping the best available items, and understanding the elemental types of the enemies you'll face.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Dungeon Benefits">
+    - **High EXP Gain**: Excellent for leveling up multiple Evomons.
+    - **Rare Item Drops**: Chance to acquire powerful gear and resources.
+    - **Co-op Fun**: Team up with friends for a more engaging experience.
+  </Card>
+  <Card title="Tower Challenges">
+    - **Strategic Boss Fights**: Requires specific counters and tactics.
+    - **Elemental Diversity**: Encounters with various Evomon types.
+    - **Team Coordination**: Essential for overcoming difficult stages.
+  </Card>
+  <Card title="Progression Impact">
+    - **Unlocks New Content**: Clear dungeons to access further areas.
+    - **Strengthens Roster**: Improves your overall Evomon collection.
+    - **Resource Farming**: Efficient way to gather valuable materials.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Building Your Tower-Conquering Team">
+A well-rounded team is the cornerstone of success in Evomon towers. It's not enough to have high-level Evomons; you need a strategic mix of roles, elemental types, and skills to handle diverse threats. Consider a core carry Evomon, supported by specialists for elemental coverage, healing, and crowd control.
+
+<Callout type="warning" title="Avoid Common Team Building Mistakes">
+Do not stack multiple Evomons of the same elemental type unless it's a specific strategy for a known weakness. A balanced team with varied elemental coverage is almost always more effective against the diverse threats found in towers.
+</Callout>
+
+Here’s a breakdown of essential team roles and their importance:
+
+| Role             | Description                                          | Key Evomon Traits                                    | Priority in Team |
+| :--------------- | :--------------------------------------------------- | :--------------------------------------------------- | :--------------- |
+| **Main Carry**   | Primary damage dealer, often evolved with high stats. | High Attack/Special Attack, strong offensive skills. | High             |
+| **Elemental Cover** | Counters specific enemy types, fills weaknesses.     | Diverse elemental types, good defensive stats.       | High             |
+| **Support/Healer** | Restores HP, buffs allies, debuffs enemies.          | Healing moves, status effects, decent survivability. | Medium           |
+| **Tank/Defender** | Absorbs damage, protects weaker teammates.           | High HP/Defense/Special Defense, taunt skills.       | Medium           |
+| **Crowd Control** | Inflicts status ailments like Sleep, Stun, Paralysis. | Skills with high chance to apply status effects.     | Low (situational) |
+
+<Callout type="tip" title="Leverage Your Strengths">
+Focus on maximizing the potential of your strongest Evomons. Use EXP Fruits on your core carry and key elemental counters to ensure they can withstand and dish out significant damage.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Strategic Approaches to Dungeon Boss Fights">
+Boss fights in Evomon towers require more than just raw power. Each boss has unique attack patterns, elemental types, and often specific weaknesses that can be exploited. Understanding these elements is key to victory.
+
+<Callout type="info" title="Boss Battle Fundamentals">
+Always prioritize surviving the boss's most powerful attacks. Use defensive buffs, debuffs on the boss, and heal when necessary. Don't be afraid to retreat and re-strategize if your current team isn't working.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Identify Boss Type and Weaknesses">
+    Before engaging, try to determine the boss's elemental type. This allows you to select Evomons with type advantage, significantly increasing your damage output and survivability.
+  </Step>
+  <Step num="2" title="Plan Your Skill Rotation">
+    Many powerful skills have cooldowns. Plan which skills to use and when, especially for critical moments like breaking shields or dealing burst damage. Avoid wasting strong attacks when the boss is invulnerable or heavily shielded.
+  </Step>
+  <Step num="3" title="Manage Health and Status Effects">
+    Keep an eye on your Evomons' health bars. Use healing skills or items proactively. Be prepared to cure status effects like Poison or Burn, as they can quickly deplete your team's HP.
+  </Step>
+  <Step num="4" title="Coordinate in Co-op">
+    If playing with friends, communicate roles. One player might focus on healing, another on debuffing the boss, and the rest on dealing damage. Coordinated attacks can make short work of even the toughest bosses.
+  </Step>
+  <Step num="5" title="Adapt and Overcome">
+    If your initial strategy fails, analyze what went wrong. Did you lack elemental coverage? Was your healing insufficient? Adjust your team composition or strategy for the next attempt.
+  </Step>
+</Steps>
+
+| Boss Type     | Common Weaknesses | Recommended Evomon Types | Key Strategy                                     |
+| :------------ | :---------------- | :----------------------- | :----------------------------------------------- |
+| **Fire Boss** | Water, Ground     | Water, Ground, Rock      | Bring strong Water types, avoid Grass. Focus on debuffing its attack. |
+| **Water Boss** | Grass, Electric   | Grass, Electric          | Electric types can stun, Grass types deal heavy damage. Be wary of status effects. |
+| **Grass Boss** | Fire, Flying, Ice | Fire, Flying, Ice        | Fire types are crucial. Use Flying types to avoid ground attacks. |
+| **Electric Boss** | Ground          | Ground                   | Ground types offer immunity. Avoid Water and Flying types. |
+| **Dark Boss** | Fighting, Fairy   | Fighting, Fairy          | Fighting types deal super effective damage. Fairy types resist Dark attacks. |
+
+</Section>
+
+<Section icon={Sparkles} title="Maximizing Progression and Rewards in Towers">
+Successfully clearing Evomon towers and dungeons is not just about beating the bosses; it's also about optimizing your runs for maximum rewards and efficient progression.
+
+<Callout type="success" title="Efficient Farming Tips">
+Re-run dungeons that drop items you need or provide high EXP for your current Evomon level. Don't be afraid to grind easier dungeons if your team needs to catch up in levels or acquire specific resources.
+</Callout>
+
+<Checklist
+  id="tower-rewards"
+  title="Key Rewards from Evomon Towers:"
+  items={[
+    "EXP Fruits (various sizes)",
+    "Coins for shop purchases",
+    "Rare Evomon Eggs",
+    "Evolution materials",
+    "Exclusive cosmetic items"
+  ]}
+/>
+
+Here’s how to get the most out of your dungeon runs:
+
+| Aspect         | Strategy                                             | Benefit                                            |
+| :------------- | :--------------------------------------------------- | :------------------------------------------------- |
+| **Daily Runs** | Complete daily dungeon challenges for bonus rewards. | Consistent source of EXP, Coins, and rare items.   |
+| **Team Synergy** | Play with friends who have complementary Evomon types. | Faster clears, reduced resource consumption, higher success rate. |
+| **Item Usage**  | Use EXP Fruits on new Evomons after a dungeon run.   | Quickly level up new catches, expanding your roster's capabilities. |
+| **Rarity Hunting** | Target dungeons known to drop specific rare Evomon eggs. | Helps complete your Evomon collection and find powerful variants. |
+| **Boss Farming** | Repeat boss stages that drop desired evolution materials. | Expedites the evolution process for key Evomons. |
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions about Evomon Towers">
+
+<FAQ items={[
+  {
+    question: "What is the best way to prepare for a new Evomon tower?",
+    answer: "The best preparation involves scouting the tower's elemental types, leveling up your counter Evomons, and ensuring your team has a balanced mix of damage, support, and defense. Always bring healing items!"
+  },
+  {
+    question: "Can I solo Evomon towers, or are they strictly co-op?",
+    answer: "While some early towers might be soloable with a very strong team, most Evomon towers and dungeons are designed for co-op play. Teaming up with friends significantly increases your chances of success and makes the experience more enjoyable."
+  },
+  {
+    question: "What should I do if my team keeps failing a tower boss?",
+    answer: "If you're repeatedly failing, take a step back. Review the boss's elemental type and attack patterns. Consider changing your team composition to better counter its strengths, focus on leveling up your Evomons, or try joining a different co-op group."
+  },
+  {
+    question: "Are there any specific Evomons that are 'must-haves' for tower climbing?",
+    answer: "While specific 'must-haves' can depend on the current meta and tower challenges, Evomons with strong elemental coverage, reliable healing abilities, or powerful crowd control skills are generally highly valued for their utility in Evomon towers."
+  }
+]} />
+
+</Section>

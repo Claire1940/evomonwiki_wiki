@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "Kode",
+    "roblox": "Roblox",
+    "guide": "Panduan",
+    "discord": "Discord",
+    "tier": "Peringkat",
+    "catching": "Menangkap",
+    "review": "Ulasan",
+    "world": "Dunia"
+  }
+}

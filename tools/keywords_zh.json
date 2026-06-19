@@ -1,46 +1,77 @@
 {
   "categories": [
     {
-      "category": "指南",
+      "category": "兑换码",
       "keywords": [
-        "lucid blocks 指南"
+        "evomon 兑换码"
       ]
     },
     {
-      "category": "合成",
+      "category": "Roblox",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "evomon roblox",
+        "evomon roblox 上线",
+        "evomon roblox 预告",
+        "evomon roblox 实况",
+        "evomon roblox 玩法"
       ]
     },
     {
-      "category": "物品",
+      "category": "攻略",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
+        "evomon 攻略",
+        "evomon 新手攻略",
+        "evomon 技巧",
+        "evomon 升级路线",
+        "evomon 经验方法",
+        "evomon Boss 攻略",
+        "evomon 任务攻略",
+        "evomon 塔攻略"
       ]
     },
     {
-      "category": "生物群系",
+      "category": "社区",
       "keywords": [
-        "lucid blocks 提亚玛纳地脉"
+        "evomon discord",
+        "evomon reddit"
       ]
     },
     {
-      "category": "建造",
+      "category": "排行",
       "keywords": [
-        "lucid blocks 感质空间"
+        "evomon 排行榜",
+        "evomon 最强怪物",
+        "evomon 最佳队伍",
+        "evomon 强度榜"
       ]
     },
     {
-      "category": "技术支持",
+      "category": "捕捉",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "evomon 蛋",
+        "evomon 闪光",
+        "evomon 进化",
+        "evomon 孵化攻略",
+        "evomon 捕捉攻略"
+      ]
+    },
+    {
+      "category": "评测",
+      "keywords": [
+        "evomon 评测",
+        "evomon switch",
+        "evomon steam",
+        "evomon 玩法",
+        "evomon 预告"
+      ]
+    },
+    {
+      "category": "世界",
+      "keywords": [
+        "evomon 世界",
+        "evomon 坐骑",
+        "evomon 更新",
+        "evomon 游戏"
       ]
     }
   ]

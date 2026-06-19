@@ -1,0 +1,221 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gem, ScrollText } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panduan Bos Evomon: Strategi untuk Dungeon & Bos Peta",
+  description: "Taklukkan bos terberat Evomon dan tantangan dungeon dengan panduan komprehensif ini untuk membangun tim, penggunaan skill, dan strategi pertempuran. Pelajari cara mengoptimalkan barisan Evomon Anda untuk dampak maksimal di tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Evomon+Boss+Guide",
+  date: "2026-06-19",
+  author: "Tim Wiki Evomon"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Panduan Bos Evomon**: Pahami mekanisme bos dan siapkan tim Anda untuk sukses.
+- **Komposisi Tim**: Fokus pada cakupan elemen dan inti penyerang yang kuat.
+- **Waktu Penggunaan Skill**: Kuasai penggunaan skill untuk mengontrol tempo pertempuran dan memaksimalkan kerusakan.
+- **Persiapan Dungeon**: Pastikan Evomon Anda sudah naik level dan memiliki peran yang tepat untuk tantangan co-op.
+- **Tangga Progresi**: Gunakan pertarungan bos untuk mengukur kesiapan tim menghadapi konten yang lebih sulit.
+</Callout>
+
+<Section icon={Swords} title="Memahami Mekanisme Bos Evomon">
+Mengalahkan bos di Evomon, baik di dungeon maupun di peta, membutuhkan lebih dari sekadar Evomon tingkat tinggi. Ini menuntut komposisi tim yang strategis, waktu penggunaan skill yang tepat, dan pemahaman yang jelas tentang mekanisme unik setiap bos. Bagian ini meletakkan dasar untuk mempersiapkan tim Anda menghadapi tantangan yang tangguh ini.
+
+**Sorotan Video:**
+- Fokus pada pembangunan tim yang seimbang untuk dungeon.
+- Prioritaskan Evomon dengan peran pertempuran yang dapat diandalkan.
+- Pahami pentingnya keuntungan elemen dalam pertarungan bos.
+
+<YouTubeEmbed videoId="xUbI9VxbDk8" title="Panduan Dungeon, Pertarungan Bos, PvP, dan Tunggangan Evomon" />
+
+Pertarungan bos berfungsi sebagai pos pemeriksaan penting dalam kemajuan Anda. Mereka mengungkap kelemahan dalam cakupan tim Anda, menyoroti Evomon yang kurang level, dan menguji strategi pertempuran Anda secara keseluruhan. Mendekati mereka dengan rencana metodis akan secara signifikan meningkatkan tingkat keberhasilan Anda.
+
+<Callout type="tip">
+Selalu pantau jenis elemen bos dan pola serangan utamanya sebelum menyerang. Ini memungkinkan Anda untuk menyesuaikan tim Anda untuk keuntungan elemen yang optimal dan posisi defensif.
+</Callout>
+
+### Ciri-ciri Bos Umum
+
+| Ciri            | Deskripsi                                                  | Implikasi Strategis                                              |
+| :-------------- | :--------------------------------------------------------- | :--------------------------------------------------------------- |
+| **HP Tinggi**   | Bos memiliki kumpulan kesehatan yang jauh lebih besar.     | Fokus pada kerusakan berkelanjutan dan rotasi skill yang efisien. |
+| **Serangan Kuat** | Memberikan kerusakan besar pada target tunggal atau beberapa Evomon. | Membutuhkan Evomon defensif yang kuat atau dukungan penyembuhan. |
+| **Afinitas Elemen** | Seringkali memiliki jenis elemen yang dominan.            | Manfaatkan kelemahan dengan elemen yang berlawanan.             |
+| **Kemampuan Khusus** | Buff, debuff, atau serangan area-of-effect yang unik.     | Membutuhkan skill penangkal spesifik atau pembersihan status.    |
+| **Panggilan Minion** | Memanggil Evomon tambahan selama pertarungan.             | Prioritaskan menjatuhkan minion untuk mengurangi kerusakan masuk. |
+
+</Section>
+
+<Section icon={Shield} title="Membangun Tim Siap Bos Anda">
+Tim yang terstruktur dengan baik adalah landasan dari setiap pertemuan bos yang sukses. Barisan Anda harus menampilkan keseimbangan antara pemberi kerusakan, unit defensif, dan Evomon pendukung, semuanya bersinergi untuk mencakup berbagai skenario pertempuran.
+
+<CardGrid cols={3}>
+  <Card title="Penyokong Inti">
+    - **Pemberi Kerusakan Utama**
+    - Tingkat saat ini tinggi
+    - Tekanan skill yang berguna
+    - Fokuskan Buah EXP di sini terlebih dahulu
+  </Card>
+  <Card title="Cakupan Elemen">
+    - **Penangkal Kelemahan**
+    - Melindungi dari pertandingan buruk penyokong
+    - Menambahkan sudut pertempuran yang berbeda
+    - Penting untuk berbagai jenis bos
+  </Card>
+  <Card title="Jangkar Dungeon">
+    - **Dapat diandalkan untuk pertarungan yang lebih lama**
+    - Bertahan dari pertempuran berulang
+    - Mempertahankan nilai setelah evolusi
+    - Penting untuk dungeon co-op
+  </Card>
+</CardGrid>
+
+Saat menyusun tim Anda, pertimbangkan peran yang dimainkan setiap Evomon. Hanya memiliki Evomon individu yang kuat tidak cukup; utilitas gabungan dan cakupan elemen mereka akan menentukan kesuksesan Anda.
+
+<Callout type="warning" title="Hindari Menumpuk Elemen">
+Jangan menumpuk beberapa Evomon dengan jenis elemen yang sama kecuali Anda memiliki strategi tingkat tinggi yang spesifik. Bos akan memanfaatkan tim elemen tunggal, menyebabkan kekalahan cepat.
+</Callout>
+
+### Komposisi Tim yang Direkomendasikan
+
+| Peran               | Fungsi Utama                       | Atribut Kunci                                    | Contoh Evomon (Hipotesis) |
+| :----------------- | :----------------------------------- | :----------------------------------------------- | :---------------------------- |
+| **Penyerang Utama**  | Kerusakan besar atau berkelanjutan.  | Serangan/Serangan Spesial Tinggi, skill ofensif yang kuat. | Ignisaur (Api)               |
+| **Tank/Defender**  | Menyerap kerusakan, melindungi sekutu. | HP/Pertahanan/Pertahanan Spesial Tinggi, skill defensif. | Terrastone (Bumi)            |
+| **Dukungan/Utilitas** | Menyembuhkan, buff, debuff, efek status. | Skill penyembuhan, manipulasi stat, crowd control. | Aqualux (Air)               |
+| **Penangkal Elemen** | Memanfaatkan kelemahan elemen bos.  | Skill kuat dari elemen lawan.                     | Zephyrwing (Angin)             |
+
+</Section>
+
+<Section icon={Target} title="Penggunaan Skill Strategis dalam Pertarungan Bos">
+Skill adalah alat Anda yang paling ampuh dalam pertarungan Evomon. Mengetahui kapan dan bagaimana menggunakannya dapat mengubah jalannya pertemuan bos yang sulit. Waktu skill yang efektif melibatkan pemahaman cooldown, mengantisipasi gerakan bos, dan memprioritaskan target.
+
+<Steps>
+  <Step num="1" title="Analisis Pola Bos">
+    Amati animasi serangan bos dan indikator skill. Banyak bos memiliki urutan yang dapat diprediksi atau mengisyaratkan gerakan kuat. Mempelajari pola-pola ini memungkinkan Anda untuk mempersiapkan respons defensif atau ofensif Anda.
+  </Step>
+  <Step num="2" title="Prioritaskan Fokus Target">
+    Jika bos memanggil minion, putuskan apakah akan menghilangkannya terlebih dahulu atau memfokuskan semua kerusakan pada bos. Umumnya, singkirkan minion berbahaya yang menerapkan debuff atau memberikan kerusakan tinggi sebelum kembali ke bos utama.
+  </Step>
+  <Step num="3" title="Atur Waktu Buff/Debuff Anda">
+    Terapkan buff ofensif pada penyerang utama Anda dan buff defensif pada tank Anda tepat sebelum bos melepaskan serangan kuat. Demikian pula, gunakan debuff pada bos untuk mengurangi kerusakannya atau pertahanannya pada saat-saat kritis.
+  </Step>
+  <Step num="4" title="Lakukan Skill Kerusakan Tinggi">
+    Lepaskan skill ofensif terkuat Anda saat bos terkena debuff, perisainya hilang, atau Evomon Anda memiliki keuntungan elemen. Hindari membuang skill dengan cooldown tinggi pada giliran dengan dampak rendah.
+  </Step>
+  <Step num="5" title="Kelola Penyembuhan dan Pembersihan Status">
+    Gunakan skill penyembuhan secara proaktif untuk menjaga tim Anda tetap sehat, terutama setelah serangan bos yang berat. Siapkan Evomon untuk membersihkan efek status yang melemahkan seperti Racun, Bakar, atau Tidur, karena ini dapat melumpuhkan tim Anda.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Beberapa pertarungan bos di Evomon mungkin memerlukan kemampuan Evomon spesifik atau kombinasi jenis untuk secara efektif menanggulangi mekanisme unik mereka. Eksperimen dengan pengaturan tim yang berbeda jika pendekatan standar tidak berhasil.
+</Callout>
+
+### Efektivitas Skill Melawan Bos
+
+| Jenis Skill        | Penggunaan Terbaik Melawan Bos                      | Kapan Digunakan                                  |
+| :----------------- | :------------------------------------------------------ | :----------------------------------------------- |
+| **Serangan Satu Target** | Kerusakan besar untuk dengan cepat mengurangi HP bos. | Saat bos rentan atau terkena debuff.             |
+| **Serangan AoE**   | Membersihkan minion yang dipanggil atau menyerang beberapa target. | Saat bos memanggil beberapa tambahan.             |
+| **Buff Defensif**  | Meningkatkan daya tahan tim terhadap serangan berat.   | Sebelum ultimate bos atau kemampuan AoE yang kuat. |
+| **Penyembuhan**    | Mengembalikan HP ke Evomon yang rusak.               | Setelah menerima kerusakan signifikan, sebelum serangan berikutnya. |
+| **Debuff (ATK/DEF)** | Melemahkan kemampuan ofensif atau defensif bos.        | Di awal pertarungan atau sebelum fase kerusakan. |
+| **Pembersihan Status** | Menghilangkan efek status berbahaya dari tim Anda.      | Segera setelah Evomon kunci terkena efek.        |
+
+</Section>
+
+<Section icon={Gem} title="Strategi Bos Dungeon dan Permainan Co-op">
+Bos dungeon seringkali menghadirkan tantangan yang berbeda karena sifat co-op dari pertemuan ini. Koordinasi dengan rekan satu tim dan pemahaman peran individu sangat penting untuk kesuksesan.
+
+<Checklist
+  id="dungeon-readiness"
+  title="Daftar Periksa Persiapan Bos Dungeon:"
+  items={[
+    "Pastikan Evomon utama Anda mencapai level maksimal untuk tahap evolusi saat ini.",
+    "Miliki setidaknya satu Evomon yang dapat menyediakan cakupan elemen.",
+    "Komunikasikan peran dengan rekan satu tim Anda (misalnya, siapa yang menjadi tank, siapa yang memberikan kerusakan).",
+    "Bawa Evomon pendukung dengan kemampuan penyembuhan atau pembersihan.",
+    "Pahami tata letak dungeon dan kemampuan bos."
+  ]}
+/>
+
+Di dungeon co-op, kekuatan kolektif dan strategi kelompok diuji. Hindari membawa Evomon koleksi yang kurang level, karena ini bisa menjadi beban. Sebaliknya, fokuslah pada Evomon yang dapat diandalkan dan siap tempur yang berkontribusi secara berarti pada tim.
+
+<Callout type="success">
+Perjalanan dungeon yang sukses seringkali bergantung pada komunikasi yang jelas. Gunakan obrolan dalam game atau komunikasi suara untuk mengoordinasikan penggunaan skill, fokus target, dan sinyal mundur dengan sesama pelatih Evomon Anda.
+</Callout>
+
+### Peran Dungeon Co-op
+
+| Peran          | Tanggung Jawab                                           | Atribut Evomon Kunci                       |
+| :------------ | :------------------------------------------------------- | :----------------------------------------------- |
+| **Tank**      | Menarik aggro bos, menyerap kerusakan.                   | HP Tinggi, Pertahanan, kemampuan Taunt.          |
+| **Damage Dealer** | Berfokus pada memaksimalkan kerusakan bos.              | Serangan/Serangan Spesial Tinggi, keuntungan elemen. |
+| **Healer**    | Menjaga HP tim tetap penuh, menghilangkan debuff.        | Skill penyembuhan, pembersihan status, daya tahan yang baik. |
+| **Utility/Support** | Memberikan buff, debuff, crowd control.                  | Manipulasi stat, skill perisai, generasi energi. |
+
+</Section>
+
+<Section icon={ScrollText} title="Progresi dan Peningkatan Berkelanjutan">
+Setiap pertarungan bos, menang atau kalah, menawarkan pelajaran berharga. Gunakan pertemuan ini sebagai kesempatan untuk menyempurnakan tim, skill, dan strategi Anda secara keseluruhan. Tujuannya adalah untuk terus meningkatkan daftar Evomon Anda dan kecakapan taktis Anda.
+
+<CardGrid cols={2}>
+  <Card title="Analisis Kekalahan">
+    - **Identifikasi kelemahan** dalam komposisi tim.
+    - Tinjau **waktu penggunaan skill** dan prioritas target.
+    - Periksa **celah elemen** dalam barisan Anda.
+  </Card>
+  <Card title="Sempurnakan Tim Anda">
+    - **Naikkan level** Evomon yang berkinerja buruk.
+    - **Evolusikan** Evomon untuk peningkatan stat dan skill baru.
+    - **Dapatkan Evomon baru** untuk mengisi celah cakupan.
+  </Card>
+</CardGrid>
+
+Tangga progresi di Evomon bersifat siklis: Anda mengumpulkan, melatih, bertarung, menghadapi konten yang lebih sulit, dan kemudian mengulangi prosesnya dengan tim yang lebih kuat. Jangan takut untuk mengunjungi kembali area atau tantangan sebelumnya untuk mengumpulkan sumber daya atau menguji strategi baru.
+
+<Callout type="tip">
+Setelah mengalahkan bos yang sulit, pertimbangkan untuk mengulanginya beberapa kali untuk memperkuat strategi Anda dan mengumpulkan potensi drop. Ini membantu membangun konsistensi dan cadangan sumber daya untuk tantangan di masa depan.
+</Callout>
+
+### Jalur Progresi Evomon
+
+| Tahap          | Fokus                                          | Aktivitas Kunci                                  |
+| :------------- | :--------------------------------------------- | :----------------------------------------------- |
+| **Awal Permainan** | Eksplorasi, penangkapan dasar, penyelesaian tutorial. | Tangkap beragam Evomon, tingkatkan starter.      |
+| **Pertengahan Permainan** | Pembangunan tim, bos peta pertama, dungeon awal. | Optimalkan tim, cakupan elemen, waktu skill.     |
+| **Akhir Permainan** | Dungeon tingkat lanjut, PvP, perburuan tunggangan legendaris. | Maksimalkan potensi Evomon, tim khusus.          |
+
+</Section>
+
+<Section icon={Sparkles} title="Panduan Bos Evomon: Pertanyaan yang Sering Diajukan">
+<FAQ items={[
+  {
+    question: "Apa faktor terpenting untuk mengalahkan bos Evomon?",
+    answer: "Faktor terpenting adalah tim yang seimbang dengan cakupan elemen yang kuat terhadap jenis bos, dikombinasikan dengan waktu penggunaan skill yang efektif. Hanya memiliki Evomon tingkat tinggi tidak cukup; permainan strategis sangat penting."
+  },
+  {
+    question: "Bagaimana saya tahu Evomon mana yang harus digunakan melawan bos tertentu?",
+    answer: "Sebelum menyerang, coba identifikasi jenis elemen bos. Kemudian, susun tim yang menyertakan Evomon dengan skill dari elemen yang berlawanan. Misalnya, gunakan Evomon tipe Air melawan bos Api."
+  },
+  {
+    question: "Haruskah saya fokus pada penyembuhan atau kerusakan selama pertarungan bos?",
+    answer: "Tergantung pada bosnya. Untuk bos dengan kerusakan besar yang tinggi, prioritaskan buff defensif dan penyembuhan yang tepat waktu. Untuk bos dengan kerusakan lebih rendah tetapi HP tinggi, fokuslah lebih pada keluaran kerusakan berkelanjutan sambil menjaga kesehatan sedang."
+  },
+  {
+    question: "Apa yang harus saya lakukan jika tim saya terus kalah dari bos Evomon?",
+    answer: "Analisis kekalahan Anda. Periksa apakah Evomon Anda sudah cukup level, apakah cakupan elemen Anda memadai, dan apakah waktu penggunaan skill Anda optimal. Pertimbangkan untuk mengevolusikan Evomon inti Anda atau mendapatkan yang baru untuk mengisi celah di tim Anda."
+  },
+  {
+    question: "Apakah dungeon co-op lebih sulit daripada bos peta?",
+    answer: "Dungeon co-op memperkenalkan lapisan kompleksitas tambahan melalui koordinasi multipemain. Meskipun mekanisme bos individu mungkin serupa, kebutuhan untuk bersinergi dengan rekan satu tim dan mencakup berbagai peran dapat membuatnya lebih menantang daripada bos peta solo."
+  }
+]} />
+</Section>

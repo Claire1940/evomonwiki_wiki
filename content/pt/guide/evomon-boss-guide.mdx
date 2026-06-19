@@ -1,0 +1,221 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gem, ScrollText } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Chefes de Evomon: Estratégias para Masmorras e Chefes de Mapa",
+  description: "Conquiste os chefes mais difíceis e desafios de masmorras de Evomon com este guia completo de montagem de equipe, uso de habilidades e estratégias de batalha. Aprenda a otimizar sua formação de Evomon para o máximo impacto em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Evomon+Boss+Guide",
+  date: "2026-06-19",
+  author: "Equipe da Wiki de Evomon"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de Chefes de Evomon**: Entenda as mecânicas dos chefes e prepare sua equipe para o sucesso.
+- **Composição de Equipe**: Foque na cobertura elemental e em um atacante principal forte.
+- **Timing de Habilidades**: Domine o uso de habilidades para controlar o ritmo da batalha e maximizar o dano.
+- **Preparação para Masmorras**: Certifique-se de que seus Evomons estejam em níveis adequados e tenham funções apropriadas para desafios cooperativos.
+- **Escala de Progressão**: Use as lutas contra chefes para medir a prontidão da equipe para conteúdos mais difíceis.
+</Callout>
+
+<Section icon={Swords} title="Entendendo as Mecânicas dos Chefes de Evomon">
+Derrotar chefes em Evomon, seja em masmorras ou no mapa, exige mais do que apenas Evomons de nível alto. Requer uma composição de equipe estratégica, tempo preciso para as habilidades e uma compreensão clara das mecânicas únicas de cada chefe. Esta seção estabelece as bases para preparar sua equipe para enfrentar esses desafios formidáveis.
+
+**Destaques do Vídeo:**
+- Foco na construção de uma equipe equilibrada para masmorras.
+- Priorize Evomons com funções de batalha confiáveis.
+- Entenda a importância das vantagens elementais em lutas contra chefes.
+
+<YouTubeEmbed videoId="xUbI9VxbDk8" title="Guia de Masmorras, Lutas contra Chefes, PvP e Montarias de Evomon" />
+
+As lutas contra chefes atuam como pontos de verificação cruciais em sua progressão. Elas expõem fraquezas na cobertura da sua equipe, destacam Evomons com nível baixo e testam sua estratégia geral de batalha. Abordá-las com um plano metódico aumentará significativamente sua taxa de sucesso.
+
+<Callout type="tip">
+Sempre analise o tipo elemental do chefe e seus padrões de ataque primários antes de iniciar o combate. Isso permite que você ajuste sua equipe para obter a vantagem elemental ideal e posicionamento defensivo.
+</Callout>
+
+### Características Comuns dos Chefes
+
+| Atributo           | Descrição                                                  | Implicação Estratégica                                           |
+| :----------------- | :--------------------------------------------------------- | :--------------------------------------------------------------- |
+| **HP Alto**        | Os chefes têm reservas de vida significativamente maiores. | Foque em dano sustentado e rotação eficiente de habilidades.    |
+| **Ataques Fortes** | Causa dano pesado a alvos únicos ou múltiplos Evomons.    | Requer Evomons defensivos robustos ou suporte de cura.           |
+| **Afinidade Elemental** | Frequentemente possui um tipo elemental dominante.        | Explore as fraquezas com elementos de contra-ataque.             |
+| **Habilidades Especiais** | Bônus, penalidades ou ataques de área de efeito únicos. | Requer habilidades de contra-ataque específicas ou purificação de status. |
+| **Invocação de Lacaios** | Invoca Evomons adicionais durante a luta.                | Priorize a eliminação dos lacaios para reduzir o dano recebido.  |
+
+</Section>
+
+<Section icon={Shield} title="Montando sua Equipe Pronta para Chefes">
+Uma equipe bem construída é a base de qualquer encontro bem-sucedido com um chefe. Sua formação deve apresentar um equilíbrio entre causadores de dano, unidades defensivas e Evomons de suporte, todos em sinergia para cobrir vários cenários de batalha.
+
+<CardGrid cols={3}>
+  <Card title="Atacante Principal">
+    - **Causador de Dano Principal**
+    - Nível atual elevado
+    - Pressão de habilidade útil
+    - Foque as Frutas de EXP aqui primeiro
+  </Card>
+  <Card title="Cobertura Elemental">
+    - **Contra-ataca Fraquezas**
+    - Cobre desvantagens do atacante
+    - Adiciona diferentes ângulos de batalha
+    - Essencial para diversos tipos de chefes
+  </Card>
+  <Card title="Âncora de Masmorra">
+    - **Confiável para lutas longas**
+    - Sobrevive a batalhas repetidas
+    - Mantém valor após a evolução
+    - Importante para masmorras cooperativas
+  </Card>
+</CardGrid>
+
+Ao montar sua equipe, considere as funções que cada Evomon desempenha. Ter apenas Evomons individualmente fortes não é suficiente; sua utilidade combinada e cobertura elemental determinarão seu sucesso.
+
+<Callout type="warning" title="Evite Acumular Elementos">
+Não acumule vários Evomons do mesmo tipo elemental, a menos que você tenha uma estratégia específica de alto nível. Os chefes explorarão equipes de elemento único, levando a derrotas rápidas.
+</Callout>
+
+### Composição de Equipe Recomendada
+
+| Função               | Função Principal                             | Atributos Chave                                  | Exemplo de Evomon (Hipotético) |
+| :------------------- | :------------------------------------------- | :----------------------------------------------- | :----------------------------- |
+| **Atacante Principal** | Dano explosivo ou sustentado alto.           | Ataque/Ataque Especial alto, habilidades ofensivas fortes. | Ignisaur (Fogo)                |
+| **Tanque/Defensor**  | Absorve dano, protege aliados.               | HP/Defesa/Defesa Especial alta, habilidades defensivas. | Terrastone (Terra)             |
+| **Suporte/Utilitário** | Cura, bônus, penalidades, efeitos de status. | Habilidades de cura, manipulação de atributos, controle de grupo. | Aqualux (Água)                 |
+| **Contra-elemento**  | Explora a fraqueza elemental do chefe.       | Habilidades fortes do elemento oposto.           | Zephyrwing (Vento)             |
+
+</Section>
+
+<Section icon={Target} title="Uso Estratégico de Habilidades em Lutas contra Chefes">
+As habilidades são suas ferramentas mais potentes nas batalhas de Evomon. Saber quando e como usá-las pode mudar o rumo de um encontro difícil com um chefe. O tempo eficaz das habilidades envolve entender os tempos de recarga, antecipar os movimentos do chefe e priorizar alvos.
+
+<Steps>
+  <Step num="1" title="Analisar Padrões do Chefe">
+    Observe as animações de ataque do chefe e os indicadores de habilidade. Muitos chefes têm sequências previsíveis ou sinalizam movimentos poderosos. Aprender esses padrões permite que você prepare suas respostas defensivas ou ofensivas.
+  </Step>
+  <Step num="2" title="Priorizar o Foco no Alvo">
+    Se o chefe invocar lacaios, decida se deve eliminá-los primeiro ou focar todo o dano no chefe. Geralmente, limpe lacaios perigosos que aplicam penalidades ou causam dano alto antes de retornar ao chefe principal.
+  </Step>
+  <Step num="3" title="Sincronizar seus Buffs/Debuffs">
+    Aplique bônus ofensivos ao seu atacante principal e bônus defensivos ao seu tanque pouco antes de o chefe desferir um ataque poderoso. Da mesma forma, use penalidades no chefe para reduzir seu dano ou defesa em momentos críticos.
+  </Step>
+  <Step num="4" title="Executar Habilidades de Alto Dano">
+    Libere suas habilidades ofensivas mais poderosas quando o chefe estiver sob efeito de penalidades, seu escudo estiver abaixado ou seu Evomon tiver vantagem elemental. Evite desperdiçar habilidades de longo tempo de recarga em turnos de baixo impacto.
+  </Step>
+  <Step num="5" title="Gerenciar Cura e Purificação de Status">
+    Use habilidades de cura proativamente para manter sua equipe saudável, especialmente após ataques pesados do chefe. Tenha Evomons prontos para purificar efeitos de status debilitantes como Veneno, Queimadura ou Sono, pois estes podem paralisar sua equipe.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Algumas batalhas contra chefes em Evomon podem exigir habilidades específicas de Evomon ou combinações de tipos para combater efetivamente suas mecânicas únicas. Experimente diferentes configurações de equipe se uma abordagem padrão não estiver funcionando.
+</Callout>
+
+### Eficácia das Habilidades contra Chefes
+
+| Tipo de Habilidade     | Melhor Uso contra Chefes                                | Quando Usar                                      |
+| :--------------------- | :------------------------------------------------------ | :----------------------------------------------- |
+| **Explosão Alvo Único** | Dano explosivo alto para reduzir rapidamente o HP do chefe. | Quando o chefe está vulnerável ou sob penalidades. |
+| **Ataque em Área (AoE)** | Limpeza de lacaios invocados ou atingir múltiplos alvos. | Quando o chefe invoca vários ajudantes.          |
+| **Bônus Defensivos**   | Aumentar a sobrevivência da equipe contra ataques pesados. | Antes da habilidade suprema ou AoE forte do chefe. |
+| **Cura**               | Restaurar HP de Evomons danificados.                   | Após sofrer dano significativo, antes do próximo ataque. |
+| **Penalidades (ATK/DEF)** | Enfraquecer as capacidades ofensivas ou defensivas do chefe. | No início da luta ou antes de uma fase de dano. |
+| **Purificação Status** | Remover efeitos de status prejudiciais da sua equipe.   | Imediatamente após um Evomon chave ser afetado.  |
+
+</Section>
+
+<Section icon={Gem} title="Estratégias de Chefes de Masmorra e Jogo Cooperativo">
+Os chefes de masmorra frequentemente apresentam um desafio diferente devido à natureza cooperativa desses encontros. A coordenação com os companheiros de equipe e a compreensão das funções individuais são primordiais para o sucesso.
+
+<Checklist
+  id="dungeon-readiness"
+  title="Lista de Verificação de Preparação para Chefes de Masmorra:"
+  items={[
+    "Certifique-se de que seu Evomon principal esteja no nível máximo para seu estágio de evolução atual.",
+    "Tenha pelo menos um Evomon que possa fornecer cobertura elemental.",
+    "Comunique as funções com seus companheiros de equipe (ex: quem tanca, quem causa dano).",
+    "Traga um Evomon de suporte com habilidades de cura ou purificação.",
+    "Familiarize-se com o layout da masmorra e as habilidades do chefe."
+  ]}
+/>
+
+Em masmorras cooperativas, a força coletiva e a estratégia do grupo são testadas. Evite trazer escolhas de coleção com nível baixo, pois estas podem se tornar um fardo. Em vez disso, foque em Evomons confiáveis e prontos para a batalha que contribuam significativamente para a equipe.
+
+<Callout type="success">
+As incursões bem-sucedidas em masmorras geralmente dependem de uma comunicação clara. Use o chat do jogo ou comunicação por voz para coordenar o uso de habilidades, foco no alvo e sinais de retirada com seus colegas treinadores de Evomon.
+</Callout>
+
+### Funções em Masmorras Cooperativas
+
+| Função          | Responsabilidade                                         | Atributos Chave de Evomon                         |
+| :-------------- | :------------------------------------------------------- | :----------------------------------------------- |
+| **Tanque**      | Atrai a agressividade do chefe, absorve dano.            | HP Alto, Defesa, habilidades de Provocação.      |
+| **Atacante**    | Foca em maximizar o dano no chefe.                       | Ataque/Ataque Especial alto, vantagem elemental. |
+| **Curandeiro**  | Mantém o HP da equipe cheio, remove penalidades.         | Habilidades de cura, purificação de status, boa sobrevivência. |
+| **Suporte**     | Fornece bônus, penalidades, controle de grupo.           | Manipulação de atributos, escudos, geração de energia. |
+
+</Section>
+
+<Section icon={ScrollText} title="Progressão e Melhoria Contínua">
+Cada luta contra um chefe, ganha ou perdida, oferece lições valiosas. Use esses encontros como oportunidades para refinar sua equipe, habilidades e estratégia geral. O objetivo é melhorar continuamente seu elenco de Evomons e sua proeza tática.
+
+<CardGrid cols={2}>
+  <Card title="Analisar Derrotas">
+    - **Identifique fraquezas** na composição da equipe.
+    - Revise o **timing das habilidades** e prioridade de alvos.
+    - Verifique **lacunas elementais** em sua formação.
+  </Card>
+  <Card title="Refinar sua Equipe">
+    - **Suba o nível** de Evomons com baixo desempenho.
+    - **Evolua** Evomons para bônus de atributos e novas habilidades.
+    - **Adquira novos Evomons** para preencher lacunas de cobertura.
+  </Card>
+</CardGrid>
+
+A escala de progressão em Evomon é cíclica: você coleta, treina, batalha, enfrenta conteúdo mais difícil e então repete o processo com uma equipe mais forte. Não tenha medo de revisitar áreas ou desafios anteriores para farmar recursos ou testar novas estratégias.
+
+<Callout type="tip">
+Após derrotar um chefe difícil, considere enfrentá-lo novamente algumas vezes para consolidar sua estratégia e farmar possíveis espólios. Isso ajuda a construir consistência e reservas de recursos para desafios futuros.
+</Callout>
+
+### Caminho de Progressão de Evomon
+
+| Estágio          | Foco                                           | Atividades Chave                                 |
+| :--------------- | :--------------------------------------------- | :----------------------------------------------- |
+| **Início de Jogo** | Exploração, captura básica, conclusão do tutorial. | Capturar Evomons diversos, upar o inicial.       |
+| **Meio de Jogo**   | Montagem de equipe, primeiros chefes de mapa, masmorras iniciais. | Otimizar equipe, cobertura elemental, timing de habilidades. |
+| **Fim de Jogo**    | Masmorras avançadas, PvP, caça a montarias lendárias. | Maximizar potencial do Evomon, equipes especializadas. |
+
+</Section>
+
+<Section icon={Sparkles} title="Guia de Chefes de Evomon: Perguntas Frequentes">
+<FAQ items={[
+  {
+    question: "Qual é o fator mais importante para derrotar um chefe em Evomon?",
+    answer: "O fator mais importante é uma equipe equilibrada com forte cobertura elemental contra o tipo do chefe, combinada com o uso eficaz das habilidades no tempo certo. Ter apenas Evomons de nível alto não é suficiente; o jogo estratégico é crucial."
+  },
+  {
+    question: "Como eu sei quais Evomons usar contra um chefe específico?",
+    answer: "Antes de lutar, tente identificar o tipo elemental do chefe. Em seguida, monte uma equipe que inclua Evomons com habilidades do elemento oposto. Por exemplo, use Evomons do tipo Água contra um chefe de Fogo."
+  },
+  {
+    question: "Devo focar em cura ou dano durante uma luta contra um chefe?",
+    answer: "Depende do chefe. Para chefes com alto dano explosivo, priorize bônus defensivos e cura oportuna. Para chefes com dano menor, mas HP alto, foque mais na saída de dano sustentado enquanto mantém a saúde moderada."
+  },
+  {
+    question: "O que devo fazer se minha equipe continuar perdendo para um chefe?",
+    answer: "Analise suas derrotas. Verifique se seus Evomons estão em níveis suficientes, se sua cobertura elemental é adequada e se o tempo de suas habilidades é o ideal. Considere evoluir seus Evomons principais ou adquirir novos para preencher lacunas na equipe."
+  },
+  {
+    question: "As masmorras cooperativas são mais difíceis do que os chefes de mapa?",
+    answer: "As masmorras cooperativas introduzem uma camada adicional de complexidade através da coordenação multijogador. Embora as mecânicas individuais dos chefes possam ser semelhantes, a necessidade de sinergia com os companheiros e cobertura de diversas funções pode torná-las mais desafiadoras do que os chefes de mapa solo."
+  }
+]} />
+</Section>

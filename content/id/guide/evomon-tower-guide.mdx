@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Panduan Menara Evomon: Menaklukkan Dungeon & Bos di Tahun 2026",
+  description: "Kuasai menara dan dungeon Evomon dengan panduan komprehensif ini, mencakup pembangunan tim, strategi bos, dan tips progres untuk tahun 2026.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/9333ea/fff?text=Evomon+Tower+Guide",
+  date: "2026-06-19",
+  author: "Tim Wiki Evomon"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Panduan Menara Evomon**: Fokus pada **komposisi tim** dan **cakupan elemental**.
+- **Strategi Bos**: Manfaatkan **kelemahan** dan kelola **cooldown skill**.
+- **Progresi**: Prioritaskan **meningkatkan level Evomon inti** untuk lari dungeon.
+- **Dungeon Co-op**: Koordinasikan peran dengan rekan satu tim untuk **keberhasilan optimal**.
+- **Hadiah**: Menara menawarkan **Buah EXP** dan **item langka** yang berharga.
+</Callout>
+
+<Section icon={Swords} title="Memahami Menara & Dungeon Evomon">
+Menara dan dungeon Evomon adalah konten PvE multiplayer yang menantang, dirancang untuk menguji kekuatan tim dan kecakapan strategis Anda. Instans ini menawarkan hadiah besar, termasuk Buah EXP, Koin, dan item langka, menjadikannya krusial untuk progres akhir permainan. Untuk berhasil, pemain harus memahami mekanik, membangun tim yang seimbang, dan mengadaptasi strategi mereka untuk berbagai pertemuan bos.
+
+<Callout type="tip" title="Daftar Periksa Persiapan Dungeon">
+Sebelum memasuki menara atau dungeon apa pun, pastikan tim Anda sudah siap. Ini termasuk memeriksa level Evomon, melengkapi item terbaik yang tersedia, dan memahami jenis elemental musuh yang akan Anda hadapi.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Manfaat Dungeon">
+    - **Perolehan EXP Tinggi**: Sangat baik untuk menaikkan level beberapa Evomon.
+    - **Drop Item Langka**: Kesempatan untuk mendapatkan perlengkapan dan sumber daya yang kuat.
+    - **Kegembiraan Co-op**: Bergabunglah dengan teman untuk pengalaman yang lebih menarik.
+  </Card>
+  <Card title="Tantangan Menara">
+    - **Pertarungan Bos Strategis**: Membutuhkan penangkal dan taktik khusus.
+    - **Keragaman Elemental**: Pertemuan dengan berbagai jenis Evomon.
+    - **Koordinasi Tim**: Penting untuk mengatasi tahapan yang sulit.
+  </Card>
+  <Card title="Dampak Progresi">
+    - **Membuka Konten Baru**: Selesaikan dungeon untuk mengakses area lebih lanjut.
+    - **Memperkuat Daftar Evomon**: Meningkatkan koleksi Evomon Anda secara keseluruhan.
+    - **Farming Sumber Daya**: Cara efisien untuk mengumpulkan material berharga.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Membangun Tim Penakluk Menara Anda">
+Tim yang seimbang adalah landasan keberhasilan di menara Evomon. Tidak cukup hanya memiliki Evomon tingkat tinggi; Anda memerlukan kombinasi strategis peran, jenis elemental, dan skill untuk menangani berbagai ancaman. Pertimbangkan Evomon inti sebagai pembawa utama, didukung oleh spesialis untuk cakupan elemental, penyembuhan, dan kontrol kerumunan.
+
+<Callout type="warning" title="Hindari Kesalahan Umum dalam Membangun Tim">
+Jangan menumpuk beberapa Evomon dengan jenis elemental yang sama kecuali itu adalah strategi khusus untuk kelemahan yang diketahui. Tim yang seimbang dengan cakupan elemental yang bervariasi hampir selalu lebih efektif melawan berbagai ancaman yang ditemukan di menara.
+</Callout>
+
+Berikut adalah rincian peran tim penting dan signifikansinya:
+
+| Peran              | Deskripsi                                          | Ciri Evomon Kunci                                    | Prioritas dalam Tim |
+| :----------------- | :------------------------------------------------- | :--------------------------------------------------- | :---------------- |
+| **Pemain Utama**   | Pemberi kerusakan utama, sering berevolusi dengan statistik tinggi. | Serangan/Serangan Khusus Tinggi, skill ofensif kuat. | Tinggi            |
+| **Cakupan Elemental** | Melawan jenis musuh tertentu, mengisi kelemahan.     | Jenis elemental beragam, statistik pertahanan yang baik. | Tinggi            |
+| **Dukungan/Penyembuh** | Mengembalikan HP, memberikan buff kepada sekutu, memberikan debuff kepada musuh. | Gerakan penyembuhan, efek status, daya tahan yang layak. | Sedang            |
+| **Tank/Pelindung** | Menyerap kerusakan, melindungi rekan tim yang lebih lemah. | HP/Pertahanan/Pertahanan Khusus Tinggi, skill taunt. | Sedang            |
+| **Kontrol Kerumunan** | Menimbulkan efek status seperti Tidur, Stun, Paralisis. | Skill dengan peluang tinggi untuk menerapkan efek status. | Rendah (situasional) |
+
+<Callout type="tip" title="Manfaatkan Kekuatan Anda">
+Fokuslah untuk memaksimalkan potensi Evomon terkuat Anda. Gunakan Buah EXP pada Evomon inti dan penangkal elemental kunci Anda untuk memastikan mereka dapat bertahan dan memberikan kerusakan yang signifikan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pendekatan Strategis untuk Pertarungan Bos Dungeon">
+Pertarungan bos di menara Evomon membutuhkan lebih dari sekadar kekuatan mentah. Setiap bos memiliki pola serangan unik, jenis elemental, dan seringkali kelemahan spesifik yang dapat dieksploitasi. Memahami elemen-elemen ini adalah kunci kemenangan.
+
+<Callout type="info" title="Dasar-dasar Pertarungan Bos">
+Selalu prioritaskan untuk bertahan dari serangan terkuat bos. Gunakan buff defensif, debuff pada bos, dan sembuhkan saat diperlukan. Jangan takut untuk mundur dan menyusun strategi ulang jika tim Anda saat ini tidak berhasil.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Identifikasi Jenis dan Kelemahan Bos">
+    Sebelum menyerang, coba tentukan jenis elemental bos. Ini memungkinkan Anda untuk memilih Evomon dengan keunggulan jenis, secara signifikan meningkatkan output kerusakan dan daya tahan Anda.
+  </Step>
+  <Step num="2" title="Rencanakan Rotasi Skill Anda">
+    Banyak skill kuat memiliki cooldown. Rencanakan skill mana yang akan digunakan dan kapan, terutama untuk momen kritis seperti menghancurkan perisai atau memberikan kerusakan burst. Hindari membuang serangan kuat saat bos tidak bisa diserang atau sangat terlindungi.
+  </Step>
+  <Step num="3" title="Kelola Kesehatan dan Efek Status">
+    Perhatikan bar kesehatan Evomon Anda. Gunakan skill penyembuhan atau item secara proaktif. Bersiaplah untuk menyembuhkan efek status seperti Racun atau Luka Bakar, karena mereka dapat dengan cepat menguras HP tim Anda.
+  </Step>
+  <Step num="4" title="Koordinasi dalam Co-op">
+    Jika bermain dengan teman, komunikasikan peran. Satu pemain mungkin fokus pada penyembuhan, yang lain pada debuff bos, dan sisanya pada memberikan kerusakan. Serangan terkoordinasi dapat dengan cepat mengalahkan bos terkuat sekalipun.
+  </Step>
+  <Step num="5" title="Beradaptasi dan Mengatasi">
+    Jika strategi awal Anda gagal, analisis apa yang salah. Apakah Anda kekurangan cakupan elemental? Apakah penyembuhan Anda tidak memadai? Sesuaikan komposisi tim atau strategi Anda untuk percobaan berikutnya.
+  </Step>
+</Steps>
+
+| Jenis Bos     | Kelemahan Umum    | Jenis Evomon yang Direkomendasikan | Strategi Kunci                                         |
+| :------------ | :---------------- | :------------------------------- | :----------------------------------------------------- |
+| **Bos Api**   | Air, Tanah        | Air, Tanah, Batu                 | Bawa jenis Air yang kuat, hindari Rumput. Fokus pada mengurangi serangannya. |
+| **Bos Air**   | Rumput, Listrik   | Rumput, Listrik                  | Jenis Listrik dapat menyetrum, jenis Rumput memberikan kerusakan besar. Waspadai efek status. |
+| **Bos Rumput** | Api, Terbang, Es  | Api, Terbang, Es                 | Jenis Api sangat penting. Gunakan jenis Terbang untuk menghindari serangan darat. |
+| **Bos Listrik** | Tanah             | Tanah                            | Jenis Tanah menawarkan kekebalan. Hindari jenis Air dan Terbang. |
+| **Bos Gelap** | Petarung, Peri    | Petarung, Peri                   | Jenis Petarung memberikan kerusakan super efektif. Jenis Peri menahan serangan Gelap. |
+
+</Section>
+
+<Section icon={Sparkles} title="Memaksimalkan Progresi dan Hadiah di Menara">
+Berhasil menyelesaikan menara dan dungeon Evomon tidak hanya tentang mengalahkan bos; ini juga tentang mengoptimalkan lari Anda untuk hadiah maksimum dan progres yang efisien.
+
+<Callout type="success" title="Tips Farming yang Efisien">
+Ulangi dungeon yang menjatuhkan item yang Anda butuhkan atau memberikan EXP tinggi untuk level Evomon Anda saat ini. Jangan takut untuk farming di dungeon yang lebih mudah jika tim Anda perlu mengejar level atau mendapatkan sumber daya spesifik.
+</Callout>
+
+<Checklist
+  id="tower-rewards"
+  title="Hadiah Kunci dari Menara Evomon:"
+  items={[
+    "Buah EXP (berbagai ukuran)",
+    "Koin untuk pembelian di toko",
+    "Telur Evomon Langka",
+    "Material evolusi",
+    "Item kosmetik eksklusif"
+  ]}
+/>
+
+Berikut adalah cara untuk mendapatkan hasil maksimal dari lari dungeon Anda:
+
+| Aspek          | Strategi                                             | Manfaat                                            |
+| :------------- | :--------------------------------------------------- | :------------------------------------------------- |
+| **Lari Harian** | Selesaikan tantangan dungeon harian untuk hadiah bonus. | Sumber EXP, Koin, dan item langka yang konsisten.   |
+| **Sinergi Tim** | Bermain dengan teman yang memiliki jenis Evomon yang saling melengkapi. | Penyelesaian lebih cepat, konsumsi sumber daya berkurang, tingkat keberhasilan lebih tinggi. |
+| **Penggunaan Item** | Gunakan Buah EXP pada Evomon baru setelah lari dungeon.   | Dengan cepat menaikkan level tangkapan baru, memperluas kemampuan daftar Evomon Anda. |
+| **Perburuan Kelangkaan** | Targetkan dungeon yang diketahui menjatuhkan telur Evomon langka tertentu. | Membantu melengkapi koleksi Evomon Anda dan menemukan varian yang kuat. |
+| **Farming Bos** | Ulangi tahapan bos yang menjatuhkan material evolusi yang diinginkan. | Mempercepat proses evolusi untuk Evomon kunci. |
+
+</Section>
+
+<Section icon={Trophy} title="Pertanyaan yang Sering Diajukan tentang Menara Evomon">
+
+<FAQ items={[
+  {
+    question: "Apa cara terbaik untuk mempersiapkan menara Evomon baru?",
+    answer: "Persiapan terbaik melibatkan pengintaian jenis elemental menara, menaikkan level Evomon penangkal Anda, dan memastikan tim Anda memiliki campuran kerusakan, dukungan, dan pertahanan yang seimbang. Selalu bawa item penyembuh!"
+  },
+  {
+    question: "Bisakah saya solo menara Evomon, ataukah mereka benar-benar co-op?",
+    answer: "Meskipun beberapa menara awal mungkin bisa di-solo dengan tim yang sangat kuat, sebagian besar menara dan dungeon Evomon dirancang untuk permainan co-op. Bergabung dengan teman secara signifikan meningkatkan peluang keberhasilan Anda dan membuat pengalaman lebih menyenangkan."
+  },
+  {
+    question: "Apa yang harus saya lakukan jika tim saya terus gagal melawan bos menara?",
+    answer: "Jika Anda berulang kali gagal, mundur sejenak. Tinjau jenis elemental dan pola serangan bos. Pertimbangkan untuk mengubah komposisi tim Anda agar lebih baik melawan kekuatannya, fokus pada menaikkan level Evomon Anda, atau coba bergabung dengan grup co-op yang berbeda."
+  },
+  {
+    question: "Apakah ada Evomon spesifik yang 'wajib dimiliki' untuk mendaki menara?",
+    answer: "Meskipun 'wajib dimiliki' yang spesifik dapat bergantung pada meta saat ini dan tantangan menara, Evomon dengan cakupan elemental yang kuat, kemampuan penyembuhan yang andal, atau skill kontrol kerumunan yang kuat umumnya sangat dihargai karena kegunaannya di menara Evomon."
+  }
+]} />
+
+</Section>

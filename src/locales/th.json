@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "รหัส",
+    "roblox": "Roblox",
+    "guide": "คู่มือ",
+    "discord": "Discord",
+    "tier": "จัดอันดับ",
+    "catching": "การจับ",
+    "review": "รีวิว",
+    "world": "โลก"
+  }
+}

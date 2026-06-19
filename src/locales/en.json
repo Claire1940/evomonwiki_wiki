@@ -10,7 +10,16 @@
       "twitterDescription": "Find Evomon codes, Evomon tier lists, type chart, dex entries, Shiny tips, starter picks, map routes, dungeons, items, and Roblox beginner guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "roblox": "Roblox",
+    "guide": "Guide",
+    "discord": "Discord",
+    "tier": "Tier",
+    "catching": "Catching",
+    "review": "Review",
+    "world": "World"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -617,66 +626,6 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Evomon Guides",
-      "description": "Complete Evomon guides from beginner basics to advanced catching, training, and team-building strategies.",
-      "metaTitle": "Evomon Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Evomon guides covering beginner tips, codes, starter picks, catching, evolution, dungeons, and expert tactics for mastering the Roblox monster-catching adventure.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Evomon gameplay mechanics, catching, training, evolution, and team-building strategies from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand catching, training, evolution, and turn-based battles",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven routes to build a strong early Evomon team",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for dungeons, bosses, and PvP"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "evomons": {
-      "title": "Evomon Dex",
-      "description": "Browse the Evomon dex with evolution chains, rarity, Shiny and Sparkle variants, and catching details.",
-      "metaTitle": "Evomon Dex - Evolution, Rarity & Shiny Variants",
-      "metaDescription": "Explore the Evomon dex with evolution chains, rarity tiers, Shiny and Sparkle variants, and catching locations for all 200+ Evomons.",
-      "categoryLabel": "EVOMON DEX",
-      "whatIs": "What is the Dex?",
-      "whatIsDescription": "A full Evomon roster reference covering evolution stages, rarity, variants, and how to catch each Evomon across the open world.",
-      "why": "Why use the dex?",
-      "whySteps": {
-        "step1Title": "Plan Catches",
-        "step1Description": "Find where to catch the Evomons your team needs",
-        "step2Title": "Track Evolution",
-        "step2Description": "See evolution chains and what each form needs",
-        "step3Title": "Hunt Variants",
-        "step3Description": "Target Shiny and Sparkle forms with a clear route"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Evomons"
-    },
-    "tier-list": {
-      "title": "Evomon Tier List",
-      "description": "Rank Evomons by role, coverage, evolution value, PvE, dungeon, and PvP performance.",
-      "metaTitle": "Evomon Tier List - Best Evomons Ranked",
-      "metaDescription": "Evomon tier list ranking the best Evomons by role, matchup coverage, evolution value, and PvE, dungeon, and PvP performance.",
-      "categoryLabel": "TIER LIST",
-      "whatIs": "What is the Tier List?",
-      "whatIsDescription": "A ranked tier grid that helps you pick which Evomons to train first based on battle role, coverage, and content type.",
-      "why": "Why use the tier list?",
-      "whySteps": {
-        "step1Title": "Pick Worthwhile Picks",
-        "step1Description": "Focus resources on Evomons that carry progression",
-        "step2Title": "Build Coverage",
-        "step2Description": "Round out matchups instead of stacking one role",
-        "step3Title": "Plan Upgrades",
-        "step3Description": "Queue evolution and EXP Fruit investment by priority"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Tiers"
-    },
     "codes": {
       "title": "Evomon Codes",
       "description": "Active Evomon codes, reward types, redeem steps, and why a code may not work.",
@@ -697,45 +646,145 @@
       "featured": "Featured & Essential",
       "all": "All Codes"
     },
-    "map": {
-      "title": "Evomon Map and Regions",
-      "description": "Explore Evomon regions, routes, rare spawn locations, treasure spots, and dungeon entrances.",
-      "metaTitle": "Evomon Map - Regions, Routes & Rare Spawns",
-      "metaDescription": "Evomon map guide covering regions, exploration routes, rare spawn locations, treasures, and dungeon entrances.",
-      "categoryLabel": "MAP & REGIONS",
-      "whatIs": "What is the Map?",
-      "whatIsDescription": "A region and route reference for finding wild Evomons, rare spawns, treasures, and dungeon entrances across the open world.",
-      "why": "Why use the map?",
+    "roblox": {
+      "title": "Evomon Roblox",
+      "description": "Official Evomon Roblox game info, launch details, trailers, gameplay, and how to play from the right experience page.",
+      "metaTitle": "Evomon Roblox - Official Game, Launch & Trailer",
+      "metaDescription": "Official Evomon Roblox experience page, launch info, trailers, and gameplay overview for the open-world monster-catching adventure.",
+      "categoryLabel": "ROBLOX",
+      "whatIs": "What is Evomon on Roblox?",
+      "whatIsDescription": "Evomon is a Roblox open-world monster-catching adventure where you collect 200+ Evomons, train teams, and battle turn by turn. Find the official play page, launch info, and trailers here.",
+      "why": "Why check the Roblox page?",
       "whySteps": {
-        "step1Title": "Find Spawns",
-        "step1Description": "Locate where target Evomons appear",
-        "step2Title": "Plan Routes",
-        "step2Description": "Move through regions in a useful order",
-        "step3Title": "Reach Dungeons",
-        "step3Description": "Find dungeon and boss entrances"
+        "step1Title": "Play the Official Experience",
+        "step1Description": "Join Evomon from the official Roblox page by Evomon Devs to avoid copycat games.",
+        "step2Title": "Track Launch and Updates",
+        "step2Description": "See launch dates, trailer releases, and live server status straight from Roblox.",
+        "step3Title": "Understand the Gameplay",
+        "step3Description": "Review the core catch, train, battle, and explore loop before you join."
       },
       "featured": "Featured & Essential",
-      "all": "All Regions"
+      "all": "All Roblox Guides"
     },
-    "items": {
-      "title": "Evomon Items",
-      "description": "Evomon items guide covering EXP Fruits, Coins, Eggs, catching items, and consumables.",
-      "metaTitle": "Evomon Items - EXP Fruits, Coins, Eggs & Gear",
-      "metaDescription": "Complete Evomon item guide covering EXP Fruits, Coins, Eggs, catching items, and consumables with how to get and best use each one.",
-      "categoryLabel": "ITEMS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Guides for EXP Fruits, Coins, Eggs, catching items, and consumables, including where to get them and the best situations to use each.",
-      "why": "Why check item guides?",
+    "guide": {
+      "title": "Evomon Guide",
+      "description": "Complete Evomon guides from beginner basics to leveling, EXP methods, bosses, towers, quests, and pro progression.",
+      "metaTitle": "Evomon Guide - Beginner, Leveling, Boss & Tower Strategies",
+      "metaDescription": "Complete Evomon guides covering beginner routes, leveling, EXP methods, boss and tower fights, quests, and tips to progress faster.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Evomon Guides?",
+      "whatIsDescription": "Practical Evomon guides covering beginner routes, leveling, EXP methods, boss and tower fights, quest walkthroughs, and tips to progress faster.",
+      "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Spend Smart",
-        "step1Description": "Use EXP Fruits on Evomons you actually battle with",
-        "step2Title": "Save Resources",
-        "step2Description": "Reserve better items for rare or stronger catches",
-        "step3Title": "Hatch Eggs",
-        "step3Description": "Turn eggs into useful roster upgrades"
+        "step1Title": "Learn Core Mechanics",
+        "step1Description": "Master catching, training, evolution, and turn-based battles",
+        "step2Title": "Progress Faster",
+        "step2Description": "Follow leveling and EXP routes to build a strong early team",
+        "step3Title": "Beat Hard Content",
+        "step3Description": "Clear boss, tower, and quest content with proven strategies"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Guides"
+    },
+    "discord": {
+      "title": "Evomon Discord",
+      "description": "Join the official Evomon Discord server and Reddit community for codes, updates, events, and dungeon team-ups.",
+      "metaTitle": "Evomon Discord - Official Server & Community Hub",
+      "metaDescription": "Official Evomon Discord server and Reddit community for active codes, event news, dungeon team-ups, and real-time developer updates.",
+      "categoryLabel": "COMMUNITY",
+      "whatIs": "What is the Evomon Discord?",
+      "whatIsDescription": "The Evomon Discord is the official community hub where players find active codes, event news, team-up channels for dungeons, and direct updates from the developers.",
+      "why": "Why join the community?",
+      "whySteps": {
+        "step1Title": "Get Codes First",
+        "step1Description": "Many Evomon codes are announced on Discord before anywhere else",
+        "step2Title": "Find Dungeon Teams",
+        "step2Description": "Connect with players for co-op dungeons, raids, and PvP battles",
+        "step3Title": "Stay Updated",
+        "step3Description": "Get real-time announcements, events, and patch notes from the dev team"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Community Guides"
+    },
+    "tier": {
+      "title": "Evomon Tier List",
+      "description": "Evomon tier list ranking the best monsters and teams by role, coverage, PvE, dungeon, and PvP performance.",
+      "metaTitle": "Evomon Tier List - Best Monsters & Teams Ranked",
+      "metaDescription": "Evomon tier list ranking the best monsters and teams by battle role, matchup coverage, and PvE, dungeon, and PvP performance.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the Tier List?",
+      "whatIsDescription": "A ranked tier grid that helps you pick which Evomons to train first based on battle role, matchup coverage, and content type across PvE, dungeons, and PvP.",
+      "why": "Why use the tier list?",
+      "whySteps": {
+        "step1Title": "Pick Worthwhile Monsters",
+        "step1Description": "Focus resources on Evomons that carry progression",
+        "step2Title": "Build Coverage",
+        "step2Description": "Round out matchups instead of stacking one role",
+        "step3Title": "Build the Best Team",
+        "step3Description": "Combine top-ranked monsters into a balanced squad"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tier Lists"
+    },
+    "catching": {
+      "title": "Evomon Catching Guide",
+      "description": "Evomon catching guide covering wild encounters, eggs, hatching, evolution, and rare Shiny, Sparkle, and Prismatic variants.",
+      "metaTitle": "Evomon Catching Guide - Eggs, Evolution & Shiny Hunting",
+      "metaDescription": "Complete Evomon catching guide covering wild encounters, eggs, hatching, evolution, and hunting rare Shiny, Sparkle, and Prismatic variants.",
+      "categoryLabel": "CATCHING",
+      "whatIs": "What is the Catching Guide?",
+      "whatIsDescription": "A collection hub for catching wild Evomons, hatching eggs, triggering evolution, and hunting rare Shiny, Sparkle, and Prismatic forms across the open world.",
+      "why": "Why use catching guides?",
+      "whySteps": {
+        "step1Title": "Catch Smarter",
+        "step1Description": "Target Evomons that fill missing team roles first",
+        "step2Title": "Hatch and Evolve",
+        "step2Description": "Turn eggs and evolution into useful roster upgrades",
+        "step3Title": "Hunt Rare Variants",
+        "step3Description": "Chase Shiny, Sparkle, and Prismatic forms with a clear plan"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Catching Guides"
+    },
+    "review": {
+      "title": "Evomon Review",
+      "description": "Evomon reviews covering gameplay, trailers, platform availability, and whether the monster-catching adventure is worth playing.",
+      "metaTitle": "Evomon Review - Gameplay, Trailers & Platform Info",
+      "metaDescription": "Evomon reviews and impressions covering gameplay feel, launch trailers, and platform availability for the Roblox monster-catching adventure.",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "What is the Review Guide?",
+      "whatIsDescription": "Evomon reviews and impressions covering gameplay feel, launch trailers, platform availability, and what makes the monster-catching adventure worth playing.",
+      "why": "Why read reviews?",
+      "whySteps": {
+        "step1Title": "See Real Gameplay",
+        "step1Description": "Watch trailers and gameplay to understand the catch, train, battle loop",
+        "step2Title": "Check Platforms",
+        "step2Description": "Learn where Evomon is available and how to access it",
+        "step3Title": "Decide Before You Join",
+        "step3Description": "Get a clear picture of the experience before investing time"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Reviews"
+    },
+    "world": {
+      "title": "Evomon World",
+      "description": "Explore the Evomon world, game overview, rideable mounts, regions, and the latest updates and patch notes.",
+      "metaTitle": "Evomon World - Game Overview, Mounts & Updates",
+      "metaDescription": "Evomon world hub covering the open-world game overview, rideable legendary mounts, regions, and the latest updates and patch notes.",
+      "categoryLabel": "WORLD",
+      "whatIs": "What is the Evomon World?",
+      "whatIsDescription": "The Evomon world hub covering the open-world game overview, rideable legendary mounts, regions to explore, and the latest game updates and patch notes.",
+      "why": "Why explore the world?",
+      "whySteps": {
+        "step1Title": "Ride Legendary Mounts",
+        "step1Description": "Unlock and ride powerful Evomons across the map",
+        "step2Title": "Explore Regions",
+        "step2Description": "Discover new areas, spawns, and treasures across the world",
+        "step3Title": "Follow Updates",
+        "step3Description": "Track the latest patch notes, events, and new content"
+      },
+      "featured": "Featured & Essential",
+      "all": "All World Guides"
     }
   }
 }
