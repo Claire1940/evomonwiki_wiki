@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bagan Tipe Evomon: Panduan Kelemahan & Hubungan Elemen 2026",
+  description: "Kuasai bagan tipe Evomon. Pelajari kekuatan, kelemahan elemen, dan strategi pertempuran untuk membangun tim terbaik di RPG monster Roblox ini.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/0f766e/fff?text=Evomon+Type+Chart",
+  date: "2026-06-19",
+  author: "Tim Wiki evomon"
+}
+
+<Callout type="info" title="Panduan Cepat">
+- **Bagan tipe Evomon**: Alat referensi penting yang menyoroti kekuatan, kelemahan elemen, dan hubungan pertempuran.
+- **Elemen inti**: Api, Rumput, Air, dan Normal membentuk segitiga elemen utama di awal permainan.
+- **Prioritas ofensif**: Mencocokkan elemen serangan dengan kelemahan musuh akan meningkatkan kerusakan pertempuran secara signifikan.
+- **Skala defensif**: Mengerahkan tipe yang kebal (resistan) melindungi carry tim selama dungeon co-op yang sulit dan pertarungan bos.
+- **Sinergi starter**: Leafbun, Blazpup, dan Bubble menawarkan keuntungan elemen yang berbeda untuk progres awal permainan.
+</Callout>
+
+<Section icon={Swords} title="Memahami Aturan Pertempuran & Hubungan Tipe Evomon">
+
+Petualangan dunia terbuka Evomon menantang pemain untuk mengumpulkan, melatih, dan mempertarungkan lebih dari 200 makhluk yang beragam. Pertempuran dalam RPG Roblox ini berbasis giliran (turn-based), membuat persiapan strategis jauh lebih penting daripada refleks yang cepat. Untuk menang secara konsisten di dungeon PVE dan pertempuran PVP, pemain harus mempelajari **bagan tipe evomon** untuk memanfaatkan kelemahan elemen.
+
+Setiap makhluk termasuk dalam tipe tertentu, yang menentukan afinitas elemen, pengganda kerusakan, dan ketahanan defensifnya. Menyerang musuh dengan elemen lawan akan memicu bonus kerusakan, sementara menggunakan elemen yang ditahan (resisted) akan mengurangi output ofensif. Memahami prinsip-prinsip hubungan dasar ini mencegah pemain kalah dalam pertempuran penting akibat komposisi tim yang buruk.
+
+**Sorotan Video:**
+- **Siklus Penangkapan**: Pelajari dasar-dasar menemukan dan menangkap makhluk liar di dunia terbuka.
+- **Pameran Evolusi**: Saksikan bagaimana makhluk di awal permainan bertransformasi menjadi wujud akhir yang kuat.
+- **Pertempuran Bos**: Amati mekanik berbasis giliran dan pengganda kerusakan elemen dalam aksi.
+- **Dungeon Multipemain**: Lihat bagaimana tim co-op mengoordinasikan elemen mereka untuk mengalahkan bos raid.
+
+<YouTubeEmbed videoId="uMMJ6h-PhcE" title="Trailer Peluncuran Resmi Roblox Evomon" />
+
+<Callout type="success" title="Keuntungan Pertempuran">
+Menggunakan elemen serangan yang sangat efektif akan memberikan kerusakan bonus. Selalu sesuaikan tim pertempuran aktif Anda sebelum memasuki zona baru untuk mencocokkan dengan ancaman elemen lokal.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Bagan Tipe Evomon: Kekuatan & Kelemahan">
+
+Untuk memaksimalkan efisiensi pertempuran, pemain harus menghafal hubungan antara elemen-elemen inti permainan. Hubungan ini mengikuti struktur batu-gunting-kertas, dengan beberapa elemen tambahan yang menambah kedalaman dalam pembangunan tim tingkat tinggi. Tabel di bawah ini menguraikan performa setiap elemen penyerang terhadap elemen bertahan yang berbeda.
+
+| Elemen Penyerang | Kuat Melawan (Kerusakan Ganda) | Lemah Melawan (Setengah Kerusakan) | Netral Melawan (Kerusakan Normal) |
+| --- | --- | --- | --- |
+| **Api** | Rumput, Es | Air, Api, Naga | Normal, Listrik, Tanah |
+| **Rumput** | Air, Tanah | Api, Rumput, Naga | Normal, Listrik, Es |
+| **Air** | Api, Tanah | Rumput, Air, Naga | Normal, Listrik, Es |
+| **Listrik** | Air, Terbang | Rumput, Listrik, Naga | Normal, Api, Tanah |
+| **Tanah** | Api, Listrik | Rumput, Terbang | Normal, Air, Es |
+| **Normal** | Tidak ada | Tidak ada | Semua Elemen |
+
+Ketahanan defensif juga sama pentingnya. Saat membangun jangkar pertahanan untuk raid dungeon, pemain harus memilih makhluk yang menahan tipe serangan bos yang umum. Tabel di bawah ini merinci bagaimana elemen bertahan dari kerusakan yang masuk.
+
+| Elemen Bertahan | Menahan (Menerima Kerusakan Rendah) | Rentan Terhadap (Menerima Kerusakan Tambahan) | Kebal Terhadap (Menerima Nol Kerusakan) |
+| --- | --- | --- | --- |
+| **Api** | Api, Rumput, Es | Air, Tanah | Tidak ada |
+| **Rumput** | Rumput, Air, Tanah | Api, Es, Terbang | Tidak ada |
+| **Air** | Air, Api | Rumput, Listrik | Tidak ada |
+| **Listrik** | Listrik | Tanah | Tidak ada |
+| **Tanah** | Tidak ada | Air, Rumput, Es | Listrik |
+| **Normal** | Tidak ada | Tidak ada | Tidak ada |
+
+<Callout type="info" title="Kekebalan itu Penting">
+Makhluk tipe Tanah sepenuhnya kebal terhadap serangan Listrik. Mengganti ke tipe Tanah saat memperkirakan serangan Listrik adalah cara terbaik untuk membalikkan momentum pertarungan berbasis giliran.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Analisis Starter & Hubungan Tipe Awal Permainan">
+
+Memilih starter adalah keputusan besar pertama di Evomon. Game ini menyajikan tiga pilihan starter: Leafbun (Rumput), Blazpup (Api), dan Bubble (Air). Setiap pilihan membentuk jam-jam awal penjelajahan, menentukan pertemuan liar mana yang mudah dan mana yang membutuhkan tangkapan cadangan.
+
+<CardGrid cols={3}>
+  <Card title="Leafbun (Rumput)">
+    - **Peran Awal**: Starter tipe Rumput yang tangguh dengan gerakan penyembuhan yang stabil.
+    - **Fokus Hubungan**: Mendominasi zona liar Air dan Tanah di awal.
+    - **Rencana Tim Pertama**: Pasangkan dengan tangkapan tipe Api untuk menutupi kelemahan Es.
+  </Card>
+  <Card title="Blazpup (Api)">
+    - **Peran Awal**: Penyerang Api berkerusakan tinggi yang dirancang untuk tempo pertempuran cepat.
+    - **Fokus Hubungan**: Membersihkan hutan penuh Rumput dan area Es dengan cepat.
+    - **Rencana Tim Pertama**: Bawa cadangan tipe Air untuk menangani serangan Tanah yang masuk.
+  </Card>
+  <Card title="Bubble (Air)">
+    - **Peran Awal**: Jangkar defensif yang fleksibel dengan opsi kontrol yang solid.
+    - **Fokus Hubungan**: Meng-counter pertemuan Api awal dan area vulkanik.
+    - **Rencana Tim Pertama**: Rekrut sekutu Listrik atau Rumput untuk menangani pertarungan sesama Air.
+  </Card>
+</CardGrid>
+
+Starter Anda adalah aset cakupan inti, tetapi ia tidak bisa memenangkan pertempuran sendirian. Pemain harus segera menangkap makhluk liar untuk membangun cakupan elemen. Tabel di bawah ini menyoroti performa para starter di zona progres awal permainan.
+
+| Zona Progres | Elemen Liar Utama | Pilihan Starter Terbaik | Pilihan Starter Terlemah | Saran Tangkapan Cadangan |
+| --- | --- | --- | --- | --- |
+| **Whispering Woods** | Rumput, Normal | **Blazpup** | Bubble | Tangkap tipe Terbang di awal |
+| **Suntouched Plains** | Tanah, Api | **Bubble** | Leafbun | Tambahkan tipe Tanah yang tangguh |
+| **Chilled Caverns** | Es, Air | **Leafbun** | Blazpup | Latih sekutu tipe Listrik |
+
+<Callout type="tip" title="Pelatihan Seimbang">
+Jangan tuangkan semua EXP Fruit Anda ke starter Anda. Satu makhluk berlevel tinggi akan kesulitan di dungeon selanjutnya jika menghadapi kerugian elemen. Jaga agar level tim inti Anda tetap seimbang.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Panduan Langkah demi Langkah untuk Membangun Tim yang Seimbang">
+
+Membangun tim yang mencakup semua elemen pada **bagan tipe evomon** adalah kunci untuk bertahan dari tantangan di akhir permainan. Pemain harus fokus pada cakupan, sinergi, dan distribusi peran alih-alih mengumpulkan monster duplikat dari tipe yang sama.
+
+<Steps>
+  <Step num="1" title="Identifikasi Carry Utama Anda">
+    Pilih dealer kerusakan (damage dealer) level tertinggi Anda, seperti starter yang telah berevolusi atau temuan langka. Makhluk ini akan menghasilkan sebagian besar kerusakan ofensif Anda. Perhatikan tipe elemen dan kelemahannya.
+  </Step>
+  <Step num="2" title="Tutupi Kelemahan Carry">
+    Tambahkan anggota tim kedua yang menahan elemen yang mengancam carry Anda. Sebagai contoh, jika carry Anda adalah tipe Api seperti Blazpup, tambahkan rekan tim tipe Air atau Rumput untuk menyerap serangan Tanah yang masuk.
+  </Step>
+  <Step num="3" title="Pilih Jangkar Utilitas atau Defensif">
+    Gabungkan makhluk yang tebal (tanky), sebaiknya tipe Tanah atau Normal, yang dapat menyerap pukulan berat selama pertarungan bos. Tipe Normal adalah jangkar netral yang sangat baik karena mereka tidak memiliki kelemahan elemen yang parah.
+  </Step>
+  <Step num="4" title="Isi Slot Terakhir dengan Spesialis">
+    Gunakan slot keempat untuk mengatasi elemen dungeon lokal. Jika dungeon menampilkan musuh Listrik, masukkan tipe Tanah. Sesuaikan slot ini secara sering berdasarkan rute farming aktif Anda.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Bahaya Penumpukan Tipe">
+Hindari menjalankan beberapa makhluk dengan tipe yang sama di party aktif Anda. Menumpuk tiga tipe Rumput membuat seluruh tim Anda rentan terhadap satu musuh Api.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Persiapan Dungeon & Verifikasi Elemen">
+
+Sebelum memasuki dungeon multipemain atau menghadapi bos peta, pemain harus memeriksa daftar persiapan cepat. Dungeon menampilkan tingkat kesulitan yang tinggi, yang berarti ketidakcocokan tipe dapat menyebabkan kekalahan party dengan cepat.
+
+<Checklist
+  id="dungeon-prep"
+  title="Verifikasi Tim Pra-Dungeon:"
+  items={[
+    "Verifikasi bahwa carry utama tim menahan elemen utama dungeon.",
+    "Pastikan setidaknya satu anggota tim memiliki serangan yang sangat efektif terhadap bos.",
+    "Lengkapi item pemulihan yang relevan dan EXP Fruit untuk mendukung kelangsungan pertempuran.",
+    "Konfirmasikan bahwa party Anda tidak menumpuk kelemahan yang sama."
+  ]}
+/>
+
+Tabel di bawah ini menyoroti elemen yang direkomendasikan untuk tantangan dungeon utama permainan. Gunakan referensi ini untuk mengonfigurasi tim Anda sebelum membuat lobi bersama teman.
+
+| Tantangan Dungeon | Elemen Bos | Kelemahan Elemen Inti | Carry Tim yang Direkomendasikan | Tipe Dukungan Penting |
+| --- | --- | --- | --- | --- |
+| **Forest Overlord** | Rumput | Api, Es | Blazpup yang Berevolusi | Spesialis Es |
+| **Volcanic Golem** | Api | Air, Tanah | Bubble yang Berevolusi | Jangkar Tanah |
+| **Storm Citadel** | Listrik | Tanah | Carry Tanah | Dinding Normal |
+| **Sunken Temple** | Air | Rumput, Listrik | Leafbun yang Berevolusi | Spesialis Listrik |
+
+<Callout type="tip" title="Koordinasi Co-Op">
+Saat bermain dungeon bersama teman, koordinasikan pilihan tim Anda. Pastikan grup Anda mencakup semua elemen dasar sehingga seseorang selalu dapat meng-counter perubahan fase bos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pertanyaan yang Sering Diajukan Tentang Hubungan Tipe">
+
+Memahami hubungan elemen adalah proses belajar yang berkelanjutan. Di bawah ini adalah jawaban atas pertanyaan paling umum mengenai mekanik elemen, efisiensi pertempuran, dan pembangunan tim.
+
+<FAQ items={[
+  {
+    question: "Bagaimana bagan tipe evomon berlaku untuk makhluk tipe ganda (dual-type)?",
+    answer: "Makhluk tipe ganda menghitung kelemahan dan ketahanan dengan menggabungkan kedua elemen. Jika suatu makhluk bertipe Rumput/Air, serangan Api akan menghasilkan kerusakan netral karena tipe Air menahannya sementara tipe Rumput lemah terhadapnya."
+  },
+  {
+    question: "Apakah varian Shiny atau Sparkle memiliki tipe elemen yang berbeda?",
+    answer: "Tidak, varian Shiny dan Sparkle mempertahankan tipe elemen yang sama dengan versi standar mereka. Nilai mereka terletak pada kelangkaan dan penampilan estetika mereka, bukan pada perubahan hubungan tipe."
+  },
+  {
+    question: "Bisakah saya mengubah tipe elemen makhluk?",
+    answer: "Tipe elemen makhluk bersifat permanen dan tidak dapat diubah. Namun, beberapa makhluk dapat mempelajari serangan yang cocok dengan elemen berbeda, memungkinkan mereka untuk menyerang musuh dengan kerusakan yang sangat efektif di luar tipe mereka sendiri."
+  },
+  {
+    question: "Apa keuntungan menggunakan makhluk tipe Normal dalam pertempuran?",
+    answer: "Makhluk tipe Normal tidak memiliki kekuatan elemen langsung, tetapi mereka juga tidak memiliki kelemahan yang rumit. Ini membuat mereka menjadi jangkar netral yang sangat andal yang dapat bertahan dari pukulan hampir semua tipe musuh."
+  }
+]} />
+
+<Callout type="info" title="Catatan Akhir">
+Buka terus panduan ini saat menjelajahi area baru untuk mengidentifikasi counter terbaik dengan cepat bagi pertemuan liar dan menjaga progres Anda tetap lancar.
+</Callout>
+
+</Section>
