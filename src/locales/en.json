@@ -320,15 +320,19 @@
           "label": "Core Team Picks",
           "cards": [
             {
+              "icon": "Target",
               "name": "Evolved Core Carry",
               "role": "Primary damage and battle tempo",
               "bestFor": ["PvE progression", "map bosses", "early PvP testing"],
+              "rankingBasis": ["High current level", "useful skill pressure", "good matchup into the area you are clearing", "evolution value"],
               "use": "Invest regular EXP and EXP Fruits here first, then build the rest of the team around the carry's weak matchups."
             },
             {
+              "icon": "ShieldCheck",
               "name": "Dungeon-Ready Anchor",
               "role": "Reliable partner for longer co-op fights",
               "bestFor": ["co-op dungeons", "boss routes", "repeat farming"],
+              "rankingBasis": ["survives repeated battles", "keeps value after evolution", "fits multiplayer dungeon play"],
               "use": "Keep at least one trained Evomon that can stay useful when battles last longer than a quick wild encounter."
             }
           ]
@@ -338,15 +342,19 @@
           "label": "Strong Support Picks",
           "cards": [
             {
+              "icon": "Layers",
               "name": "Coverage Specialist",
               "role": "Matchup coverage",
               "bestFor": ["new islands", "mixed enemy groups", "boss preparation"],
+              "rankingBasis": ["covers the carry's bad matchups", "adds a different battle angle", "stays useful after training"],
               "use": "Add coverage before chasing duplicate favorites, because a balanced team clears more content than repeated versions of the same role."
             },
             {
+              "icon": "Crosshair",
               "name": "PvP Pressure Pick",
               "role": "Skill-based pressure",
               "bestFor": ["turn-based PvP", "skill testing", "counterplay practice"],
+              "rankingBasis": ["strong battle skills", "clear role in a turn-based plan", "pairs well with a trained carry"],
               "use": "Use this slot to test how your skills perform against real opponents instead of judging only by wild encounters."
             }
           ]
@@ -356,15 +364,19 @@
           "label": "Progression Projects",
           "cards": [
             {
+              "icon": "Rocket",
               "name": "Fresh Evolution Project",
               "role": "Future roster upgrade",
               "bestFor": ["egg hatching", "dex growth", "mid-game team upgrades"],
+              "rankingBasis": ["promising evolution path", "fills a missing role", "not fully trained yet"],
               "use": "Keep it in the upgrade queue, but do not drain every reward into it before it proves a clear job on the team."
             },
             {
+              "icon": "Gem",
               "name": "Rare Variant Collector",
               "role": "Shiny and Sparkle collection target",
               "bestFor": ["collection goals", "showcase teams", "long-term hunting"],
+              "rankingBasis": ["rare form value", "collection appeal", "potential to become battle-ready after training"],
               "use": "Train rare variants after your main battle team can already handle normal progression."
             }
           ]
@@ -374,15 +386,19 @@
           "label": "Bench and Collection Picks",
           "cards": [
             {
+              "icon": "Copy",
               "name": "Duplicate Catch",
               "role": "Dex and collection backup",
               "bestFor": ["collection completion", "future evolution testing", "resource saving"],
+              "rankingBasis": ["same role as a stronger trained Evomon", "low current battle value", "not needed for immediate coverage"],
               "use": "Store or rotate later; do not replace a trained core pick just because a new catch looks exciting."
             },
             {
+              "icon": "Wrench",
               "name": "Underleveled Specialty Pick",
               "role": "Niche matchup option",
               "bestFor": ["specific counters", "later training", "team experiments"],
+              "rankingBasis": ["useful only in narrow situations", "needs more levels", "requires a clearer role before heavy investment"],
               "use": "Save it for targeted testing once your main team has stable levels and coverage."
             }
           ]
@@ -396,30 +412,35 @@
       "intro": "Evomon's collection loop centers on catching wild Evomons, training them, evolving them, hatching eggs, and chasing rare Shiny and Sparkle forms across a 200+ Evomon roster.",
       "items": [
         {
+          "icon": "Hand",
           "title": "Catching Comes Before Perfecting",
           "summary": "Catch enough Evomons to build a functional team before spending heavily on rare-form hunting.",
           "content": "Start by catching Evomons that add new battle roles or matchup coverage. A wider roster gives you more options for PvE fights, dungeons, bosses, and PvP testing.",
           "action": "Keep a main battle team and a separate collection bench so every new catch does not interrupt your strongest lineup."
         },
         {
+          "icon": "Egg",
           "title": "Eggs Feed Long-Term Collection Growth",
           "summary": "Egg hatching is part of the official Evomon loop and connects naturally with evolution progress.",
           "content": "Treat eggs as new roster sources: hatch them, check whether the result fills a missing role, then decide whether it deserves training. Evolution matters most when the Evomon improves your team instead of just adding another unused form.",
           "action": "Hatch first, compare roles second, invest third."
         },
         {
+          "icon": "Star",
           "title": "Shiny and Sparkle Forms Are Collection Goals",
           "summary": "Shiny and Sparkle Evomons are the rare-form chase for collectors and showcase teams.",
           "content": "Rare forms are worth chasing, but early players should build a working team first. After the main team can handle normal progression, hunt rare variants with a clear route and enough resources.",
           "action": "Prioritize rare variants that can also become useful in your trained team."
         },
         {
+          "icon": "Shuffle",
           "title": "Prioritize New Roles Over Duplicates",
           "summary": "A new matchup role usually helps more than another copy of a role you already trained.",
           "content": "When choosing what to catch next, look for Evomons that expand your battle options. A collection that covers more situations performs better in PvE, dungeons, and PvP than a pile of repeated roles.",
           "action": "Use duplicates for collection completion and future testing, not immediate core investment."
         },
         {
+          "icon": "Repeat",
           "title": "Turn Rare Hunting Into a Routine",
           "summary": "Shiny, Sparkle, egg, and evolution goals work best when they are handled in repeatable sessions.",
           "content": "Rotate between catching new Evomons, hatching eggs, training useful finds, and checking whether rare variants are worth moving into your active team. This keeps collection progress steady without freezing battle progression.",
@@ -434,36 +455,42 @@
       "intro": "Evomon progression is built around catching, training, evolving, and battling. EXP Fruits support faster leveling, but the strongest route is to feed progress into a core team instead of scattering upgrades across every new catch.",
       "steps": [
         {
+          "icon": "RefreshCw",
           "title": "Finish the Basic Catch-and-Battle Loop",
           "action": "Start by learning how wild encounters, catching, training, and turn-based battles work.",
           "why": "A player who understands the normal loop can judge which Evomons deserve investment instead of upgrading blindly.",
           "avoid": "Do not spend progression rewards before you know which Evomons actually help you win fights."
         },
         {
+          "icon": "Crown",
           "title": "Choose One Core Carry",
           "action": "Pick one battle-ready Evomon as your main damage source for PvE progression and boss preparation.",
           "why": "A focused carry clears fights faster and gives the rest of the team a stable point to build around.",
           "avoid": "Do not level every new catch evenly in the early game; that creates a wide roster with no reliable winner."
         },
         {
+          "icon": "Apple",
           "title": "Use EXP Fruits on Core Team Members",
           "action": "Spend Medium EXP Fruits on your carry and the coverage Evomons that solve its weak matchups.",
           "why": "EXP Fruits give faster leveling value when used on Evomons that stay in your active team.",
           "avoid": "Do not use EXP Fruits on duplicates or untested rare-form catches before your main team is stable."
         },
         {
+          "icon": "Dumbbell",
           "title": "Farm Battles With a Purpose",
           "action": "Use repeated battles to raise levels, test skills, and confirm which Evomons are ready for bosses, dungeons, and PvP.",
           "why": "Training is more valuable when each fight tests a specific role: carry damage, coverage, survival, or skill timing.",
           "avoid": "Do not grind random fights without checking whether your team is actually improving."
         },
         {
+          "icon": "ArrowUp",
           "title": "Evolve for Team Value",
           "action": "Move evolution priority toward Evomons that gain a clearer job after training and fit your active lineup.",
           "why": "Evolution value is strongest when it improves progression, dungeon readiness, or PvP pressure.",
           "avoid": "Do not evolve only for novelty while ignoring team coverage and battle performance."
         },
         {
+          "icon": "Flag",
           "title": "Test the Team in Harder Content",
           "action": "Use map bosses, co-op dungeon runs, and PvP battles to check whether your leveled team is ready for the next step.",
           "why": "Harder content exposes weak coverage, underleveled picks, and skills that only looked good in simple fights.",

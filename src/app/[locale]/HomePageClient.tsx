@@ -3,33 +3,50 @@
 import { useState, Suspense, lazy } from "react";
 import {
   AlertTriangle,
+  Apple,
   ArrowRight,
+  ArrowUp,
   BookOpen,
   Check,
   ChevronDown,
   Clock,
   Compass,
+  Copy,
   Coins,
+  Crosshair,
+  Crown,
+  Dumbbell,
   Droplet,
   Egg,
   ExternalLink,
+  Flag,
   Flame,
   Gamepad2,
+  Gem,
   Gift,
+  Hand,
+  Layers,
   Leaf,
   Lightbulb,
   Mountain,
   Play,
+  RefreshCw,
+  Repeat,
+  Rocket,
   Settings,
+  ShieldCheck,
+  Shuffle,
   Skull,
   Sparkles,
   Star,
   Swords,
   Tags,
+  Target,
   TrendingUp,
   Trophy,
   Users,
   UsersRound,
+  Wrench,
   Youtube,
   Zap,
 } from "lucide-react";
@@ -149,6 +166,37 @@ export default function HomePageClient({
 
   // Module 1 code icons (distinct per card)
   const codeIcons: LucideIcon[] = [Trophy, Coins, Zap, Gift];
+
+  // Module 5 tier card icons (distinct per card, driven by en.json icon field)
+  const tierCardIcons: Record<string, LucideIcon> = {
+    Target,
+    ShieldCheck,
+    Layers,
+    Crosshair,
+    Rocket,
+    Gem,
+    Copy,
+    Wrench,
+  };
+
+  // Module 6 catching item icons (distinct per item, driven by en.json icon field)
+  const catchingIcons: Record<string, LucideIcon> = {
+    Hand,
+    Egg,
+    Star,
+    Shuffle,
+    Repeat,
+  };
+
+  // Module 7 leveling step icons (distinct per step, driven by en.json icon field)
+  const levelingStepIcons: Record<string, LucideIcon> = {
+    RefreshCw,
+    Crown,
+    Apple,
+    Dumbbell,
+    ArrowUp,
+    Flag,
+  };
 
   // Accordion + clipboard state
   const [catchingExpanded, setCatchingExpanded] = useState<number | null>(null);
@@ -700,17 +748,24 @@ export default function HomePageClient({
                   <h3 className="text-lg md:text-xl font-bold">{tierGroup.label}</h3>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {tierGroup.cards.map((card: any, ci: number) => (
+                  {tierGroup.cards.map((card: any, ci: number) => {
+                    const CardIcon = tierCardIcons[card.icon] || Target;
+                    return (
                     <div
                       key={ci}
                       className="p-4 bg-white/5 border border-border rounded-lg
                                  hover:border-[hsl(var(--nav-theme)/0.4)] transition-colors"
                     >
-                      <h4 className="font-bold mb-1">{card.name}</h4>
+                      <div className="flex items-center gap-2.5 mb-2">
+                        <div className="h-8 w-8 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.25)] flex items-center justify-center flex-shrink-0">
+                          <CardIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                        </div>
+                        <h4 className="font-bold">{card.name}</h4>
+                      </div>
                       <p className="text-xs uppercase tracking-wider text-[hsl(var(--nav-theme-light))] mb-2">
                         {card.role}
                       </p>
-                      <div className="flex flex-wrap gap-1.5 mb-2">
+                      <div className="flex flex-wrap gap-1.5 mb-3">
                         {card.bestFor.map((bf: string, bi: number) => (
                           <span
                             key={bi}
@@ -720,9 +775,23 @@ export default function HomePageClient({
                           </span>
                         ))}
                       </div>
+                      {card.rankingBasis?.length > 0 && (
+                        <div className="mb-3">
+                          <p className="text-xs font-semibold text-foreground/80 mb-1.5">Why ranked here</p>
+                          <ul className="space-y-1">
+                            {card.rankingBasis.map((rb: string, ri: number) => (
+                              <li key={ri} className="flex items-start gap-1.5 text-xs text-muted-foreground">
+                                <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                                <span>{rb}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                       <p className="text-sm text-muted-foreground">{card.use}</p>
                     </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             ))}
@@ -744,6 +813,7 @@ export default function HomePageClient({
           <div className="max-w-3xl mx-auto space-y-3">
             {m.evomonCatchingGuide.items.map((item: any, i: number) => {
               const open = catchingExpanded === i;
+              const ItemIcon = catchingIcons[item.icon] || Hand;
               return (
                 <div
                   key={i}
@@ -754,7 +824,9 @@ export default function HomePageClient({
                     className="w-full flex items-center justify-between gap-3 p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
                   >
                     <span className="font-semibold text-sm md:text-base flex items-center gap-2">
-                      <Egg className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                      <span className="h-7 w-7 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.25)] flex items-center justify-center flex-shrink-0">
+                        <ItemIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
                       {item.title}
                     </span>
                     <ChevronDown
@@ -789,7 +861,9 @@ export default function HomePageClient({
             intro={m.evomonLevelingGuide.intro}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {m.evomonLevelingGuide.steps.map((step: any, i: number) => (
+            {m.evomonLevelingGuide.steps.map((step: any, i: number) => {
+              const StepIcon = levelingStepIcons[step.icon] || RefreshCw;
+              return (
               <div
                 key={i}
                 className="p-5 bg-white/5 border border-border rounded-xl
@@ -797,7 +871,7 @@ export default function HomePageClient({
               >
                 <div className="flex items-center gap-3 mb-3">
                   <div className="h-10 w-10 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.4)] flex items-center justify-center flex-shrink-0">
-                    <Star className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    <StepIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
                   </div>
                   <h3 className="font-bold">
                     <span className="text-[hsl(var(--nav-theme-light))] mr-2">{i + 1}.</span>
@@ -816,7 +890,8 @@ export default function HomePageClient({
                   </div>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
