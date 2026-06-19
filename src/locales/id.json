@@ -1,12 +1,883 @@
 {
+  "seo": {
+    "home": {
+      "title": "Evomon Wiki - Kode, Evomon & Bagan Tipe",
+      "description": "Temukan kode Evomon, daftar tingkatan Evomon, bagan tipe, entri dex, tips Shiny, pilihan starter, rute peta, dungeon, item, dan panduan pemula Roblox.",
+      "keywords": "Evomon, Roblox, kode, daftar tingkatan, bagan tipe, dex, Shiny, dungeon, panduan pemula",
+      "ogTitle": "Evomon Wiki - Kode, Evomon & Bagan Tipe",
+      "ogDescription": "Temukan kode Evomon, daftar tingkatan Evomon, bagan tipe, entri dex, tips Shiny, pilihan starter, rute peta, dungeon, item, dan panduan pemula Roblox.",
+      "twitterTitle": "Evomon Wiki - Kode, Evomon & Bagan Tipe",
+      "twitterDescription": "Temukan kode Evomon, daftar tingkatan Evomon, bagan tipe, entri dex, tips Shiny, pilihan starter, rute peta, dungeon, item, dan panduan pemula Roblox."
+    }
+  },
   "nav": {
     "codes": "Kode",
     "roblox": "Roblox",
     "guide": "Panduan",
     "discord": "Discord",
-    "tier": "Peringkat",
+    "tier": "Tingkat",
     "catching": "Menangkap",
     "review": "Ulasan",
     "world": "Dunia"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel akan segera hadir"
+  },
+  "hero": {
+    "badge": "RPG Penangkapan Monster Dunia Terbuka",
+    "title": "Evomon Wiki",
+    "description": "Evomon adalah petualangan penangkapan monster dunia terbuka Roblox di mana pemain mengumpulkan 200+ Evomon, berburu varian Shiny dan Sparkle, melatih tim, bertarung secara bergiliran, menunggangi makhluk legendaris, dan menyelesaikan dungeon bersama teman.",
+    "keywords": "Evomon, Roblox, kode, Evomon, daftar tingkatan, bagan tipe, Shiny, Sparkle, dungeon, panduan pemula",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "2,449",
+        "label": "Pemain Aktif"
+      },
+      "stat2": {
+        "value": "57.6K+",
+        "label": "Total Kunjungan"
+      },
+      "stat3": {
+        "value": "200+",
+        "label": "Evomon Tersedia"
+      },
+      "stat4": {
+        "value": "12",
+        "label": "Ukuran Server"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Evomon",
+    "description": "Tangkap, latih, dan evolusikan 200+ Evomon di seluruh dunia Roblox yang terbuka. Berburu varian Shiny dan Sparkle, bertarung secara bergiliran, menetaskan Egg, menyelesaikan dungeon, dan menunggangi makhluk legendaris."
+  },
+  "tools": {
+    "title": "Evomon",
+    "titleHighlight": "Sumber Daya",
+    "subtitle": "Semua yang Anda butuhkan untuk menangkap, melatih, mengembangkan, dan melawan tim Evomon Anda",
+    "cards": [
+      {
+        "icon": "Sparkles",
+        "title": "Kode Evomon",
+        "description": "Kode aktif, langkah penukaran, dan jenis hadiah"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Tautan Resmi Evomon",
+        "description": "Halaman game Roblox, grup pengembang, dan trailer peluncuran"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Panduan Pemula Evomon",
+        "description": "Rute sesi pertama dan pilihan starter"
+      },
+      {
+        "icon": "Users",
+        "title": "Starter dan Tim Evomon",
+        "description": "Bandingkan starter dan bangun tim awal"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Daftar Tingkatan Evomon",
+        "description": "Peringkat Evomon berdasarkan peran dan nilai PvE, dungeon, PvP"
+      },
+      {
+        "icon": "Eye",
+        "title": "Panduan Menangkap Evomon",
+        "description": "Menangkap, Egg, evolusi, Shiny dan Sparkle"
+      },
+      {
+        "icon": "Star",
+        "title": "Panduan Menaikkan Level Evomon",
+        "description": "Menaikkan level, evolusi, dan prioritas Buah EXP"
+      },
+      {
+        "icon": "Shield",
+        "title": "Konten Sulit Evomon",
+        "description": "Dungeon, bos, PvP, dan tunggangan legendaris"
+      }
+    ]
+  },
+  "modules": {
+    "evomonCodes": {
+      "eyebrow": "Hadiah Gratis",
+      "title": "Kode Evomon dan Panduan Penukaran",
+      "subtitle": "Gunakan kode Evomon aktif untuk mengklaim hadiah peluncuran seperti Koin, Buah EXP Sedang, dan hadiah pencapaian.",
+      "intro": "Kode Evomon adalah string hadiah terbatas waktu yang dirilis sekitar peluncuran, seperti tujuan, dan acara komunitas. Salin setiap kode dengan tepat, selesaikan tutorial pembuka jika diperlukan, dan tukarkan dari menu Pengaturan roda gigi sebelum kode kedaluwarsa.",
+      "codes": [
+        {
+          "code": "2K-LIKES",
+          "status": "Aktif",
+          "reward": "Hadiah pencapaian 2K suka resmi",
+          "rewardType": "Pencapaian",
+          "bestUse": "Tukarkan setelah membuka menu Pengaturan, lalu gunakan hadiah untuk mendukung kemajuan awal."
+        },
+        {
+          "code": "FORDC1200",
+          "status": "Aktif",
+          "reward": "1.000 Koin",
+          "rewardType": "Mata Uang",
+          "bestUse": "Gunakan Koin untuk pembelian awal dan dukungan kemajuan dasar."
+        },
+        {
+          "code": "EvomonVip",
+          "status": "Aktif",
+          "reward": "5 Buah EXP Sedang",
+          "rewardType": "Item EXP",
+          "bestUse": "Berikan Buah EXP kepada Evomon yang ingin Anda pertahankan di tim pertempuran pertama Anda."
+        },
+        {
+          "code": "LIKE1GIFT",
+          "status": "Aktif",
+          "reward": "1.000 Koin dan 2 Buah EXP Sedang",
+          "rewardType": "Mata Uang dan EXP",
+          "bestUse": "Tukarkan lebih awal karena memberikan bantuan naik level dan mata uang yang dapat dibelanjakan."
+        }
+      ],
+      "redeemSteps": [
+        "Luncurkan Evomon dari halaman pengalaman Roblox resmi.",
+        "Selesaikan tutorial pembuka jika menu Pengaturan belum tersedia.",
+        "Klik tombol Pengaturan roda gigi di dekat bagian atas layar.",
+        "Tempelkan satu kode aktif ke dalam kotak input kode.",
+        "Tekan OK untuk mengklaim hadiah."
+      ],
+      "troubleshooting": {
+        "title": "Mengapa Kode Evomon Mungkin Tidak Berfungsi",
+        "checks": [
+          "Kode diketik dengan kapitalisasi yang salah.",
+          "Spasi ekstra ditempel sebelum atau sesudah kode.",
+          "Kode sudah diklaim di akun Roblox yang sama.",
+          "Kode kedaluwarsa setelah peluncuran terbatas waktu atau jendela pencapaian.",
+          "Server sudah lama dan perlu bergabung kembali sebelum kode baru terdaftar."
+        ]
+      }
+    },
+    "evomonOfficialLinks": {
+      "eyebrow": "Tautan Resmi",
+      "title": "Tautan Roblox Resmi Evomon dan Info Game",
+      "subtitle": "Mainkan Evomon dari halaman Roblox resmi oleh Evomon Devs dan gunakan saluran media resmi yang terhubung untuk trailer, pembaruan, dan pemberitahuan komunitas.",
+      "intro": "Evomon adalah petualangan menangkap monster Roblox yang dibangun di sekitar menangkap, melatih, bertarung, menjelajah, menetaskan Egg, bentuk Shiny dan Sparkle langka, permainan multipemain, dan kemajuan dungeon. Selalu mulai dari pengalaman Roblox resmi daripada halaman cermin.",
+      "items": [
+        {
+          "icon": "Gamepad2",
+          "label": "Pengalaman Roblox Resmi",
+          "value": "Evomon[Rilis]",
+          "description": "Halaman permainan Roblox utama untuk Evomon, diterbitkan oleh Evomon Devs.",
+          "href": "https://www.roblox.com/games/134381727982611/Evomon"
+        },
+        {
+          "icon": "Users",
+          "label": "Grup Pengembang",
+          "value": "Evomon Devs",
+          "description": "Grup komunitas Roblox yang terhubung dengan pengalaman Evomon resmi.",
+          "href": "https://www.roblox.com/communities/665060893/Evomon-Devs"
+        },
+        {
+          "icon": "Youtube",
+          "label": "Saluran Video Resmi",
+          "value": "[Roblox] NoExt Games",
+          "description": "Saluran YouTube resmi yang terhubung untuk video peluncuran dan pratinjau Evomon.",
+          "href": "https://www.youtube.com/channel/UCbjCRjUn_qkSEEtxpVguLYQ"
+        },
+        {
+          "icon": "Play",
+          "label": "Trailer Peluncuran",
+          "value": "Trailer Peluncuran Resmi Roblox Evomon",
+          "description": "Trailer ini memperkenalkan Evomon sebagai petualangan menangkap monster Roblox dengan menangkap, melatih, mengembangkan, bertarung, dan 200+ Evomon.",
+          "href": "https://www.youtube.com/watch?v=uMMJ6h-PhcE"
+        },
+        {
+          "icon": "Compass",
+          "label": "Gameplay Inti",
+          "value": "Tangkap, Bertarung, Jelajahi",
+          "description": "Pemain menangkap Evomon liar, melatih tim, menggunakan strategi pertempuran, menjelajahi harta karun tersembunyi, dan maju melalui petualangan dunia terbuka."
+        },
+        {
+          "icon": "Tags",
+          "label": "Tag Game",
+          "value": "Dunia Terbuka, Koleksi Hewan Peliharaan, Penetasan Egg, Multipemain, RPG, Petualangan, PVE, Strategi, Berbasis Giliran",
+          "description": "Tag-tag ini cocok dengan deskripsi game Roblox resmi dan membantu pemain baru memahami gaya game sebelum bergabung."
+        },
+        {
+          "icon": "Egg",
+          "label": "Fitur Koleksi",
+          "value": "200+ Evomon, bentuk Shiny, bentuk Sparkle, Egg, tunggangan legendaris",
+          "description": "Evomon berfokus pada pengumpulan, perburuan varian langka, penetasan Egg, dan menunggangi Evomon legendaris di seluruh dunia."
+        },
+        {
+          "icon": "UsersRound",
+          "label": "Fitur Multipemain",
+          "value": "Teman dan dungeon",
+          "description": "Pemain dapat bekerja sama dengan teman dan menghadapi dungeon sebagai bagian dari lingkaran PVE yang lebih luas."
+        }
+      ]
+    },
+    "evomonBeginnerGuide": {
+      "eyebrow": "Peta Jalan Pemula",
+      "title": "Panduan Pemula Evomon",
+      "subtitle": "Ikuti rute sesi pertama yang bersih: bergabunglah dengan game resmi, selesaikan tutorial, pilih starter, tangkap Evomon awal, tukarkan kode, dan bangun tim pertama yang berguna.",
+      "intro": "Evomon dimulai seperti petualangan Roblox mengumpulkan makhluk klasik: pilih starter, pelajari pertempuran dan siklus penangkapan, lalu perluas tim Anda melalui pertemuan liar, hadiah, Egg, varian langka, dan eksplorasi.",
+      "steps": [
+        {
+          "title": "Mulai dari Halaman Roblox Resmi",
+          "description": "Buka Evomon[Release] oleh Evomon Devs dan bergabunglah dari halaman pengalaman Roblox resmi.",
+          "tip": "Tandai halaman resmi agar Anda tidak mendarat di game tiruan atau halaman Evomon yang tidak terkait."
+        },
+        {
+          "title": "Selesaikan Tutorial Pembuka",
+          "description": "Selesaikan alur tutorial pertama agar menu inti, dasar-dasar pertempuran, alur penangkapan, dan area penukaran kode menjadi lebih mudah diakses.",
+          "tip": "Jangan terburu-buru melewati penjelasan menu; menu Pengaturan juga tempat kode ditukarkan."
+        },
+        {
+          "title": "Pilih Starter",
+          "description": "Mulai dengan salah satu dari tiga pilihan starter: Leafbun, Blazpup, atau Bubble.",
+          "tip": "Pilih berdasarkan peran pertama yang Anda inginkan di party Anda, lalu tangkap jenis lain lebih awal untuk menutupi kelemahan."
+        },
+        {
+          "title": "Masuk ke Siklus Eksplorasi Awal",
+          "description": "Pindah ke area pembuka, lawan Evomon liar, tangkap anggota tim baru, dan jelajahi untuk mencari harta karun.",
+          "tip": "Tim awal yang lebih luas lebih berguna daripada mencurahkan setiap hadiah hanya untuk satu makhluk."
+        },
+        {
+          "title": "Tukarkan Kode Peluncuran",
+          "description": "Buka menu Pengaturan roda gigi, tempelkan kode aktif, dan klaim Koin, Buah EXP, atau hadiah pencapaian.",
+          "tip": "Gunakan Buah EXP pada Evomon yang benar-benar Anda gunakan dalam pertempuran daripada menyebarkannya ke tangkapan acak."
+        },
+        {
+          "title": "Bangun Cakupan Elemen",
+          "description": "Tambahkan rekan tim yang mencakup situasi pertempuran yang berbeda daripada menumpuk beberapa Evomon yang melakukan pekerjaan yang sama.",
+          "tip": "Tim awal yang sederhana harus mencakup starter Anda, setidaknya satu penyerang elemen yang berbeda, dan tangkapan cadangan yang dapat Anda tingkatkan dengan aman."
+        },
+        {
+          "title": "Latih Sebelum Mengejar yang Langka",
+          "description": "Tingkatkan tim pertempuran praktis Anda sebelum menghabiskan terlalu banyak waktu mengejar varian Shiny dan Sparkle.",
+          "tip": "Bentuk langka adalah tujuan koleksi yang berharga, tetapi kemajuan awal masih bergantung pada memenangkan pertempuran dan membuka lebih banyak area."
+        },
+        {
+          "title": "Coba Multiplayer dan Dungeon",
+          "description": "Setelah tim Anda memiliki level dan cakupan yang cukup, bergabunglah dengan teman-teman dan mulailah menggunakan sisi dungeon dari siklus permainan.",
+          "tip": "Dungeon lebih mudah ketika party Anda mencakup peran yang berbeda daripada pilihan yang tumpang tindih."
+        }
+      ]
+    },
+    "evomonBestStarter": {
+      "eyebrow": "Pembangunan Tim",
+      "title": "Panduan Starter dan Tim Awal Terbaik Evomon",
+      "subtitle": "Bandingkan Leafbun, Blazpup, dan Bubble berdasarkan peran awal, nilai cakupan, dan perencanaan tim pertama.",
+      "intro": "Evomon memberi pemain tiga pilihan starter dan kemudian dengan cepat mendorong mereka untuk menangkap, melatih, bertarung, dan memperluas tim. Gunakan starter sebagai slot cakupan pertama Anda, lalu tangkap Evomon yang berbeda untuk menyeimbangkan party.",
+      "starters": [
+        {
+          "name": "Leafbun",
+          "type": "Starter Rumput",
+          "role": "Slot tim pertama yang seimbang",
+          "progressionValue": "Berguna sebagai anggota tim pertama yang stabil saat Anda belajar menangkap, melatih, dan kecepatan pertempuran dasar.",
+          "teamPlan": "Pasangkan Leafbun dengan cakupan Api dan Air agar party tidak bergantung pada satu pola pertandingan.",
+          "bestFor": "Pemain yang menginginkan rute pertama yang seimbang dan perencanaan tim awal yang sederhana.",
+          "avoid": "Jangan hanya menyimpan cakupan gaya Rumput di party hanya karena starter terasa nyaman."
+        },
+        {
+          "name": "Blazpup",
+          "type": "Starter Api",
+          "role": "Slot penyerang agresif",
+          "progressionValue": "Cocok untuk pemain yang menginginkan ritme pertempuran awal yang lebih cepat dan peran penyerang yang jelas di tim awal.",
+          "teamPlan": "Tambahkan cakupan Air atau Rumput lebih awal, lalu pertahankan tangkapan cadangan yang ditingkatkan agar pertandingan yang sulit tidak menghambat kemajuan.",
+          "bestFor": "Pemain yang lebih suka pertarungan awal yang lebih cepat dan kemajuan yang berfokus pada penyerang.",
+          "avoid": "Jangan menghabiskan setiap Buah EXP pada Blazpup sebelum menangkap rekan tim dengan cakupan yang berbeda."
+        },
+        {
+          "name": "Bubble",
+          "type": "Starter Air",
+          "role": "Jangkar awal yang fleksibel",
+          "progressionValue": "Berfungsi dengan baik sebagai jangkar party awal yang fleksibel saat Anda menjelajahi, menangkap, dan menguji anggota tim yang berbeda.",
+          "teamPlan": "Pasangkan Bubble dengan cakupan Rumput dan Api agar tim awal Anda dapat menangani lebih banyak pertemuan liar dan situasi dungeon.",
+          "bestFor": "Pemain yang menginginkan pilihan starter yang stabil dengan fleksibilitas tim pertama yang mudah.",
+          "avoid": "Jangan memperlakukan starter yang aman sebagai tim penuh; Evomon menghargai koleksi dan cakupan yang lebih luas."
+        },
+        {
+          "name": "Formula Tim Awal",
+          "type": "Rencana Tim",
+          "role": "Starter ditambah inti cakupan",
+          "progressionValue": "Tim pertama yang praktis harus mencakup starter Anda, dua tangkapan elemen yang berbeda, dan satu pilihan cadangan atau utilitas.",
+          "teamPlan": "Gunakan Koin dan Buah EXP untuk mendukung Evomon yang benar-benar Anda lawan, sambil menyimpan item penangkapan yang lebih baik untuk pertemuan langka atau lebih kuat.",
+          "bestFor": "Pemain baru yang menginginkan kemajuan yang stabil melalui penangkapan, pelatihan, eksplorasi, dan PVE awal.",
+          "avoid": "Jangan mengejar bentuk Shiny atau Sparkle sebelum tim pertempuran Anda dapat dengan andal menyelesaikan pertarungan awal."
+        }
+      ]
+    },
+    "evomonTierList": {
+      "eyebrow": "Pembangunan Tim",
+      "title": "Daftar Tingkat Evomon dan Panduan Pembangunan Tim",
+      "subtitle": "Bangun berdasarkan peran pertempuran, cakupan pertandingan, nilai evolusi, kekuatan PvE, utilitas dungeon, dan tekanan PvP.",
+      "intro": "Evomon adalah petualangan menangkap monster Roblox yang berfokus pada menangkap, melatih, mengembangkan, dan pertempuran berbasis giliran dengan daftar 200+ Evomon. Kisi tingkat ini memberi peringkat peran tim praktis sehingga pemain dapat beradaptasi dengan daftar mereka sendiri, level, keterampilan, dan tujuan bentuk langka.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Pilihan Tim Inti",
+          "cards": [
+            {
+              "icon": "Target",
+              "name": "Pembawa Inti yang Berevolusi",
+              "role": "Kerusakan utama dan tempo pertempuran",
+              "bestFor": [
+                "progres PvE",
+                "bos peta",
+                "pengujian PvP awal"
+              ],
+              "rankingBasis": [
+                "Level saat ini tinggi",
+                "tekanan skill yang berguna",
+                "pertandingan yang bagus di area yang Anda bersihkan",
+                "nilai evolusi"
+              ],
+              "use": "Investasikan EXP reguler dan Buah EXP di sini terlebih dahulu, lalu bangun sisa tim di sekitar pertandingan lemah pembawa."
+            },
+            {
+              "icon": "ShieldCheck",
+              "name": "Jangkar Siap Dungeon",
+              "role": "Mitra yang dapat diandalkan untuk pertarungan co-op yang lebih lama",
+              "bestFor": [
+                "dungeon co-op",
+                "rute bos",
+                "farming berulang"
+              ],
+              "rankingBasis": [
+                "bertahan dalam pertempuran berulang",
+                "mempertahankan nilai setelah evolusi",
+                "cocok untuk permainan dungeon multipemain"
+              ],
+              "use": "Pertahankan setidaknya satu Evomon terlatih yang dapat tetap berguna ketika pertempuran berlangsung lebih lama dari pertemuan liar yang cepat."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Pilihan Dukungan Kuat",
+          "cards": [
+            {
+              "icon": "Layers",
+              "name": "Spesialis Cakupan",
+              "role": "Cakupan pertandingan",
+              "bestFor": [
+                "pulau baru",
+                "kelompok musuh campuran",
+                "persiapan bos"
+              ],
+              "rankingBasis": [
+                "meliputi pertandingan buruk pembawa",
+                "menambahkan sudut pertempuran yang berbeda",
+                "tetap berguna setelah pelatihan"
+              ],
+              "use": "Tambahkan cakupan sebelum mengejar favorit duplikat, karena tim yang seimbang membersihkan lebih banyak konten daripada versi berulang dari peran yang sama."
+            },
+            {
+              "icon": "Crosshair",
+              "name": "Pilihan Tekanan PvP",
+              "role": "Tekanan berbasis skill",
+              "bestFor": [
+                "PvP berbasis giliran",
+                "pengujian skill",
+                "latihan counterplay"
+              ],
+              "rankingBasis": [
+                "skill pertempuran yang kuat",
+                "peran yang jelas dalam rencana berbasis giliran",
+                "berpasangan baik dengan pembawa terlatih"
+              ],
+              "use": "Gunakan slot ini untuk menguji bagaimana skill Anda bekerja melawan lawan sungguhan daripada menilai hanya dari pertemuan liar."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Proyek Progresi",
+          "cards": [
+            {
+              "icon": "Rocket",
+              "name": "Proyek Evolusi Baru",
+              "role": "Peningkatan daftar di masa depan",
+              "bestFor": [
+                "penetasan Egg",
+                "pertumbuhan dex",
+                "peningkatan tim pertengahan permainan"
+              ],
+              "rankingBasis": [
+                "jalur evolusi yang menjanjikan",
+                "mengisi peran yang hilang",
+                "belum sepenuhnya terlatih"
+              ],
+              "use": "Simpan dalam antrean peningkatan, tetapi jangan menguras setiap hadiah ke dalamnya sebelum terbukti memiliki pekerjaan yang jelas di tim."
+            },
+            {
+              "icon": "Gem",
+              "name": "Kolektor Varian Langka",
+              "role": "Target koleksi Shiny dan Sparkle",
+              "bestFor": [
+                "tujuan koleksi",
+                "tim pameran",
+                "perburuan jangka panjang"
+              ],
+              "rankingBasis": [
+                "nilai bentuk langka",
+                "daya tarik koleksi",
+                "potensi untuk menjadi siap tempur setelah pelatihan"
+              ],
+              "use": "Latih varian langka setelah tim pertempuran utama Anda sudah dapat menangani progres normal."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Pilihan Cadangan dan Koleksi",
+          "cards": [
+            {
+              "icon": "Copy",
+              "name": "Tangkap Duplikat",
+              "role": "Cadangan dex dan koleksi",
+              "bestFor": [
+                "penyelesaian koleksi",
+                "pengujian evolusi di masa depan",
+                "penghematan sumber daya"
+              ],
+              "rankingBasis": [
+                "peran yang sama dengan Evomon terlatih yang lebih kuat",
+                "nilai pertempuran saat ini rendah",
+                "tidak diperlukan untuk cakupan segera"
+              ],
+              "use": "Simpan atau rotasi nanti; jangan mengganti pilihan inti terlatih hanya karena tangkapan baru terlihat menarik."
+            },
+            {
+              "icon": "Wrench",
+              "name": "Pilihan Spesialisasi Level Rendah",
+              "role": "Opsi pertandingan khusus",
+              "bestFor": [
+                "penghitung spesifik",
+                "pelatihan nanti",
+                "eksperimen tim"
+              ],
+              "rankingBasis": [
+                "berguna hanya dalam situasi sempit",
+                "membutuhkan lebih banyak level",
+                "membutuhkan peran yang lebih jelas sebelum investasi besar"
+              ],
+              "use": "Simpan untuk pengujian yang ditargetkan setelah tim utama Anda memiliki level dan cakupan yang stabil."
+            }
+          ]
+        }
+      ]
+    },
+    "evomonCatchingGuide": {
+      "eyebrow": "Menangkap",
+      "title": "Panduan Menangkap, Egg, Sparkle, dan Shiny Evomon",
+      "subtitle": "Gunakan penangkapan, penetasan Egg, evolusi, dan perburuan bentuk langka untuk memperkuat koleksi tanpa membuang progres awal.",
+      "intro": "Siklus koleksi Evomon berpusat pada menangkap Evomon liar, melatih mereka, mengevolusi mereka, menetaskan Egg, dan mengejar bentuk Shiny dan Sparkle yang langka di antara lebih dari 200 daftar Evomon.",
+      "items": [
+        {
+          "icon": "Hand",
+          "title": "Menangkap Dulu Sebelum Menyempurnakan",
+          "summary": "Tangkap cukup Evomon untuk membangun tim yang fungsional sebelum menghabiskan banyak sumber daya untuk berburu bentuk langka.",
+          "content": "Mulailah dengan menangkap Evomon yang menambah peran pertempuran baru atau cakupan lawan. Daftar yang lebih luas memberi Anda lebih banyak pilihan untuk pertarungan PvE, dungeon, boss, dan pengujian PvP.",
+          "action": "Simpan tim pertempuran utama dan bangku koleksi terpisah agar setiap tangkapan baru tidak mengganggu susunan terkuat Anda."
+        },
+        {
+          "icon": "Egg",
+          "title": "Egg Mendukung Pertumbuhan Koleksi Jangka Panjang",
+          "summary": "Penetasan Egg adalah bagian dari siklus resmi Evomon dan terhubung secara alami dengan progres evolusi.",
+          "content": "Anggap Egg sebagai sumber daftar baru: tetaskan, periksa apakah hasilnya mengisi peran yang hilang, lalu putuskan apakah layak dilatih. Evolusi paling penting saat Evomon tersebut meningkatkan tim Anda, bukan sekadar menambah bentuk lain yang tidak terpakai.",
+          "action": "Tetaskan dulu, bandingkan peran kedua, investasi ketiga."
+        },
+        {
+          "icon": "Star",
+          "title": "Bentuk Shiny dan Sparkle Adalah Tujuan Koleksi",
+          "summary": "Evomon Shiny dan Sparkle adalah incaran bentuk langka bagi kolektor dan tim pamer.",
+          "content": "Bentuk langka layak dikejar, tetapi pemain pemula harus membangun tim yang berfungsi terlebih dahulu. Setelah tim utama dapat menangani progres normal, burulah varian langka dengan rute yang jelas dan sumber daya yang cukup.",
+          "action": "Prioritaskan varian langka yang juga bisa berguna dalam tim yang Anda latih."
+        },
+        {
+          "icon": "Shuffle",
+          "title": "Prioritaskan Peran Baru Daripada Duplikat",
+          "summary": "Peran lawan baru biasanya lebih membantu daripada salinan lain dari peran yang sudah Anda latih.",
+          "content": "Saat memilih apa yang akan ditangkap selanjutnya, carilah Evomon yang memperluas opsi pertempuran Anda. Koleksi yang mencakup lebih banyak situasi berkinerja lebih baik di PvE, dungeon, dan PvP daripada tumpukan peran yang berulang.",
+          "action": "Gunakan duplikat untuk melengkapi koleksi dan pengujian di masa mendatang, bukan untuk investasi inti segera."
+        },
+        {
+          "icon": "Repeat",
+          "title": "Jadikan Perburuan Langka Sebagai Rutinitas",
+          "summary": "Tujuan Shiny, Sparkle, Egg, dan evolusi bekerja paling baik jika ditangani dalam sesi yang berulang.",
+          "content": "Bergantilah antara menangkap Evomon baru, menetaskan Egg, melatih temuan yang berguna, dan memeriksa apakah varian langka layak dimasukkan ke dalam tim aktif Anda. Ini menjaga progres koleksi tetap stabil tanpa menghentikan progres pertempuran.",
+          "action": "Jalankan sesi koleksi setelah tim utama Anda dapat menyelesaikan pertempuran normal dengan nyaman."
+        }
+      ]
+    },
+    "evomonLevelingGuide": {
+      "eyebrow": "Progresi",
+      "title": "Panduan Leveling, Evolusi, dan EXP Fruit Evomon",
+      "subtitle": "Naikkan level Evomon terkuat Anda terlebih dahulu, berevolusi dengan tujuan tim, dan gunakan EXP Fruit di tempat yang memberikan keuntungan progresi terbesar.",
+      "intro": "Progresi Evomon dibangun di sekitar menangkap, melatih, berevolusi, dan bertarung. EXP Fruit mendukung leveling yang lebih cepat, tetapi rute terkuat adalah memfokuskan progres ke tim inti daripada menyebarkan peningkatan ke setiap tangkapan baru.",
+      "steps": [
+        {
+          "icon": "RefreshCw",
+          "title": "Selesaikan Siklus Dasar Tangkap-dan-Bertarung",
+          "action": "Mulailah dengan mempelajari cara kerja pertemuan liar, menangkap, melatih, dan pertempuran berbasis giliran.",
+          "why": "Pemain yang memahami siklus normal dapat menilai Evomon mana yang layak diinvestasikan daripada melakukan peningkatan secara membabi buta.",
+          "avoid": "Jangan menghabiskan hadiah progresi sebelum Anda tahu Evomon mana yang benar-benar membantu Anda memenangkan pertarungan."
+        },
+        {
+          "icon": "Crown",
+          "title": "Pilih Satu Core Carry",
+          "action": "Pilih satu Evomon yang siap tempur sebagai sumber damage utama Anda untuk progresi PvE dan persiapan boss.",
+          "why": "Carry yang terfokus menyelesaikan pertarungan lebih cepat dan memberi anggota tim lainnya titik stabil untuk dibangun.",
+          "avoid": "Jangan menaikkan level setiap tangkapan baru secara merata di awal permainan; itu akan menciptakan daftar yang luas tanpa pemenang yang dapat diandalkan."
+        },
+        {
+          "icon": "Apple",
+          "title": "Gunakan EXP Fruit pada Anggota Tim Inti",
+          "action": "Gunakan Medium EXP Fruit pada carry Anda dan Evomon cakupan yang mengatasi lawan yang sulit baginya.",
+          "why": "EXP Fruit memberikan nilai leveling yang lebih cepat saat digunakan pada Evomon yang tetap berada di tim aktif Anda.",
+          "avoid": "Jangan gunakan EXP Fruit pada duplikat atau tangkapan bentuk langka yang belum diuji sebelum tim utama Anda stabil."
+        },
+        {
+          "icon": "Dumbbell",
+          "title": "Farm Pertempuran Dengan Tujuan",
+          "action": "Gunakan pertempuran berulang untuk menaikkan level, menguji skill, dan mengonfirmasi Evomon mana yang siap untuk boss, dungeon, dan PvP.",
+          "why": "Latihan lebih berharga ketika setiap pertarungan menguji peran tertentu: damage carry, cakupan, kelangsungan hidup, atau waktu penggunaan skill.",
+          "avoid": "Jangan melakukan grinding pada pertarungan acak tanpa memeriksa apakah tim Anda benar-benar berkembang."
+        },
+        {
+          "icon": "ArrowUp",
+          "title": "Evolusi untuk Nilai Tim",
+          "action": "Pindahkan prioritas evolusi ke arah Evomon yang mendapatkan tugas lebih jelas setelah dilatih dan sesuai dengan susunan aktif Anda.",
+          "why": "Nilai evolusi paling kuat saat meningkatkan progresi, kesiapan dungeon, atau tekanan PvP.",
+          "avoid": "Jangan berevolusi hanya untuk keunikan sambil mengabaikan cakupan tim dan performa pertempuran."
+        },
+        {
+          "icon": "Flag",
+          "title": "Uji Tim di Konten yang Lebih Sulit",
+          "action": "Gunakan boss peta, dungeon co-op, dan pertempuran PvP untuk memeriksa apakah tim yang sudah Anda naikkan levelnya siap untuk langkah berikutnya.",
+          "why": "Konten yang lebih sulit mengungkap cakupan yang lemah, pilihan level rendah, dan skill yang hanya terlihat bagus dalam pertarungan sederhana.",
+          "avoid": "Jangan menilai tim lengkap hanya dari pertemuan liar yang mudah."
+        }
+      ]
+    },
+    "evomonHardContent": {
+      "eyebrow": "Konten Sulit",
+      "title": "Panduan Dungeon, Pertarungan Bos, PvP, dan Tunggangan Evomon",
+      "subtitle": "Beralih dari penangkapan santai ke bos peta, dungeon co-op, pertarungan PvP, skill kuat, dan tunggangan legendaris.",
+      "intro": "Evomon dimulai dengan eksplorasi dan penangkapan, kemudian berkembang menjadi konten yang lebih sulit yang dibangun di sekitar strategi, skill, dungeon multipemain, pertarungan bos, PvP, dan Evomon legendaris yang dapat ditunggangi. Gunakan tangga ini untuk memutuskan kapan tim Anda siap untuk mencapai tujuan yang lebih sulit.",
+      "items": [
+        {
+          "category": "Dunia Terbuka",
+          "when": "Segera setelah memasuki dunia game.",
+          "title": "Dasar Eksplorasi",
+          "objective": "Tangkap Evomon liar, pelajari alur peta, dan bangun daftar sebelum menghadapi pertarungan yang lebih sulit.",
+          "tips": [
+            "Tangkap untuk peran baru",
+            "latih pembawa utama",
+            "pisahkan tim koleksi dan pertempuran"
+          ],
+          "payoff": "Daftar yang lebih luas memberi Anda lebih banyak pilihan untuk bos, dungeon, dan PvP."
+        },
+        {
+          "category": "Konten Bos",
+          "when": "Setelah tim utama Anda dapat menyelesaikan pertempuran normal secara konsisten.",
+          "title": "Pertarungan Bos Peta",
+          "objective": "Gunakan bos sebagai pemeriksaan tim untuk level, skill, cakupan pertandingan, dan kelangsungan hidup.",
+          "tips": [
+            "bawa pembawa terlatih terkuat Anda",
+            "tambahkan cakupan sebelum mencoba lagi",
+            "tinjau waktu skill setelah kekalahan"
+          ],
+          "payoff": "Bos mengungkapkan apakah tim Anda siap untuk PvE yang lebih sulit."
+        },
+        {
+          "category": "PvE Multipemain",
+          "when": "Setelah Anda memiliki setidaknya satu Evomon yang siap dungeon yang andal.",
+          "title": "Dungeon Co-op",
+          "objective": "Bekerja sama dengan teman dan selesaikan pertarungan yang lebih panjang yang menghargai koordinasi dan peran pertempuran yang konsisten.",
+          "tips": [
+            "hindari hanya membawa pilihan koleksi yang levelnya rendah",
+            "meliputi pekerjaan tim yang berbeda",
+            "simpan eksperimen rapuh untuk konten yang lebih mudah"
+          ],
+          "payoff": "Dungeon mengubah kemajuan koleksi individu menjadi kemajuan berbasis tim."
+        },
+        {
+          "category": "Pengujian Kompetitif",
+          "when": "Setelah tim Anda memiliki pembawa, cakupan, dan setidaknya satu pilihan tekanan yang berfokus pada skill.",
+          "title": "Pertarungan PvP",
+          "objective": "Uji strategi berbasis giliran melawan lawan sungguhan, bukan hanya pertemuan yang sudah diatur.",
+          "tips": [
+            "bangun di sekitar tekanan skill",
+            "perbaiki celah pertandingan yang jelas",
+            "terus berlatih setelah setiap kekalahan"
+          ],
+          "payoff": "PvP menunjukkan Evomon mana yang berkinerja di bawah tekanan dan mana yang hanya terlihat kuat dalam pertarungan mudah."
+        },
+        {
+          "category": "Strategi Pertempuran",
+          "when": "Segera setelah Evomon Anda mendapatkan opsi pertempuran yang berarti.",
+          "title": "Skill Kuat",
+          "objective": "Gunakan skill untuk mengontrol tempo pertempuran, menghukum pertandingan yang buruk, dan meningkatkan kinerja bos atau PvP.",
+          "tips": [
+            "sesuaikan skill dengan peran masing-masing Evomon",
+            "jangan menilai hanya dari visual",
+            "uji skill dalam pertarungan berulang"
+          ],
+          "payoff": "Rencana skill yang terlatih dengan baik membuat daftar yang sama berkinerja lebih baik tanpa perlu penggantian terus-menerus."
+        },
+        {
+          "category": "Tunggangan",
+          "when": "Setelah eksplorasi dasar terasa nyaman dan Anda siap mengejar tujuan prestise.",
+          "title": "Tunggangan Legendaris",
+          "objective": "Tunggangi Evomon legendaris melintasi dunia dan ubah kemajuan koleksi menjadi kemajuan akun yang terlihat.",
+          "tips": [
+            "perlakukan tunggangan sebagai tujuan jangka panjang",
+            "terus tingkatkan pertempuran saat mengejarnya",
+            "gunakan rute eksplorasi untuk mendukung tujuan koleksi"
+          ],
+          "payoff": "Tunggangan meningkatkan nuansa eksplorasi dan memberikan target koleksi bernilai tinggi."
+        },
+        {
+          "category": "Rute Progresi",
+          "when": "Setelah penangkapan santai tidak lagi menghalangi tim utama Anda.",
+          "title": "Tangga Progresi Akhir Game",
+          "objective": "Berputar antara koleksi, leveling, evolusi, bos, dungeon, PvP, dan tujuan tunggangan.",
+          "tips": [
+            "tingkatkan tim utama terlebih dahulu",
+            "buru bentuk langka dalam sesi yang direncanakan",
+            "gunakan konten sulit untuk mengungkap celah tim"
+          ],
+          "payoff": "Tangga yang jelas menjaga progresi tetap bergerak dan mengubah koleksi, pertempuran, dungeon, PvP, dan tunggangan menjadi satu rute yang terhubung."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering",
+    "titleHighlight": "Diajukan",
+    "subtitle": "Semua yang perlu Anda ketahui tentang Evomon",
+    "questions": [
+      {
+        "question": "Apa itu Evomon?",
+        "answer": "Evomon adalah petualangan menangkap monster dunia terbuka di Roblox di mana pemain mengumpulkan 200+ Evomon, berburu varian Shiny dan Sparkle, melatih tim, bertarung secara bergiliran, menetaskan Egg, menunggangi makhluk legendaris, dan menyelesaikan dungeon bersama teman."
+      },
+      {
+        "question": "Di mana saya bisa bermain Evomon?",
+        "answer": "Mainkan Evomon dari halaman pengalaman resmi Roblox yang diterbitkan oleh Evomon Devs. Selalu mulai dari halaman resmi alih-alih situs tiruan."
+      },
+      {
+        "question": "Bagaimana cara menukarkan kode Evomon?",
+        "answer": "Buka menu Pengaturan (ikon roda gigi) di Evomon, tempelkan kode aktif ke dalam kotak input kode, dan tekan OK untuk mengeklaim hadiah Anda. Selesaikan tutorial pembuka terlebih dahulu jika menu Pengaturan belum tersedia."
+      },
+      {
+        "question": "Starter Evomon mana yang harus saya pilih?",
+        "answer": "Evomon menawarkan tiga starter: Leafbun (Grass), Blazpup (Fire), dan Bubble (Water). Pilih berdasarkan peran pertama yang Anda inginkan, lalu tangkap tipe lain sejak dini untuk menutupi kelemahan."
+      },
+      {
+        "question": "Apa itu Evomon Shiny dan Sparkle?",
+        "answer": "Evomon Shiny dan Sparkle adalah varian langka dan tujuan koleksi jangka panjang. Buru mereka setelah tim pertempuran utama Anda dapat menangani progres normal."
+      },
+      {
+        "question": "Apakah Evomon mendukung multipemain?",
+        "answer": "Ya. Evomon menyertakan fitur multipemain seperti membentuk tim dengan teman dan menghadapi dungeon co-op sebagai bagian dari siklus PVE yang lebih luas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap untuk Menyelami Evomon?",
+    "description": "Bergabunglah dengan komunitas Evomon untuk mendapatkan kode, tier list, bagan tipe, dan panduan dungeon. Tangkap, latih, dan evolusikan tim impian Evomon Anda!",
+    "joinCommunity": "Bergabung dengan Komunitas",
+    "joinGame": "Mainkan di Roblox"
+  },
+  "footer": {
+    "title": "Evomon Wiki",
+    "description": "Pusat sumber daya lengkap Anda untuk kode Evomon, dex Evomon, tier list, bagan tipe, peta, dungeon, dan panduan pemula.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "robloxGroup": "Grup Roblox",
+    "youtube": "YouTube",
+    "robloxGame": "Mainkan di Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Evomon Wiki. Tidak berafiliasi dengan pengembang Evomon.",
+    "disclaimer": "Situs web sumber daya buatan penggemar yang tidak resmi."
+  },
+  "pages": {
+    "codes": {
+      "title": "Kode Evomon",
+      "description": "Kode Evomon aktif, jenis hadiah, langkah penukaran, dan alasan mengapa kode mungkin tidak berfungsi.",
+      "metaTitle": "Kode Evomon - Kode Aktif & Panduan Penukaran",
+      "metaDescription": "Kode Evomon aktif terbaru dengan jenis hadiah, langkah penukaran yang tepat, dan pemecahan masalah untuk kode yang gagal.",
+      "categoryLabel": "KODE",
+      "whatIs": "Apa itu Kode?",
+      "whatIsDescription": "Rangkaian hadiah waktu terbatas yang dirilis sekitar peluncuran, pencapaian target, dan acara komunitas yang memberikan Coin, EXP Fruit, dan hadiah pencapaian.",
+      "why": "Mengapa menukarkan kode?",
+      "whySteps": {
+        "step1Title": "Klaim Hadiah Gratis",
+        "step1Description": "Dapatkan Coin, EXP Fruit, dan hadiah pencapaian",
+        "step2Title": "Tukarkan dengan Cepat",
+        "step2Description": "Kode kedaluwarsa setelah jendela waktu terbatas",
+        "step3Title": "Hindari Kesalahan",
+        "step3Description": "Ketik kode dengan tepat dan periksa kesegaran server"
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Kode"
+    },
+    "roblox": {
+      "title": "Evomon Roblox",
+      "description": "Info resmi game Evomon Roblox, detail peluncuran, trailer, gameplay, dan cara bermain dari halaman pengalaman yang benar.",
+      "metaTitle": "Evomon Roblox - Game Resmi, Peluncuran & Trailer",
+      "metaDescription": "Halaman pengalaman resmi Evomon Roblox, info peluncuran, trailer, dan gambaran umum gameplay untuk petualangan menangkap monster dunia terbuka.",
+      "categoryLabel": "ROBLOX",
+      "whatIs": "Apa itu Evomon di Roblox?",
+      "whatIsDescription": "Evomon adalah petualangan menangkap monster dunia terbuka di Roblox di mana Anda mengumpulkan 200+ Evomon, melatih tim, dan bertarung secara bergiliran. Temukan halaman bermain resmi, info peluncuran, dan trailer di sini.",
+      "why": "Mengapa memeriksa halaman Roblox?",
+      "whySteps": {
+        "step1Title": "Mainkan Pengalaman Resmi",
+        "step1Description": "Bergabunglah dengan Evomon dari halaman resmi Roblox oleh Evomon Devs untuk menghindari game tiruan.",
+        "step2Title": "Pantau Peluncuran dan Pembaruan",
+        "step2Description": "Lihat tanggal peluncuran, rilis trailer, dan status server langsung langsung dari Roblox.",
+        "step3Title": "Pahami Gameplay",
+        "step3Description": "Tinjau siklus inti tangkap, latih, bertarung, dan jelajahi sebelum Anda bergabung."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Panduan Roblox"
+    },
+    "guide": {
+      "title": "Panduan Evomon",
+      "description": "Panduan Evomon lengkap mulai dari dasar pemula hingga naik level, metode EXP, bos, menara, misi, dan progres pro.",
+      "metaTitle": "Panduan Evomon - Pemula, Naik Level, Strategi Bos & Menara",
+      "metaDescription": "Panduan Evomon lengkap yang mencakup rute pemula, naik level, metode EXP, pertarungan bos dan menara, misi, dan tips untuk maju lebih cepat.",
+      "categoryLabel": "PANDUAN",
+      "whatIs": "Apa itu Panduan Evomon?",
+      "whatIsDescription": "Panduan Evomon praktis yang mencakup rute pemula, naik level, metode EXP, pertarungan bos dan menara, panduan misi, dan tips untuk maju lebih cepat.",
+      "why": "Mengapa membaca panduan?",
+      "whySteps": {
+        "step1Title": "Pelajari Mekanika Inti",
+        "step1Description": "Kuasai penangkapan, pelatihan, evolusi, dan pertarungan berbasis giliran",
+        "step2Title": "Maju Lebih Cepat",
+        "step2Description": "Ikuti rute naik level dan EXP untuk membangun tim awal yang kuat",
+        "step3Title": "Kalahkan Konten Sulit",
+        "step3Description": "Selesaikan konten bos, menara, dan misi dengan strategi yang terbukti"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "discord": {
+      "title": "Discord Evomon",
+      "description": "Bergabunglah dengan server Discord Evomon resmi dan komunitas Reddit untuk kode, pembaruan, acara, dan kerja sama tim dungeon.",
+      "metaTitle": "Discord Evomon - Server Resmi & Pusat Komunitas",
+      "metaDescription": "Server Discord Evomon resmi dan komunitas Reddit untuk kode aktif, berita acara, kerja sama tim dungeon, dan pembaruan pengembang secara real-time.",
+      "categoryLabel": "KOMUNITAS",
+      "whatIs": "Apa itu Discord Evomon?",
+      "whatIsDescription": "Discord Evomon adalah pusat komunitas resmi tempat pemain menemukan kode aktif, berita acara, saluran kerja sama tim untuk dungeon, dan pembaruan langsung dari pengembang.",
+      "why": "Mengapa bergabung dengan komunitas?",
+      "whySteps": {
+        "step1Title": "Dapatkan Kode Pertama",
+        "step1Description": "Banyak kode Evomon diumumkan di Discord sebelum di tempat lain",
+        "step2Title": "Temukan Tim Dungeon",
+        "step2Description": "Terhubung dengan pemain untuk dungeon co-op, raid, dan pertarungan PvP",
+        "step3Title": "Tetap Terkini",
+        "step3Description": "Dapatkan pengumuman real-time, acara, dan catatan patch dari tim pengembang"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Komunitas"
+    },
+    "tier": {
+      "title": "Daftar Tingkat Evomon",
+      "description": "Daftar tingkat Evomon yang memberi peringkat monster dan tim terbaik berdasarkan peran, cakupan, PvE, dungeon, dan kinerja PvP.",
+      "metaTitle": "Daftar Tingkat Evomon - Monster & Tim Terbaik Peringkat",
+      "metaDescription": "Daftar tingkat Evomon yang memberi peringkat monster dan tim terbaik berdasarkan peran pertempuran, cakupan pertandingan, dan kinerja PvE, dungeon, dan PvP.",
+      "categoryLabel": "DAFTAR TINGKAT",
+      "whatIs": "Apa itu Daftar Tingkat?",
+      "whatIsDescription": "Kisi tingkat berperingkat yang membantu Anda memilih Evomon mana yang akan dilatih terlebih dahulu berdasarkan peran pertempuran, cakupan pertandingan, dan jenis konten di seluruh PvE, dungeon, dan PvP.",
+      "why": "Mengapa menggunakan daftar tingkat?",
+      "whySteps": {
+        "step1Title": "Pilih Monster yang Berharga",
+        "step1Description": "Fokuskan sumber daya pada Evomon yang membawa kemajuan",
+        "step2Title": "Bangun Cakupan",
+        "step2Description": "Lengkapi pertandingan daripada menumpuk satu peran",
+        "step3Title": "Bangun Tim Terbaik",
+        "step3Description": "Gabungkan monster berperingkat teratas menjadi skuad yang seimbang"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Daftar Tingkat"
+    },
+    "catching": {
+      "title": "Panduan Menangkap Evomon",
+      "description": "Panduan menangkap Evomon yang mencakup pertemuan liar, Egg, penetasan, evolusi, dan varian Shiny, Sparkle, dan Prismatic yang langka.",
+      "metaTitle": "Panduan Menangkap Evomon - Egg, Evolusi & Berburu Shiny",
+      "metaDescription": "Panduan menangkap Evomon lengkap yang mencakup pertemuan liar, Egg, penetasan, evolusi, dan berburu varian Shiny, Sparkle, dan Prismatic yang langka.",
+      "categoryLabel": "MENANGKAP",
+      "whatIs": "Apa itu Panduan Menangkap?",
+      "whatIsDescription": "Pusat koleksi untuk menangkap Evomon liar, menetaskan Egg, memicu evolusi, dan berburu bentuk Shiny, Sparkle, dan Prismatic yang langka di seluruh dunia terbuka.",
+      "why": "Mengapa menggunakan panduan menangkap?",
+      "whySteps": {
+        "step1Title": "Menangkap Lebih Cerdas",
+        "step1Description": "Targetkan Evomon yang mengisi peran tim yang hilang terlebih dahulu",
+        "step2Title": "Menetaskan dan Berevolusi",
+        "step2Description": "Ubah Egg dan evolusi menjadi peningkatan daftar yang berguna",
+        "step3Title": "Berburu Varian Langka",
+        "step3Description": "Kejar bentuk Shiny, Sparkle, dan Prismatic dengan rencana yang jelas"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Menangkap"
+    },
+    "review": {
+      "title": "Ulasan Evomon",
+      "description": "Ulasan Evomon mencakup gameplay, trailer, ketersediaan platform, dan apakah petualangan menangkap monster ini layak dimainkan.",
+      "metaTitle": "Ulasan Evomon - Gameplay, Trailer & Info Platform",
+      "metaDescription": "Ulasan dan kesan Evomon mencakup nuansa gameplay, trailer peluncuran, dan ketersediaan platform untuk petualangan menangkap monster Roblox.",
+      "categoryLabel": "ULASAN",
+      "whatIs": "Apa itu Panduan Ulasan?",
+      "whatIsDescription": "Ulasan dan kesan Evomon mencakup nuansa gameplay, trailer peluncuran, ketersediaan platform, dan apa yang membuat petualangan menangkap monster ini layak dimainkan.",
+      "why": "Mengapa membaca ulasan?",
+      "whySteps": {
+        "step1Title": "Lihat Gameplay Nyata",
+        "step1Description": "Tonton trailer dan gameplay untuk memahami siklus tangkap, latih, lawan",
+        "step2Title": "Periksa Platform",
+        "step2Description": "Pelajari di mana Evomon tersedia dan cara mengaksesnya",
+        "step3Title": "Putuskan Sebelum Bergabung",
+        "step3Description": "Dapatkan gambaran yang jelas tentang pengalaman sebelum menginvestasikan waktu"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Ulasan"
+    },
+    "world": {
+      "title": "Dunia Evomon",
+      "description": "Jelajahi dunia Evomon, ikhtisar game, tunggangan yang bisa ditunggangi, wilayah, dan pembaruan serta catatan patch terbaru.",
+      "metaTitle": "Dunia Evomon - Ikhtisar Game, Tunggangan & Pembaruan",
+      "metaDescription": "Pusat dunia Evomon mencakup ikhtisar game dunia terbuka, tunggangan legendaris yang bisa ditunggangi, wilayah, dan pembaruan serta catatan patch terbaru.",
+      "categoryLabel": "DUNIA",
+      "whatIs": "Apa itu Dunia Evomon?",
+      "whatIsDescription": "Pusat dunia Evomon mencakup ikhtisar game dunia terbuka, tunggangan legendaris yang bisa ditunggangi, wilayah untuk dijelajahi, dan pembaruan game serta catatan patch terbaru.",
+      "why": "Mengapa menjelajahi dunia?",
+      "whySteps": {
+        "step1Title": "Tunggangi Tunggangan Legendaris",
+        "step1Description": "Buka dan tunggangi Evomon yang kuat di seluruh peta",
+        "step2Title": "Jelajahi Wilayah",
+        "step2Description": "Temukan area baru, spawn, dan harta karun di seluruh dunia",
+        "step3Title": "Ikuti Pembaruan",
+        "step3Description": "Lacak catatan patch, acara, dan konten baru terbaru"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Dunia"
+    }
   }
 }

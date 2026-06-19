@@ -1,12 +1,883 @@
 {
+  "seo": {
+    "home": {
+      "title": "Evomon Wiki - Códigos, Evomons e Tabela de Tipos",
+      "description": "Encontre códigos Evomon, listas de níveis Evomon, tabela de tipos, entradas da dex, dicas Shiny, escolhas iniciais, rotas de mapa, masmorras, itens e guias para iniciantes no Roblox.",
+      "keywords": "Evomon, Roblox, códigos, lista de níveis, tabela de tipos, dex, Shiny, masmorras, guia para iniciantes",
+      "ogTitle": "Evomon Wiki - Códigos, Evomons e Tabela de Tipos",
+      "ogDescription": "Encontre códigos Evomon, listas de níveis Evomon, tabela de tipos, entradas da dex, dicas Shiny, escolhas iniciais, rotas de mapa, masmorras, itens e guias para iniciantes no Roblox.",
+      "twitterTitle": "Evomon Wiki - Códigos, Evomons e Tabela de Tipos",
+      "twitterDescription": "Encontre códigos Evomon, listas de níveis Evomon, tabela de tipos, entradas da dex, dicas Shiny, escolhas iniciais, rotas de mapa, masmorras, itens e guias para iniciantes no Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "roblox": "Roblox",
     "guide": "Guia",
     "discord": "Discord",
-    "tier": "Tier",
+    "tier": "Nível",
     "catching": "Captura",
-    "review": "Análise",
+    "review": "Revisão",
     "world": "Mundo"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "RPG de Captura de Monstros em Mundo Aberto",
+    "title": "Evomon Wiki",
+    "description": "Evomon é uma aventura de captura de monstros em mundo aberto no Roblox onde os jogadores coletam mais de 200 Evomons, caçam variantes Shiny e Sparkle, treinam equipes, batalham por turnos, montam criaturas lendárias e concluem masmorras com amigos.",
+    "keywords": "Evomon, Roblox, códigos, Evomons, lista de níveis, tabela de tipos, Shiny, Sparkle, masmorras, guia para iniciantes",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "2,449",
+        "label": "Jogadores Ativos"
+      },
+      "stat2": {
+        "value": "57.6K+",
+        "label": "Total de Visitas"
+      },
+      "stat3": {
+        "value": "200+",
+        "label": "Evomons Disponíveis"
+      },
+      "stat4": {
+        "value": "12",
+        "label": "Tamanho do Servidor"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade Evomon",
+    "description": "Capture, treine e evolua mais de 200 Evomons em um mundo aberto do Roblox. Cace variantes Shiny e Sparkle, batalhe por turnos, choque Eggs, conclua masmorras e monte criaturas lendárias."
+  },
+  "tools": {
+    "title": "Evomon",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para capturar, treinar, evoluir e batalhar com sua equipe Evomon",
+    "cards": [
+      {
+        "icon": "Sparkles",
+        "title": "Códigos Evomon",
+        "description": "Códigos ativos, passos para resgatar e tipos de recompensa"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Links Oficiais Evomon",
+        "description": "Página do jogo Roblox, grupo de desenvolvedores e trailer de lançamento"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes Evomon",
+        "description": "Rota da primeira sessão e escolhas iniciais"
+      },
+      {
+        "icon": "Users",
+        "title": "Evomon Inicial e Equipe",
+        "description": "Compare iniciais e construa uma equipe inicial"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Lista de Níveis Evomon",
+        "description": "Classifique Evomons por função e valor em PvE, masmorra, PvP"
+      },
+      {
+        "icon": "Eye",
+        "title": "Guia de Captura Evomon",
+        "description": "Captura, Eggs, evolução, Shiny e Sparkle"
+      },
+      {
+        "icon": "Star",
+        "title": "Guia de Nivelamento Evomon",
+        "description": "Nivelamento, evolução e prioridade de Frutas EXP"
+      },
+      {
+        "icon": "Shield",
+        "title": "Conteúdo Difícil Evomon",
+        "description": "Masmorras, chefes, PvP e montarias lendárias"
+      }
+    ]
+  },
+  "modules": {
+    "evomonCodes": {
+      "eyebrow": "Recompensas Grátis",
+      "title": "Códigos Evomon e Guia de Resgate",
+      "subtitle": "Use códigos Evomon ativos para reivindicar recompensas de lançamento, como Moedas, Frutas EXP Médias e presentes de marcos.",
+      "intro": "Os códigos Evomon são sequências de recompensas por tempo limitado lançadas em torno do lançamento, como metas e eventos da comunidade. Copie cada código exatamente, conclua o tutorial de abertura quando necessário e resgate no menu de Configurações da engrenagem antes que o código expire.",
+      "codes": [
+        {
+          "code": "2K-LIKES",
+          "status": "Ativo",
+          "reward": "Presente oficial de marco de 2K curtidas",
+          "rewardType": "Marco",
+          "bestUse": "Resgate após abrir o menu Configurações e, em seguida, use a recompensa para apoiar a progressão inicial."
+        },
+        {
+          "code": "FORDC1200",
+          "status": "Ativo",
+          "reward": "1.000 Moedas",
+          "rewardType": "Moeda",
+          "bestUse": "Use Moedas para compras iniciais e suporte básico de progressão."
+        },
+        {
+          "code": "EvomonVip",
+          "status": "Ativo",
+          "reward": "5 Frutas EXP Médias",
+          "rewardType": "Item EXP",
+          "bestUse": "Alimente Frutas EXP para um Evomon que você planeja manter em sua primeira equipe de batalha."
+        },
+        {
+          "code": "LIKE1GIFT",
+          "status": "Ativo",
+          "reward": "1.000 Moedas e 2 Frutas EXP Médias",
+          "rewardType": "Moeda e EXP",
+          "bestUse": "Resgate cedo porque oferece ajuda para subir de nível e moeda para gastar."
+        }
+      ],
+      "redeemSteps": [
+        "Inicie Evomon na página oficial da experiência Roblox.",
+        "Conclua o tutorial de abertura se o menu Configurações ainda não estiver disponível.",
+        "Clique no botão de engrenagem Configurações perto da parte superior da tela.",
+        "Cole um código ativo na caixa de entrada de código.",
+        "Pressione OK para reivindicar a recompensa."
+      ],
+      "troubleshooting": {
+        "title": "Por que um Código Evomon pode não funcionar",
+        "checks": [
+          "O código foi digitado com a capitalização errada.",
+          "Um espaço extra foi colado antes ou depois do código.",
+          "O código já foi reivindicado na mesma conta Roblox.",
+          "O código expirou após um lançamento por tempo limitado ou janela de marco.",
+          "O servidor está antigo e precisa de uma nova reconexão antes que novos códigos sejam registrados."
+        ]
+      }
+    },
+    "evomonOfficialLinks": {
+      "eyebrow": "Links Oficiais",
+      "title": "Link Oficial Roblox de Evomon e Informações do Jogo",
+      "subtitle": "Jogue Evomon na página oficial do Roblox por Evomon Devs e use os canais de mídia oficiais vinculados para trailers, atualizações e avisos da comunidade.",
+      "intro": "Evomon é uma aventura de captura de monstros no Roblox construída em torno de captura, treinamento, batalha, exploração, eclosão de Egg, formas Shiny e Sparkle raras, jogo multiplayer e progressão em masmorras. Sempre comece pela experiência oficial do Roblox em vez de páginas espelho.",
+      "items": [
+        {
+          "icon": "Gamepad2",
+          "label": "Experiência Oficial Roblox",
+          "value": "Evomon[Release]",
+          "description": "A página principal de jogo Roblox para Evomon, publicada por Evomon Devs.",
+          "href": "https://www.roblox.com/games/134381727982611/Evomon"
+        },
+        {
+          "icon": "Users",
+          "label": "Grupo de Desenvolvedores",
+          "value": "Evomon Devs",
+          "description": "O grupo da comunidade Roblox conectado à experiência oficial de Evomon.",
+          "href": "https://www.roblox.com/communities/665060893/Evomon-Devs"
+        },
+        {
+          "icon": "Youtube",
+          "label": "Canal Oficial de Vídeos",
+          "value": "[Roblox] NoExt Games",
+          "description": "O canal oficial do YouTube vinculado para vídeos de lançamento e prévia de Evomon.",
+          "href": "https://www.youtube.com/channel/UCbjCRjUn_qkSEEtxpVguLYQ"
+        },
+        {
+          "icon": "Play",
+          "label": "Trailer de Lançamento",
+          "value": "Roblox Evomon Official Launch Trailer",
+          "description": "O trailer apresenta Evomon como uma aventura de captura de monstros no Roblox com captura, treinamento, evolução, batalha e mais de 200 Evomons.",
+          "href": "https://www.youtube.com/watch?v=uMMJ6h-PhcE"
+        },
+        {
+          "icon": "Compass",
+          "label": "Jogabilidade Principal",
+          "value": "Capture, Batalhe, Explore",
+          "description": "Os jogadores capturam Evomons selvagens, treinam uma equipe, usam estratégia de batalha, exploram tesouros escondidos e progridem em uma aventura de mundo aberto."
+        },
+        {
+          "icon": "Tags",
+          "label": "Tags do Jogo",
+          "value": "Mundo Aberto, Coleção de Pets, Eclosão de Egg, Multiplayer, RPG, Aventura, PVE, Estratégia, Turnos",
+          "description": "Essas tags correspondem à descrição oficial do jogo Roblox e ajudam novos jogadores a entender o estilo do jogo antes de entrar."
+        },
+        {
+          "icon": "Egg",
+          "label": "Recursos de Coleção",
+          "value": "Mais de 200 Evomons, formas Shiny, formas Sparkle, eggs, montarias lendárias",
+          "description": "Evomon foca em coletar, caçar variantes raras, chocar eggs e montar Evomons lendários pelo mundo."
+        },
+        {
+          "icon": "UsersRound",
+          "label": "Recursos Multiplayer",
+          "value": "Amigos e masmorras",
+          "description": "Os jogadores podem se juntar a amigos e enfrentar masmorras como parte do ciclo PVE mais amplo."
+        }
+      ]
+    },
+    "evomonBeginnerGuide": {
+      "eyebrow": "Roteiro Inicial",
+      "title": "Guia para Iniciantes de Evomon",
+      "subtitle": "Siga uma rota limpa para a primeira sessão: junte-se ao jogo oficial, termine o tutorial, escolha um inicial, capture Evomons iniciais, resgate códigos e monte uma primeira equipe útil.",
+      "intro": "Evomon começa como uma aventura clássica de coleta de criaturas no Roblox: escolha um inicial, aprenda o ciclo de batalha e captura, depois expanda sua equipe através de encontros selvagens, recompensas, Eggs, variantes raras e exploração.",
+      "steps": [
+        {
+          "title": "Comece pela Página Oficial do Roblox",
+          "description": "Abra Evomon[Release] da Evomon Devs e junte-se pela página oficial da experiência Roblox.",
+          "tip": "Marque a página oficial para não cair em jogos falsos ou páginas não relacionadas de Evomon."
+        },
+        {
+          "title": "Termine o Tutorial Inicial",
+          "description": "Complete o fluxo do primeiro tutorial para que os menus principais, os fundamentos da batalha, o fluxo de captura e a área de resgate de códigos se tornem mais fáceis de acessar.",
+          "tip": "Não ignore as explicações do menu; o menu Configurações também é onde os códigos são resgatados."
+        },
+        {
+          "title": "Escolha um Inicial",
+          "description": "Comece com uma das três opções iniciais: Leafbun, Blazpup ou Bubble.",
+          "tip": "Escolha com base na primeira função que você deseja em sua equipe, depois capture outros tipos cedo para cobrir fraquezas."
+        },
+        {
+          "title": "Entre no Ciclo de Exploração Inicial",
+          "description": "Avance para as áreas iniciais, lute contra Evomons selvagens, capture novos membros para a equipe e explore em busca de tesouros.",
+          "tip": "Uma equipe inicial mais ampla é mais útil do que investir todas as recompensas em apenas uma criatura."
+        },
+        {
+          "title": "Resgate Códigos de Lançamento",
+          "description": "Abra o menu de Configurações (engrenagem), cole os códigos ativos e resgate Coins, EXP Fruits ou recompensas de marcos.",
+          "tip": "Use EXP Fruits nos Evomons que você realmente está usando em batalhas, em vez de espalhá-los por capturas aleatórias."
+        },
+        {
+          "title": "Construa Cobertura de Elementos",
+          "description": "Adicione companheiros de equipe que cubram diferentes situações de batalha, em vez de empilhar vários Evomons que fazem o mesmo trabalho.",
+          "tip": "Uma equipe inicial simples deve incluir seu inicial, pelo menos um atacante de elemento diferente e uma captura de apoio que você possa subir de nível com segurança."
+        },
+        {
+          "title": "Treine Antes de Caçar Raros",
+          "description": "Suba o nível de sua equipe de batalha prática antes de gastar muito tempo caçando variantes Shiny e Sparkle.",
+          "tip": "Formas raras são objetivos valiosos de coleção, mas o progresso inicial ainda depende de vencer batalhas e desbloquear mais áreas."
+        },
+        {
+          "title": "Experimente o Multijogador e as Dungeons",
+          "description": "Assim que sua equipe tiver níveis e cobertura suficientes, junte-se a amigos e comece a usar o lado das dungeons do ciclo do jogo.",
+          "tip": "Dungeons são mais fáceis quando sua equipe cobre diferentes funções, em vez de escolhas sobrepostas."
+        }
+      ]
+    },
+    "evomonBestStarter": {
+      "eyebrow": "Construção de Equipe",
+      "title": "Guia do Melhor Inicial e Equipe Inicial de Evomon",
+      "subtitle": "Compare Leafbun, Blazpup e Bubble por função inicial, valor de cobertura e planejamento da primeira equipe.",
+      "intro": "Evomon oferece aos jogadores três opções iniciais e rapidamente os impulsiona para a captura, treinamento, batalha e expansão da equipe. Use o inicial como seu primeiro slot de cobertura, depois capture diferentes Evomons para equilibrar a equipe.",
+      "starters": [
+        {
+          "name": "Leafbun",
+          "type": "Inicial de Grama",
+          "role": "Slot equilibrado para a primeira equipe",
+          "progressionValue": "Útil como um membro estável da primeira equipe enquanto você aprende a capturar, treinar e o ritmo básico da batalha.",
+          "teamPlan": "Combine Leafbun com cobertura de Fogo e Água para que a equipe não dependa de um único padrão de confronto.",
+          "bestFor": "Jogadores que desejam uma rota inicial equilibrada e um planejamento de equipe inicial simples.",
+          "avoid": "Não mantenha apenas cobertura do tipo Grama na equipe só porque o inicial parece confortável."
+        },
+        {
+          "name": "Blazpup",
+          "type": "Inicial de Fogo",
+          "role": "Slot de atacante agressivo",
+          "progressionValue": "Adequado para jogadores que desejam um ritmo de batalha inicial mais rápido e uma função de ataque clara na equipe inicial.",
+          "teamPlan": "Adicione cobertura de Água ou Grama cedo, depois mantenha uma captura de apoio nivelada para que confrontos difíceis não paralisem o progresso.",
+          "bestFor": "Jogadores que preferem lutas iniciais mais rápidas e progressão focada em atacantes.",
+          "avoid": "Não gaste todas as EXP Fruits em Blazpup antes de capturar companheiros de equipe com cobertura diferente."
+        },
+        {
+          "name": "Bubble",
+          "type": "Inicial de Água",
+          "role": "Âncora inicial flexível",
+          "progressionValue": "Funciona bem como uma âncora flexível para a equipe inicial enquanto você explora, captura e testa diferentes membros da equipe.",
+          "teamPlan": "Combine Bubble com cobertura de Grama e Fogo para que sua equipe inicial possa lidar com mais encontros selvagens e situações de dungeon.",
+          "bestFor": "Jogadores que desejam uma escolha inicial estável com fácil flexibilidade para a primeira equipe.",
+          "avoid": "Não trate um inicial seguro como uma equipe completa; Evomon recompensa uma coleção e cobertura mais amplas."
+        },
+        {
+          "name": "Fórmula da Equipe Inicial",
+          "type": "Plano de Equipe",
+          "role": "Inicial mais núcleo de cobertura",
+          "progressionValue": "Uma primeira equipe prática deve incluir seu inicial, duas capturas de elementos diferentes e uma escolha de apoio ou utilidade.",
+          "teamPlan": "Use Coins e EXP Fruits para apoiar os Evomons com os quais você realmente batalha, enquanto guarda itens de captura melhores para encontros raros ou mais fortes.",
+          "bestFor": "Novos jogadores que desejam progresso constante através da captura, treinamento, exploração e PVE inicial.",
+          "avoid": "Não persiga formas Shiny ou Sparkle antes que sua equipe de batalha possa vencer as lutas iniciais de forma confiável."
+        }
+      ]
+    },
+    "evomonTierList": {
+      "eyebrow": "Construção de Equipe",
+      "title": "Lista de Níveis de Evomon e Guia de Construção de Equipes",
+      "subtitle": "Construa com base no papel de batalha, cobertura de confronto, valor de evolução, força PvE, utilidade em masmorras e pressão PvP.",
+      "intro": "Evomon é uma aventura de captura de monstros no Roblox focada em capturar, treinar, evoluir e batalhas por turnos com um elenco de mais de 200 Evomons. Esta grade de níveis classifica os papéis práticos da equipe para que os jogadores possam se adaptar à sua própria lista, níveis, habilidades e objetivos de formas raras.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Escolhas de Equipe Essenciais",
+          "cards": [
+            {
+              "icon": "Target",
+              "name": "Carregador Principal Evoluído",
+              "role": "Dano primário e ritmo de batalha",
+              "bestFor": [
+                "progressão PvE",
+                "chefes de mapa",
+                "testes iniciais de PvP"
+              ],
+              "rankingBasis": [
+                "Nível atual alto",
+                "pressão de habilidade útil",
+                "bom confronto na área que você está limpando",
+                "valor de evolução"
+              ],
+              "use": "Invista EXP regular e Frutas de EXP aqui primeiro, depois construa o resto da equipe em torno dos confrontos fracos do carregador."
+            },
+            {
+              "icon": "ShieldCheck",
+              "name": "Âncora Pronta para Masmorra",
+              "role": "Parceiro confiável para lutas cooperativas mais longas",
+              "bestFor": [
+                "masmorras cooperativas",
+                "rotas de chefes",
+                "farm repetido"
+              ],
+              "rankingBasis": [
+                "sobrevive a batalhas repetidas",
+                "mantém o valor após a evolução",
+                "se encaixa no jogo de masmorra multiplayer"
+              ],
+              "use": "Mantenha pelo menos um Evomon treinado que possa permanecer útil quando as batalhas durarem mais do que um encontro selvagem rápido."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Escolhas de Suporte Fortes",
+          "cards": [
+            {
+              "icon": "Layers",
+              "name": "Especialista em Cobertura",
+              "role": "Cobertura de confronto",
+              "bestFor": [
+                "novas ilhas",
+                "grupos de inimigos mistos",
+                "preparação para chefes"
+              ],
+              "rankingBasis": [
+                "cobre os confrontos ruins do carregador",
+                "adiciona um ângulo de batalha diferente",
+                "permanece útil após o treinamento"
+              ],
+              "use": "Adicione cobertura antes de procurar favoritos duplicados, porque uma equipe equilibrada limpa mais conteúdo do que versões repetidas do mesmo papel."
+            },
+            {
+              "icon": "Crosshair",
+              "name": "Escolha de Pressão PvP",
+              "role": "Pressão baseada em habilidades",
+              "bestFor": [
+                "PvP por turnos",
+                "teste de habilidades",
+                "prática de contra-jogo"
+              ],
+              "rankingBasis": [
+                "habilidades de batalha fortes",
+                "papel claro em um plano por turnos",
+                "combina bem com um carregador treinado"
+              ],
+              "use": "Use este slot para testar como suas habilidades se comportam contra oponentes reais, em vez de julgar apenas por encontros selvagens."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Projetos de Progressão",
+          "cards": [
+            {
+              "icon": "Rocket",
+              "name": "Projeto de Evolução Recente",
+              "role": "Atualização futura da lista",
+              "bestFor": [
+                "eclosão de Egg",
+                "crescimento do dex",
+                "atualizações de equipe de meio de jogo"
+              ],
+              "rankingBasis": [
+                "caminho de evolução promissor",
+                "preenche um papel ausente",
+                "ainda não totalmente treinado"
+              ],
+              "use": "Mantenha-o na fila de atualização, mas não esgote todas as recompensas nele antes que ele prove um trabalho claro na equipe."
+            },
+            {
+              "icon": "Gem",
+              "name": "Colecionador de Variantes Raras",
+              "role": "Alvo de coleção Shiny e Sparkle",
+              "bestFor": [
+                "objetivos de coleção",
+                "equipes de exibição",
+                "caça de longo prazo"
+              ],
+              "rankingBasis": [
+                "valor de forma rara",
+                "apelo de coleção",
+                "potencial para se tornar pronto para a batalha após o treinamento"
+              ],
+              "use": "Treine variantes raras depois que sua equipe de batalha principal já puder lidar com a progressão normal."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Escolhas de Banco e Coleção",
+          "cards": [
+            {
+              "icon": "Copy",
+              "name": "Captura Duplicada",
+              "role": "Backup de Dex e coleção",
+              "bestFor": [
+                "conclusão da coleção",
+                "testes de evolução futuros",
+                "economia de recursos"
+              ],
+              "rankingBasis": [
+                "mesmo papel que um Evomon treinado mais forte",
+                "baixo valor de batalha atual",
+                "não necessário para cobertura imediata"
+              ],
+              "use": "Armazene ou gire mais tarde; não substitua uma escolha principal treinada apenas porque uma nova captura parece emocionante."
+            },
+            {
+              "icon": "Wrench",
+              "name": "Escolha Especializada Subnivelada",
+              "role": "Opção de confronto de nicho",
+              "bestFor": [
+                "contadores específicos",
+                "treinamento posterior",
+                "experimentos de equipe"
+              ],
+              "rankingBasis": [
+                "útil apenas em situações restritas",
+                "precisa de mais níveis",
+                "requer um papel mais claro antes de um investimento pesado"
+              ],
+              "use": "Guarde-o para testes direcionados assim que sua equipe principal tiver níveis e cobertura estáveis."
+            }
+          ]
+        }
+      ]
+    },
+    "evomonCatchingGuide": {
+      "eyebrow": "Captura",
+      "title": "Guia de Evomon Shiny, Sparkle, Egg e Captura",
+      "subtitle": "Use a captura, a eclosão de Egg, a evolução e a caça de formas raras para aumentar sua coleção sem desperdiçar o progresso inicial.",
+      "intro": "O ciclo de coleção de Evomon foca em capturar Evomons selvagens, treiná-los, evoluí-los, chocar Eggs e buscar formas raras Shiny e Sparkle em um catálogo de mais de 200 Evomon.",
+      "items": [
+        {
+          "icon": "Hand",
+          "title": "A Captura Vem Antes do Aperfeiçoamento",
+          "summary": "Capture Evomons suficientes para montar uma equipe funcional antes de gastar muito na caça de formas raras.",
+          "content": "Comece capturando Evomons que adicionem novas funções de batalha ou cobertura de tipos. Um catálogo mais amplo oferece mais opções para lutas PvE, dungeons, chefes e testes PvP.",
+          "action": "Mantenha uma equipe de batalha principal e uma reserva de coleção separada para que cada nova captura não interrompa sua formação mais forte."
+        },
+        {
+          "icon": "Egg",
+          "title": "Eggs Alimentam o Crescimento da Coleção a Longo Prazo",
+          "summary": "A eclosão de Egg faz parte do ciclo oficial de Evomon e se conecta naturalmente ao progresso de evolução.",
+          "content": "Trate Eggs como novas fontes para seu catálogo: choque-os, verifique se o resultado preenche uma função ausente e decida se merece treinamento. A evolução importa mais quando o Evomon melhora sua equipe em vez de apenas adicionar outra forma não utilizada.",
+          "action": "Choque primeiro, compare as funções depois, invista por último."
+        },
+        {
+          "icon": "Star",
+          "title": "Formas Shiny e Sparkle são Objetivos de Coleção",
+          "summary": "Evomons Shiny e Sparkle são a busca por formas raras para colecionadores e equipes de exibição.",
+          "content": "Vale a pena buscar formas raras, mas jogadores iniciantes devem montar uma equipe funcional primeiro. Após a equipe principal lidar com a progressão normal, cace variantes raras com uma rota clara e recursos suficientes.",
+          "action": "Priorize variantes raras que também possam ser úteis em sua equipe treinada."
+        },
+        {
+          "icon": "Shuffle",
+          "title": "Priorize Novas Funções em Vez de Duplicatas",
+          "summary": "Uma nova função de combate geralmente ajuda mais do que outra cópia de uma função que você já treinou.",
+          "content": "Ao escolher o que capturar em seguida, procure por Evomons que expandam suas opções de batalha. Uma coleção que cobre mais situações tem melhor desempenho em PvE, dungeons e PvP do que um monte de funções repetidas.",
+          "action": "Use duplicatas para completar a coleção e testes futuros, não para investimento imediato na equipe principal."
+        },
+        {
+          "icon": "Repeat",
+          "title": "Transforme a Caça de Raros em uma Rotina",
+          "summary": "Objetivos de Shiny, Sparkle, Egg e evolução funcionam melhor quando realizados em sessões repetíveis.",
+          "content": "Alterne entre capturar novos Evomons, chocar Eggs, treinar achados úteis e verificar se variantes raras valem a pena serem movidas para sua equipe ativa. Isso mantém o progresso da coleção constante sem travar a progressão de batalha.",
+          "action": "Realize sessões de coleção após sua equipe principal conseguir vencer batalhas normais confortavelmente."
+        }
+      ]
+    },
+    "evomonLevelingGuide": {
+      "eyebrow": "Progressão",
+      "title": "Guia de Leveling, Evolução e EXP Fruit de Evomon",
+      "subtitle": "Suba o nível dos seus Evomons mais fortes primeiro, evolua com um propósito de equipe e use EXP Fruits onde eles gerarem o maior ganho de progressão.",
+      "intro": "A progressão de Evomon é construída em torno de capturar, treinar, evoluir e batalhar. EXP Fruits ajudam no leveling mais rápido, mas a rota mais forte é focar o progresso em uma equipe principal em vez de espalhar melhorias em cada nova captura.",
+      "steps": [
+        {
+          "icon": "RefreshCw",
+          "title": "Conclua o Ciclo Básico de Captura e Batalha",
+          "action": "Comece aprendendo como funcionam os encontros selvagens, a captura, o treinamento e as batalhas por turnos.",
+          "why": "Um jogador que entende o ciclo normal pode julgar quais Evomons merecem investimento em vez de fazer melhorias às cegas.",
+          "avoid": "Não gaste recompensas de progressão antes de saber quais Evomons realmente ajudam você a vencer lutas."
+        },
+        {
+          "icon": "Crown",
+          "title": "Escolha um Carry Principal",
+          "action": "Escolha um Evomon pronto para a batalha como sua principal fonte de dano para progressão PvE e preparação para chefes.",
+          "why": "Um carry focado termina as lutas mais rápido e dá ao resto da equipe um ponto estável para se estruturar.",
+          "avoid": "Não suba o nível de cada nova captura uniformemente no início do jogo; isso cria um catálogo amplo sem um vencedor confiável."
+        },
+        {
+          "icon": "Apple",
+          "title": "Use EXP Fruits em Membros da Equipe Principal",
+          "action": "Gaste Medium EXP Fruits no seu carry e nos Evomons de cobertura que resolvem suas fraquezas.",
+          "why": "EXP Fruits dão um valor de leveling mais rápido quando usados em Evomons que permanecem na sua equipe ativa.",
+          "avoid": "Não use EXP Fruits em duplicatas ou capturas de formas raras não testadas antes que sua equipe principal esteja estável."
+        },
+        {
+          "icon": "Dumbbell",
+          "title": "Farme Batalhas com um Propósito",
+          "action": "Use batalhas repetidas para subir níveis, testar habilidades e confirmar quais Evomons estão prontos para chefes, dungeons e PvP.",
+          "why": "O treinamento é mais valioso quando cada luta testa uma função específica: dano do carry, cobertura, sobrevivência ou tempo de habilidade.",
+          "avoid": "Não faça grind em lutas aleatórias sem verificar se sua equipe está realmente melhorando."
+        },
+        {
+          "icon": "ArrowUp",
+          "title": "Evolua para Valor de Equipe",
+          "action": "Mova a prioridade de evolução para Evomons que ganham uma função mais clara após o treinamento e se encaixam na sua formação ativa.",
+          "why": "O valor da evolução é maior quando melhora a progressão, a prontidão para dungeons ou a pressão no PvP.",
+          "avoid": "Não evolua apenas por novidade, ignorando a cobertura da equipe e o desempenho em batalha."
+        },
+        {
+          "icon": "Flag",
+          "title": "Teste a Equipe em Conteúdo Mais Difícil",
+          "action": "Use chefes de mapa, runs de dungeon co-op e batalhas PvP para verificar se sua equipe nivelada está pronta para o próximo passo.",
+          "why": "Conteúdos mais difíceis expõem coberturas fracas, escolhas com nível baixo e habilidades que só pareciam boas em lutas simples.",
+          "avoid": "Não julgue uma equipe completa apenas por encontros selvagens fáceis."
+        }
+      ]
+    },
+    "evomonHardContent": {
+      "eyebrow": "Conteúdo Difícil",
+      "title": "Guia de Dungeons, Batalhas Contra Chefes, PvP e Montarias de Evomon",
+      "subtitle": "Passe da captura casual para chefes de mapa, dungeons cooperativas, batalhas PvP, habilidades poderosas e montarias lendárias.",
+      "intro": "Evomon começa com exploração e captura, depois se expande para conteúdo mais difícil construído em torno de estratégia, habilidades, dungeons multiplayer, batalhas contra chefes, PvP e Evomons lendários montáveis. Use esta escada para decidir quando sua equipe está pronta para buscar objetivos mais difíceis.",
+      "items": [
+        {
+          "category": "Mundo Aberto",
+          "when": "Imediatamente após entrar no mundo do jogo.",
+          "title": "Fundação da Exploração",
+          "objective": "Capture Evomons selvagens, aprenda o fluxo do mapa e construa um elenco antes de enfrentar lutas mais difíceis.",
+          "tips": [
+            "Capture para novas funções",
+            "treine um carregador principal",
+            "mantenha as equipes de coleta e batalha separadas"
+          ],
+          "payoff": "Um elenco mais amplo oferece mais opções para chefes, dungeons e PvP."
+        },
+        {
+          "category": "Conteúdo de Chefe",
+          "when": "Depois que sua equipe principal conseguir vencer batalhas normais consistentemente.",
+          "title": "Batalhas Contra Chefes de Mapa",
+          "objective": "Use os chefes como verificações de equipe para níveis, habilidades, cobertura de confronto e sobrevivência.",
+          "tips": [
+            "traga seu carregador treinado mais forte",
+            "adicione cobertura antes de tentar novamente",
+            "revise o tempo das habilidades após as perdas"
+          ],
+          "payoff": "Os chefes revelam se sua equipe está pronta para PvE mais difícil."
+        },
+        {
+          "category": "PvE Multiplayer",
+          "when": "Depois de ter pelo menos um Evomon confiável pronto para dungeon.",
+          "title": "Dungeons Cooperativas",
+          "objective": "Junte-se a amigos e vença lutas mais longas que recompensam a coordenação e funções de batalha consistentes.",
+          "tips": [
+            "evite trazer apenas escolhas de coleta de baixo nível",
+            "cubra diferentes funções da equipe",
+            "guarde experimentos frágeis para conteúdo mais fácil"
+          ],
+          "payoff": "As dungeons transformam o progresso individual da coleta em progressão baseada em equipe."
+        },
+        {
+          "category": "Testes Competitivos",
+          "when": "Depois que sua equipe tiver um carregador, cobertura e pelo menos uma escolha de pressão focada em habilidades.",
+          "title": "Batalhas PvP",
+          "objective": "Teste a estratégia baseada em turnos contra oponentes reais em vez de apenas encontros roteirizados.",
+          "tips": [
+            "construa em torno da pressão de habilidades",
+            "corrija lacunas óbvias de confronto",
+            "continue treinando após cada derrota"
+          ],
+          "payoff": "O PvP mostra quais Evomons se saem bem sob pressão e quais só pareciam fortes em lutas fáceis."
+        },
+        {
+          "category": "Estratégia de Batalha",
+          "when": "Assim que seus Evomons ganharem opções de batalha significativas.",
+          "title": "Habilidades Poderosas",
+          "objective": "Use habilidades para controlar o ritmo da batalha, punir confrontos ruins e melhorar o desempenho contra chefes ou no PvP.",
+          "tips": [
+            "combine habilidades com a função de cada Evomon",
+            "não julgue apenas pelos visuais",
+            "teste habilidades em lutas repetidas"
+          ],
+          "payoff": "Um plano de habilidades bem treinado faz com que o mesmo elenco tenha um desempenho melhor sem a necessidade de substituições constantes."
+        },
+        {
+          "category": "Montarias",
+          "when": "Depois que a exploração básica for confortável e você estiver pronto para perseguir objetivos de prestígio.",
+          "title": "Montarias Lendárias",
+          "objective": "Monte Evomons lendários pelo mundo e transforme o progresso da coleta em progresso visível da conta.",
+          "tips": [
+            "trate as montarias como objetivos de longo prazo",
+            "continue progredindo no combate enquanto as persegue",
+            "use rotas de exploração para apoiar os objetivos de coleta"
+          ],
+          "payoff": "As montarias melhoram a sensação de exploração e oferecem alvos de coleta de alto valor."
+        },
+        {
+          "category": "Rota de Progressão",
+          "when": "Depois que a captura casual não bloquear mais sua equipe principal.",
+          "title": "Escada de Progressão do Endgame",
+          "objective": "Alterne entre coleta, nivelamento, evolução, chefes, dungeons, PvP e objetivos de montaria.",
+          "tips": [
+            "atualize a equipe principal primeiro",
+            "cace formas raras em sessões planejadas",
+            "use conteúdo difícil para expor lacunas na equipe"
+          ],
+          "payoff": "Uma escada clara mantém a progressão em movimento e transforma coleta, combate, dungeons, PvP e montarias em uma rota conectada."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "",
+    "subtitle": "Tudo o que você precisa saber sobre Evomon",
+    "questions": [
+      {
+        "question": "O que é Evomon?",
+        "answer": "Evomon é uma aventura de captura de monstros em mundo aberto no Roblox, onde os jogadores coletam mais de 200 Evomons, caçam variantes Shiny e Sparkle, treinam equipes, batalham por turnos, chocam Eggs, montam criaturas lendárias e limpam masmorras com amigos."
+      },
+      {
+        "question": "Onde posso jogar Evomon?",
+        "answer": "Jogue Evomon na página oficial da experiência Roblox publicada por Evomon Devs. Sempre comece pela página oficial em vez de sites espelho."
+      },
+      {
+        "question": "Como resgato códigos Evomon?",
+        "answer": "Abra o menu de Configurações (engrenagem) em Evomon, cole um código ativo na caixa de entrada de código e pressione OK para reivindicar sua recompensa. Conclua o tutorial inicial primeiro se o menu de Configurações não estiver disponível."
+      },
+      {
+        "question": "Qual Evomon inicial devo escolher?",
+        "answer": "Evomon oferece três iniciais: Leafbun (Grama), Blazpup (Fogo) e Bubble (Água). Escolha com base no primeiro papel que você deseja, depois capture outros tipos cedo para cobrir as fraquezas."
+      },
+      {
+        "question": "O que são Evomons Shiny e Sparkle?",
+        "answer": "Evomons Shiny e Sparkle são variantes raras e objetivos de coleção de longo prazo. Cace-os depois que sua equipe de batalha principal puder lidar com a progressão normal."
+      },
+      {
+        "question": "Evomon suporta multiplayer?",
+        "answer": "Sim. Evomon inclui recursos multiplayer como formar equipes com amigos e enfrentar masmorras cooperativas como parte do ciclo PVE mais amplo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para Mergulhar em Evomon?",
+    "description": "Junte-se à comunidade Evomon para códigos, listas de níveis, tabelas de tipos e guias de masmorras. Capture, treine e evolua sua equipe dos sonhos de Evomons!",
+    "joinCommunity": "Juntar-se à Comunidade",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Evomon Wiki",
+    "description": "Seu centro de recursos completo para códigos Evomon, Evomon dex, listas de níveis, tabelas de tipos, mapas, masmorras e guias para iniciantes.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "robloxGroup": "Grupo Roblox",
+    "youtube": "YouTube",
+    "robloxGame": "Jogar no Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Evomon Wiki. Não afiliado aos desenvolvedores de Evomon.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos Evomon",
+      "description": "Códigos Evomon ativos, tipos de recompensa, etapas de resgate e por que um código pode não funcionar.",
+      "metaTitle": "Códigos Evomon - Códigos Ativos e Guia de Resgate",
+      "metaDescription": "Últimos códigos Evomon ativos com tipos de recompensa, etapas exatas de resgate e solução de problemas para códigos que falham.",
+      "categoryLabel": "CÓDIGOS",
+      "whatIs": "O que são Códigos?",
+      "whatIsDescription": "Strings de recompensa por tempo limitado lançadas em torno do lançamento, como metas e eventos da comunidade que concedem Moedas, Frutas EXP e presentes de marcos.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "Reivindique Recompensas Gratuitas",
+        "step1Description": "Obtenha Moedas, Frutas EXP e presentes de marcos",
+        "step2Title": "Resgate Rápido",
+        "step2Description": "Os códigos expiram após janelas de tempo limitadas",
+        "step3Title": "Evite Erros",
+        "step3Description": "Digite os códigos exatamente e verifique a atualização do servidor"
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Códigos"
+    },
+    "roblox": {
+      "title": "Evomon Roblox",
+      "description": "Informações oficiais do jogo Evomon Roblox, detalhes de lançamento, trailers, jogabilidade e como jogar na página de experiência correta.",
+      "metaTitle": "Evomon Roblox - Jogo Oficial, Lançamento e Trailer",
+      "metaDescription": "Página oficial da experiência Evomon Roblox, informações de lançamento, trailers e visão geral da jogabilidade para a aventura de captura de monstros em mundo aberto.",
+      "categoryLabel": "ROBLOX",
+      "whatIs": "O que é Evomon no Roblox?",
+      "whatIsDescription": "Evomon é uma aventura de captura de monstros em mundo aberto no Roblox, onde você coleta mais de 200 Evomons, treina equipes e batalha por turnos. Encontre a página oficial de jogo, informações de lançamento e trailers aqui.",
+      "why": "Por que verificar a página do Roblox?",
+      "whySteps": {
+        "step1Title": "Jogue a Experiência Oficial",
+        "step1Description": "Junte-se a Evomon na página oficial do Roblox por Evomon Devs para evitar jogos copiados.",
+        "step2Title": "Acompanhe Lançamentos e Atualizações",
+        "step2Description": "Veja as datas de lançamento, lançamentos de trailers e status do servidor ao vivo diretamente do Roblox.",
+        "step3Title": "Entenda a Jogabilidade",
+        "step3Description": "Revise o ciclo principal de captura, treinamento, batalha e exploração antes de entrar."
+      },
+      "featured": "Destaque e Essencial",
+      "all": "Todos os Guias Roblox"
+    },
+    "guide": {
+      "title": "Guia Evomon",
+      "description": "Guias completos de Evomon, desde o básico para iniciantes até nivelamento, métodos de EXP, chefes, torres, missões e progressão profissional.",
+      "metaTitle": "Guia Evomon - Iniciante, Nivelamento, Estratégias de Chefes e Torres",
+      "metaDescription": "Guias completos de Evomon cobrindo rotas para iniciantes, nivelamento, métodos de EXP, lutas contra chefes e torres, missões e dicas para progredir mais rápido.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que são os Guias Evomon?",
+      "whatIsDescription": "Guias práticos de Evomon cobrindo rotas para iniciantes, nivelamento, métodos de EXP, lutas contra chefes e torres, passo a passo de missões e dicas para progredir mais rápido.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Aprenda as Mecânicas Essenciais",
+        "step1Description": "Domine a captura, treinamento, evolução e batalhas por turnos",
+        "step2Title": "Progrida Mais Rápido",
+        "step2Description": "Siga rotas de nivelamento e EXP para construir uma equipe forte no início",
+        "step3Title": "Supere Conteúdo Difícil",
+        "step3Description": "Conclua conteúdo de chefes, torres e missões com estratégias comprovadas"
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Guias"
+    },
+    "discord": {
+      "title": "Discord Evomon",
+      "description": "Junte-se ao servidor oficial do Discord Evomon e à comunidade Reddit para códigos, atualizações, eventos e formações de equipe para masmorras.",
+      "metaTitle": "Discord Evomon - Servidor Oficial e Centro da Comunidade",
+      "metaDescription": "Servidor oficial do Discord Evomon e comunidade Reddit para códigos ativos, notícias de eventos, formações de equipe para masmorras e atualizações em tempo real dos desenvolvedores.",
+      "categoryLabel": "COMUNIDADE",
+      "whatIs": "O que é o Discord Evomon?",
+      "whatIsDescription": "O Discord Evomon é o centro oficial da comunidade onde os jogadores encontram códigos ativos, notícias de eventos, canais de formação de equipes para masmorras e atualizações diretas dos desenvolvedores.",
+      "why": "Por que se juntar à comunidade?",
+      "whySteps": {
+        "step1Title": "Obtenha Códigos Primeiro",
+        "step1Description": "Muitos códigos Evomon são anunciados no Discord antes de qualquer outro lugar",
+        "step2Title": "Encontre Equipes para Masmorras",
+        "step2Description": "Conecte-se com jogadores para masmorras cooperativas, raides e batalhas PvP",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Receba anúncios em tempo real, eventos e notas de patch da equipe de desenvolvimento"
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Guias da Comunidade"
+    },
+    "tier": {
+      "title": "Lista de Níveis Evomon",
+      "description": "Lista de níveis Evomon classificando os melhores monstros e equipes por função, cobertura, PvE, masmorra e desempenho PvP.",
+      "metaTitle": "Lista de Níveis Evomon - Melhores Monstros e Equipes Classificados",
+      "metaDescription": "Lista de níveis Evomon classificando os melhores monstros e equipes por função de batalha, cobertura de confronto e desempenho em PvE, masmorras e PvP.",
+      "categoryLabel": "LISTA DE NÍVEIS",
+      "whatIs": "O que é a Lista de Níveis?",
+      "whatIsDescription": "Uma grade de níveis classificada que ajuda você a escolher quais Evomons treinar primeiro com base na função de batalha, cobertura de confronto e tipo de conteúdo em PvE, masmorras e PvP.",
+      "why": "Por que usar a lista de níveis?",
+      "whySteps": {
+        "step1Title": "Escolha Monstros Que Valem a Pena",
+        "step1Description": "Concentre recursos em Evomons que impulsionam a progressão",
+        "step2Title": "Construa Cobertura",
+        "step2Description": "Complete os confrontos em vez de empilhar uma função",
+        "step3Title": "Construa a Melhor Equipe",
+        "step3Description": "Combine monstros de alto nível em um esquadrão equilibrado"
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todas as Listas de Níveis"
+    },
+    "catching": {
+      "title": "Guia de Captura Evomon",
+      "description": "Guia de captura Evomon cobrindo encontros selvagens, ovos, eclosão, evolução e variantes raras Shiny, Sparkle e Prismatic.",
+      "metaTitle": "Guia de Captura Evomon - Ovos, Evolução e Caça Shiny",
+      "metaDescription": "Guia completo de captura Evomon cobrindo encontros selvagens, ovos, eclosão, evolução e caça a variantes raras Shiny, Sparkle e Prismatic.",
+      "categoryLabel": "CAPTURA",
+      "whatIs": "O que é o Guia de Captura?",
+      "whatIsDescription": "Um centro de coleta para capturar Evomons selvagens, chocar ovos, desencadear a evolução e caçar formas raras Shiny, Sparkle e Prismatic em todo o mundo aberto.",
+      "why": "Por que usar guias de captura?",
+      "whySteps": {
+        "step1Title": "Capture de Forma Mais Inteligente",
+        "step1Description": "Priorize Evomons que preenchem funções ausentes na equipe primeiro",
+        "step2Title": "Choque e Evolua",
+        "step2Description": "Transforme ovos e evolução em melhorias úteis para o elenco",
+        "step3Title": "Cace Variantes Raras",
+        "step3Description": "Persiga formas Shiny, Sparkle e Prismatic com um plano claro"
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Guias de Captura"
+    },
+    "review": {
+      "title": "Análise de Evomon",
+      "description": "Análises de Evomon cobrindo jogabilidade, trailers, disponibilidade de plataforma e se a aventura de captura de monstros vale a pena ser jogada.",
+      "metaTitle": "Análise de Evomon - Jogabilidade, Trailers e Informações da Plataforma",
+      "metaDescription": "Análises e impressões de Evomon cobrindo a sensação da jogabilidade, trailers de lançamento e disponibilidade de plataforma para a aventura de captura de monstros do Roblox.",
+      "categoryLabel": "ANÁLISES",
+      "whatIs": "O que é o Guia de Análise?",
+      "whatIsDescription": "Análises e impressões de Evomon cobrindo a sensação da jogabilidade, trailers de lançamento, disponibilidade de plataforma e o que torna a aventura de captura de monstros digna de ser jogada.",
+      "why": "Por que ler análises?",
+      "whySteps": {
+        "step1Title": "Veja a Jogabilidade Real",
+        "step1Description": "Assista a trailers e jogabilidade para entender o ciclo de capturar, treinar e batalhar",
+        "step2Title": "Verifique as Plataformas",
+        "step2Description": "Saiba onde Evomon está disponível e como acessá-lo",
+        "step3Title": "Decida Antes de Entrar",
+        "step3Description": "Tenha uma imagem clara da experiência antes de investir tempo"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Análises"
+    },
+    "world": {
+      "title": "Mundo Evomon",
+      "description": "Explore o mundo Evomon, visão geral do jogo, montarias, regiões e as últimas atualizações e notas de patch.",
+      "metaTitle": "Mundo Evomon - Visão Geral do Jogo, Montarias e Atualizações",
+      "metaDescription": "Hub do mundo Evomon cobrindo a visão geral do jogo de mundo aberto, montarias lendárias, regiões e as últimas atualizações e notas de patch.",
+      "categoryLabel": "MUNDO",
+      "whatIs": "O que é o Mundo Evomon?",
+      "whatIsDescription": "O hub do mundo Evomon cobrindo a visão geral do jogo de mundo aberto, montarias lendárias, regiões para explorar e as últimas atualizações do jogo e notas de patch.",
+      "why": "Por que explorar o mundo?",
+      "whySteps": {
+        "step1Title": "Monte em Montarias Lendárias",
+        "step1Description": "Desbloqueie e monte em Evomons poderosos pelo mapa",
+        "step2Title": "Explore Regiões",
+        "step2Description": "Descubra novas áreas, spawns e tesouros pelo mundo",
+        "step3Title": "Acompanhe as Atualizações",
+        "step3Description": "Acompanhe as últimas notas de patch, eventos e novos conteúdos"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias do Mundo"
+    }
   }
 }
