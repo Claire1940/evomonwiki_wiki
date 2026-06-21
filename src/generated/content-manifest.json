@@ -1,0 +1,762 @@
+{
+  "en": {
+    "catching": [
+      {
+        "slug": "evomon-catching-guide",
+        "file": "evomon-catching-guide"
+      },
+      {
+        "slug": "evomon-eggs",
+        "file": "evomon-eggs"
+      },
+      {
+        "slug": "evomon-evolution",
+        "file": "evomon-evolution"
+      },
+      {
+        "slug": "evomon-hatch-guide",
+        "file": "evomon-hatch-guide"
+      },
+      {
+        "slug": "evomon-prismatic",
+        "file": "evomon-prismatic"
+      },
+      {
+        "slug": "evomon-shiny",
+        "file": "evomon-shiny"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "evomon-codes",
+        "file": "evomon-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "evomon-discord",
+        "file": "evomon-discord"
+      },
+      {
+        "slug": "evomon-reddit",
+        "file": "evomon-reddit"
+      },
+      {
+        "slug": "evomon-roblox-discord",
+        "file": "evomon-roblox-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "evomon-beginner-guide",
+        "file": "evomon-beginner-guide"
+      },
+      {
+        "slug": "evomon-best-starter",
+        "file": "evomon-best-starter"
+      },
+      {
+        "slug": "evomon-boss-guide",
+        "file": "evomon-boss-guide"
+      },
+      {
+        "slug": "evomon-exp-method",
+        "file": "evomon-exp-method"
+      },
+      {
+        "slug": "evomon-guide",
+        "file": "evomon-guide"
+      },
+      {
+        "slug": "evomon-leveling-guide",
+        "file": "evomon-leveling-guide"
+      },
+      {
+        "slug": "evomon-noob-to-pro",
+        "file": "evomon-noob-to-pro"
+      },
+      {
+        "slug": "evomon-progress-guide",
+        "file": "evomon-progress-guide"
+      },
+      {
+        "slug": "evomon-quest-guide",
+        "file": "evomon-quest-guide"
+      },
+      {
+        "slug": "evomon-tips-and-tricks",
+        "file": "evomon-tips-and-tricks"
+      },
+      {
+        "slug": "evomon-tower-guide",
+        "file": "evomon-tower-guide"
+      },
+      {
+        "slug": "evomon-type-chart",
+        "file": "evomon-type-chart"
+      }
+    ],
+    "review": [
+      {
+        "slug": "evomon-gameplay",
+        "file": "evomon-gameplay"
+      },
+      {
+        "slug": "evomon-review",
+        "file": "evomon-review"
+      },
+      {
+        "slug": "evomon-steam",
+        "file": "evomon-steam"
+      },
+      {
+        "slug": "evomon-switch",
+        "file": "evomon-switch"
+      },
+      {
+        "slug": "evomon-trailer",
+        "file": "evomon-trailer"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "evomon-roblox-gameplay",
+        "file": "evomon-roblox-gameplay"
+      },
+      {
+        "slug": "evomon-roblox-launch",
+        "file": "evomon-roblox-launch"
+      },
+      {
+        "slug": "evomon-roblox-live",
+        "file": "evomon-roblox-live"
+      },
+      {
+        "slug": "evomon-roblox-release",
+        "file": "evomon-roblox-release"
+      },
+      {
+        "slug": "evomon-roblox-trailer",
+        "file": "evomon-roblox-trailer"
+      },
+      {
+        "slug": "evomon-roblox",
+        "file": "evomon-roblox"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "evomon-best-monsters",
+        "file": "evomon-best-monsters"
+      },
+      {
+        "slug": "evomon-best-team",
+        "file": "evomon-best-team"
+      },
+      {
+        "slug": "evomon-rankings",
+        "file": "evomon-rankings"
+      },
+      {
+        "slug": "evomon-tier-list",
+        "file": "evomon-tier-list"
+      },
+      {
+        "slug": "evomon-top-monsters",
+        "file": "evomon-top-monsters"
+      }
+    ],
+    "world": [
+      {
+        "slug": "evomon-game",
+        "file": "evomon-game"
+      },
+      {
+        "slug": "evomon-islands",
+        "file": "evomon-islands"
+      },
+      {
+        "slug": "evomon-mounts",
+        "file": "evomon-mounts"
+      },
+      {
+        "slug": "evomon-update",
+        "file": "evomon-update"
+      },
+      {
+        "slug": "evomon-world",
+        "file": "evomon-world"
+      }
+    ]
+  },
+  "id": {
+    "catching": [
+      {
+        "slug": "evomon-catching-guide",
+        "file": "evomon-catching-guide"
+      },
+      {
+        "slug": "evomon-eggs",
+        "file": "evomon-eggs"
+      },
+      {
+        "slug": "evomon-evolution",
+        "file": "evomon-evolution"
+      },
+      {
+        "slug": "evomon-hatch-guide",
+        "file": "evomon-hatch-guide"
+      },
+      {
+        "slug": "evomon-prismatic",
+        "file": "evomon-prismatic"
+      },
+      {
+        "slug": "evomon-shiny",
+        "file": "evomon-shiny"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "evomon-codes",
+        "file": "evomon-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "evomon-discord",
+        "file": "evomon-discord"
+      },
+      {
+        "slug": "evomon-reddit",
+        "file": "evomon-reddit"
+      },
+      {
+        "slug": "evomon-roblox-discord",
+        "file": "evomon-roblox-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "evomon-beginner-guide",
+        "file": "evomon-beginner-guide"
+      },
+      {
+        "slug": "evomon-best-starter",
+        "file": "evomon-best-starter"
+      },
+      {
+        "slug": "evomon-boss-guide",
+        "file": "evomon-boss-guide"
+      },
+      {
+        "slug": "evomon-exp-method",
+        "file": "evomon-exp-method"
+      },
+      {
+        "slug": "evomon-guide",
+        "file": "evomon-guide"
+      },
+      {
+        "slug": "evomon-leveling-guide",
+        "file": "evomon-leveling-guide"
+      },
+      {
+        "slug": "evomon-noob-to-pro",
+        "file": "evomon-noob-to-pro"
+      },
+      {
+        "slug": "evomon-progress-guide",
+        "file": "evomon-progress-guide"
+      },
+      {
+        "slug": "evomon-quest-guide",
+        "file": "evomon-quest-guide"
+      },
+      {
+        "slug": "evomon-tips-and-tricks",
+        "file": "evomon-tips-and-tricks"
+      },
+      {
+        "slug": "evomon-tower-guide",
+        "file": "evomon-tower-guide"
+      },
+      {
+        "slug": "evomon-type-chart",
+        "file": "evomon-type-chart"
+      }
+    ],
+    "review": [
+      {
+        "slug": "evomon-gameplay",
+        "file": "evomon-gameplay"
+      },
+      {
+        "slug": "evomon-review",
+        "file": "evomon-review"
+      },
+      {
+        "slug": "evomon-steam",
+        "file": "evomon-steam"
+      },
+      {
+        "slug": "evomon-switch",
+        "file": "evomon-switch"
+      },
+      {
+        "slug": "evomon-trailer",
+        "file": "evomon-trailer"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "evomon-roblox-gameplay",
+        "file": "evomon-roblox-gameplay"
+      },
+      {
+        "slug": "evomon-roblox-launch",
+        "file": "evomon-roblox-launch"
+      },
+      {
+        "slug": "evomon-roblox-live",
+        "file": "evomon-roblox-live"
+      },
+      {
+        "slug": "evomon-roblox-release",
+        "file": "evomon-roblox-release"
+      },
+      {
+        "slug": "evomon-roblox-trailer",
+        "file": "evomon-roblox-trailer"
+      },
+      {
+        "slug": "evomon-roblox",
+        "file": "evomon-roblox"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "evomon-best-monsters",
+        "file": "evomon-best-monsters"
+      },
+      {
+        "slug": "evomon-best-team",
+        "file": "evomon-best-team"
+      },
+      {
+        "slug": "evomon-rankings",
+        "file": "evomon-rankings"
+      },
+      {
+        "slug": "evomon-tier-list",
+        "file": "evomon-tier-list"
+      },
+      {
+        "slug": "evomon-top-monsters",
+        "file": "evomon-top-monsters"
+      }
+    ],
+    "world": [
+      {
+        "slug": "evomon-game",
+        "file": "evomon-game"
+      },
+      {
+        "slug": "evomon-islands",
+        "file": "evomon-islands"
+      },
+      {
+        "slug": "evomon-mounts",
+        "file": "evomon-mounts"
+      },
+      {
+        "slug": "evomon-update",
+        "file": "evomon-update"
+      },
+      {
+        "slug": "evomon-world",
+        "file": "evomon-world"
+      }
+    ]
+  },
+  "pt": {
+    "catching": [
+      {
+        "slug": "evomon-catching-guide",
+        "file": "evomon-catching-guide"
+      },
+      {
+        "slug": "evomon-eggs",
+        "file": "evomon-eggs"
+      },
+      {
+        "slug": "evomon-evolution",
+        "file": "evomon-evolution"
+      },
+      {
+        "slug": "evomon-hatch-guide",
+        "file": "evomon-hatch-guide"
+      },
+      {
+        "slug": "evomon-prismatic",
+        "file": "evomon-prismatic"
+      },
+      {
+        "slug": "evomon-shiny",
+        "file": "evomon-shiny"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "evomon-codes",
+        "file": "evomon-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "evomon-discord",
+        "file": "evomon-discord"
+      },
+      {
+        "slug": "evomon-reddit",
+        "file": "evomon-reddit"
+      },
+      {
+        "slug": "evomon-roblox-discord",
+        "file": "evomon-roblox-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "evomon-beginner-guide",
+        "file": "evomon-beginner-guide"
+      },
+      {
+        "slug": "evomon-best-starter",
+        "file": "evomon-best-starter"
+      },
+      {
+        "slug": "evomon-boss-guide",
+        "file": "evomon-boss-guide"
+      },
+      {
+        "slug": "evomon-exp-method",
+        "file": "evomon-exp-method"
+      },
+      {
+        "slug": "evomon-guide",
+        "file": "evomon-guide"
+      },
+      {
+        "slug": "evomon-leveling-guide",
+        "file": "evomon-leveling-guide"
+      },
+      {
+        "slug": "evomon-noob-to-pro",
+        "file": "evomon-noob-to-pro"
+      },
+      {
+        "slug": "evomon-progress-guide",
+        "file": "evomon-progress-guide"
+      },
+      {
+        "slug": "evomon-quest-guide",
+        "file": "evomon-quest-guide"
+      },
+      {
+        "slug": "evomon-tips-and-tricks",
+        "file": "evomon-tips-and-tricks"
+      },
+      {
+        "slug": "evomon-tower-guide",
+        "file": "evomon-tower-guide"
+      },
+      {
+        "slug": "evomon-type-chart",
+        "file": "evomon-type-chart"
+      }
+    ],
+    "review": [
+      {
+        "slug": "evomon-gameplay",
+        "file": "evomon-gameplay"
+      },
+      {
+        "slug": "evomon-review",
+        "file": "evomon-review"
+      },
+      {
+        "slug": "evomon-steam",
+        "file": "evomon-steam"
+      },
+      {
+        "slug": "evomon-switch",
+        "file": "evomon-switch"
+      },
+      {
+        "slug": "evomon-trailer",
+        "file": "evomon-trailer"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "evomon-roblox-gameplay",
+        "file": "evomon-roblox-gameplay"
+      },
+      {
+        "slug": "evomon-roblox-launch",
+        "file": "evomon-roblox-launch"
+      },
+      {
+        "slug": "evomon-roblox-live",
+        "file": "evomon-roblox-live"
+      },
+      {
+        "slug": "evomon-roblox-release",
+        "file": "evomon-roblox-release"
+      },
+      {
+        "slug": "evomon-roblox-trailer",
+        "file": "evomon-roblox-trailer"
+      },
+      {
+        "slug": "evomon-roblox",
+        "file": "evomon-roblox"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "evomon-best-monsters",
+        "file": "evomon-best-monsters"
+      },
+      {
+        "slug": "evomon-best-team",
+        "file": "evomon-best-team"
+      },
+      {
+        "slug": "evomon-rankings",
+        "file": "evomon-rankings"
+      },
+      {
+        "slug": "evomon-tier-list",
+        "file": "evomon-tier-list"
+      },
+      {
+        "slug": "evomon-top-monsters",
+        "file": "evomon-top-monsters"
+      }
+    ],
+    "world": [
+      {
+        "slug": "evomon-game",
+        "file": "evomon-game"
+      },
+      {
+        "slug": "evomon-islands",
+        "file": "evomon-islands"
+      },
+      {
+        "slug": "evomon-mounts",
+        "file": "evomon-mounts"
+      },
+      {
+        "slug": "evomon-update",
+        "file": "evomon-update"
+      },
+      {
+        "slug": "evomon-world",
+        "file": "evomon-world"
+      }
+    ]
+  },
+  "th": {
+    "catching": [
+      {
+        "slug": "evomon-catching-guide",
+        "file": "evomon-catching-guide"
+      },
+      {
+        "slug": "evomon-eggs",
+        "file": "evomon-eggs"
+      },
+      {
+        "slug": "evomon-evolution",
+        "file": "evomon-evolution"
+      },
+      {
+        "slug": "evomon-hatch-guide",
+        "file": "evomon-hatch-guide"
+      },
+      {
+        "slug": "evomon-prismatic",
+        "file": "evomon-prismatic"
+      },
+      {
+        "slug": "evomon-shiny",
+        "file": "evomon-shiny"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "evomon-codes",
+        "file": "evomon-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "evomon-discord",
+        "file": "evomon-discord"
+      },
+      {
+        "slug": "evomon-reddit",
+        "file": "evomon-reddit"
+      },
+      {
+        "slug": "evomon-roblox-discord",
+        "file": "evomon-roblox-discord"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "evomon-beginner-guide",
+        "file": "evomon-beginner-guide"
+      },
+      {
+        "slug": "evomon-best-starter",
+        "file": "evomon-best-starter"
+      },
+      {
+        "slug": "evomon-boss-guide",
+        "file": "evomon-boss-guide"
+      },
+      {
+        "slug": "evomon-exp-method",
+        "file": "evomon-exp-method"
+      },
+      {
+        "slug": "evomon-guide",
+        "file": "evomon-guide"
+      },
+      {
+        "slug": "evomon-leveling-guide",
+        "file": "evomon-leveling-guide"
+      },
+      {
+        "slug": "evomon-noob-to-pro",
+        "file": "evomon-noob-to-pro"
+      },
+      {
+        "slug": "evomon-progress-guide",
+        "file": "evomon-progress-guide"
+      },
+      {
+        "slug": "evomon-quest-guide",
+        "file": "evomon-quest-guide"
+      },
+      {
+        "slug": "evomon-tips-and-tricks",
+        "file": "evomon-tips-and-tricks"
+      },
+      {
+        "slug": "evomon-tower-guide",
+        "file": "evomon-tower-guide"
+      },
+      {
+        "slug": "evomon-type-chart",
+        "file": "evomon-type-chart"
+      }
+    ],
+    "review": [
+      {
+        "slug": "evomon-gameplay",
+        "file": "evomon-gameplay"
+      },
+      {
+        "slug": "evomon-review",
+        "file": "evomon-review"
+      },
+      {
+        "slug": "evomon-steam",
+        "file": "evomon-steam"
+      },
+      {
+        "slug": "evomon-switch",
+        "file": "evomon-switch"
+      },
+      {
+        "slug": "evomon-trailer",
+        "file": "evomon-trailer"
+      }
+    ],
+    "roblox": [
+      {
+        "slug": "evomon-roblox-gameplay",
+        "file": "evomon-roblox-gameplay"
+      },
+      {
+        "slug": "evomon-roblox-launch",
+        "file": "evomon-roblox-launch"
+      },
+      {
+        "slug": "evomon-roblox-live",
+        "file": "evomon-roblox-live"
+      },
+      {
+        "slug": "evomon-roblox-release",
+        "file": "evomon-roblox-release"
+      },
+      {
+        "slug": "evomon-roblox-trailer",
+        "file": "evomon-roblox-trailer"
+      },
+      {
+        "slug": "evomon-roblox",
+        "file": "evomon-roblox"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "evomon-best-monsters",
+        "file": "evomon-best-monsters"
+      },
+      {
+        "slug": "evomon-best-team",
+        "file": "evomon-best-team"
+      },
+      {
+        "slug": "evomon-rankings",
+        "file": "evomon-rankings"
+      },
+      {
+        "slug": "evomon-tier-list",
+        "file": "evomon-tier-list"
+      },
+      {
+        "slug": "evomon-top-monsters",
+        "file": "evomon-top-monsters"
+      }
+    ],
+    "world": [
+      {
+        "slug": "evomon-game",
+        "file": "evomon-game"
+      },
+      {
+        "slug": "evomon-islands",
+        "file": "evomon-islands"
+      },
+      {
+        "slug": "evomon-mounts",
+        "file": "evomon-mounts"
+      },
+      {
+        "slug": "evomon-update",
+        "file": "evomon-update"
+      },
+      {
+        "slug": "evomon-world",
+        "file": "evomon-world"
+      }
+    ]
+  }
+}
